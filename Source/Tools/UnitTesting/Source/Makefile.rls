@@ -1,0 +1,15 @@
+
+incl=-I../Include/ -I../../../RTL/Component/Include -I../../../RTL/Kernel/Include -I../../../RTL/Platform/Include
+
+all:
+	gcc -c -o IFXSuite.o  -Wall -fPIC -DPIC -DNDEBUG -Dgcc -O2  $(incl) IFXSuite.cpp 
+	gcc -c -o IFXTest.o   -Wall -fPIC -DPIC -DNDEBUG -Dgcc -O2  $(incl) IFXTest.cpp
+	$(AR) ru  ../Lib/Lin32/release/libUnitTesting.a  IFXSuite.o IFXTest.o
+clean:
+	rm -f *.o
+global:
+	rm -f *.o
+	rm -f ../Lib/Lin32/release/*.a
+
+
+

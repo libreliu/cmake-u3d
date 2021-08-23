@@ -1,0 +1,1 @@
+-nologo /GR /c /W3 /GX /Zi /Od /D DEBUG /D _DEBUG /D WINDOWS /D _WINDOWS  /D WINVER=0x0400 /D _WINVER=0x0400  /D WIN32 /D _WIN32 /D WIN32_LEAN_AND_MEAN /D _LIB /D IFXAPI_EXPORT /MDd /D WIN32 /D _WIN32  /Fd./Debug/ <!--Perl: includedirsformakefile --> /Fo./Debug/

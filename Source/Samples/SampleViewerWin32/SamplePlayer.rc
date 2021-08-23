@@ -1,0 +1,138 @@
+//***************************************************************************
+//
+//  Copyright (c) 1999 - 2006 Intel Corporation
+//
+//  Licensed under the Apache License, Version 2.0 (the "License");
+//  you may not use this file except in compliance with the License.
+//  You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+//  Unless required by applicable law or agreed to in writing, software
+//  distributed under the License is distributed on an "AS IS" BASIS,
+//  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+//  See the License for the specific language governing permissions and
+//  limitations under the License.
+//
+//***************************************************************************
+#include "resource.h"
+//#include "winuser.h"
+#include "IFXVersion.h"
+#include <winresrc.h>
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION	IFXVERSION_PRODUCTVERSION
+ PRODUCTVERSION	IFXVERSION_PRODUCTVERSION
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x29L
+#else
+ FILEFLAGS 0x28L
+#endif
+ FILEOS 0x4L
+// Refer is MSDN for all value possibilities.  File types can be a variety
+// of values such as VFT_APP or VFT_DLL.
+ FILETYPE VFT_APP
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments",			IFXVERSION_COMMENTS_STRING
+            VALUE "CompanyName",		IFXVERSION_COMPANYNAME_STRING
+            VALUE "FileDescription",	"U3D Sample Player\0"
+            VALUE "FileVersion",		IFXVERSION_PRODUCTVERSION_STRING
+            VALUE "InternalName",		"SamplePlayer\0"
+            VALUE "LegalCopyright",		IFXVERSION_LEGALCOPYRIGHT_STRING
+//            VALUE "LegalTrademarks",	""
+            VALUE "OriginalFilename",	"SamplePlayer.exe\0"
+            VALUE "ProductName",		IFXVERSION_PRODUCTNAME_STRING
+            VALUE "ProductVersion",		IFXVERSION_PRODUCTVERSION_STRING
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Open",                       ID_OPEN
+        MENUITEM "&Append",                     ID_FILE_APPEND, GRAYED
+        MENUITEM "Load from URL",               ID_FILE_LOADFROMURL
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_EXIT
+    END
+    POPUP "&Options"
+    BEGIN
+        MENUITEM "SceneGraph Culling",          ID_OPTIONS_SCENEGRAPHCULLER
+        , CHECKED
+        MENUITEM "Octree Culling",              ID_OPTIONS_OCTREECULLER
+        MENUITEM SEPARATOR
+        MENUITEM "Preserve existing/future view settings     V",          ID_OPTIONS_USEVIEWPORT
+        MENUITEM "Next View       N",           ID_OPTIONS_NEXTVIEW
+        MENUITEM "Next View Instance M",        ID_OPTIONS_NEXTVIEWINSTANCE
+        MENUITEM "Change View Clear &Color...",	ID_OPTIONS_CHANGECLEARCOLOR
+        MENUITEM SEPARATOR
+        MENUITEM "Atomic Loading",              ID_OPTIONS_ATOMICLOADING
+        , CHECKED
+        MENUITEM "Multi Picking",               ID_OPTIONS_MULTIPICKING
+	MENUITEM "Use Target Framerate"		ID_OPTIONS_USETARGETFRAMERATE
+        MENUITEM SEPARATOR
+        MENUITEM "OpenGL",                      ID_OPTIONS_OPENGL
+        MENUITEM "DirectX 7",                   ID_OPTIONS_DIRECTX7
+        MENUITEM "DirectX 8",                   ID_OPTIONS_DIRECTX8
+		MENUITEM "NULL",                        ID_OPTIONS_NULL
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "IFX.ico"
+IDB_TOOLBITMAP          BITMAP                  "toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOGBAR DIALOGEX 0, 0, 330, 23
+STYLE DS_SETFONT | DS_3DLOOK | DS_FIXEDSYS | WS_CHILD
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    CONTROL         "Atomic mode",IDC_ATOMICMODE,"Button",BS_AUTOCHECKBOX |
+                    BS_LEFT | BS_VCENTER | WS_TABSTOP,53,7,57,12
+END
+
+IDD_REMOTEDIALOG DIALOGEX 0, 0, 244, 47
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION
+CAPTION "Open Remote stream"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDREMOTEOK,7,24,50,14
+    PUSHBUTTON      "Cancel",IDREMOTECANCEL,59,24,50,14
+    COMBOBOX        IDC_REMOTESTREAMCOMBO,7,7,230,30,CBS_DROPDOWN |
+                    CBS_AUTOHSCROLL | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+

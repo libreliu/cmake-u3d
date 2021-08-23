@@ -1,0 +1,2058 @@
+ IFXScheduling
+
+ Timestamp is 458c05b0 (Fri Dec 22 19:20:00 2006)
+
+ Preferred load address is 10000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0003df0bH .text                   CODE
+ 0002:00000000 000046c0H .rdata                  DATA
+ 0002:000046c0 000001acH .rdata$debug            DATA
+ 0002:0000486c 00000151H .rdata$r                DATA
+ 0002:000049c0 000001acH .rdata$sxdata           DATA
+ 0002:00004b6c 00000104H .rtc$IAA                DATA
+ 0002:00004c70 00000104H .rtc$IZZ                DATA
+ 0002:00004d74 00000104H .rtc$TAA                DATA
+ 0002:00004e78 00000104H .rtc$TZZ                DATA
+ 0002:00004f80 0000018dH .edata                  DATA
+ 0003:00000000 00000104H .CRT$XCA                DATA
+ 0003:00000104 00000104H .CRT$XCAA               DATA
+ 0003:00000208 00000104H .CRT$XCZ                DATA
+ 0003:0000030c 00000104H .CRT$XIA                DATA
+ 0003:00000410 0000010eH .CRT$XIC                DATA
+ 0003:00000520 00000104H .CRT$XIY                DATA
+ 0003:00000624 00000104H .CRT$XIZ                DATA
+ 0003:00000728 00000104H .CRT$XPA                DATA
+ 0003:0000082c 00000104H .CRT$XPX                DATA
+ 0003:00000930 00000104H .CRT$XPZ                DATA
+ 0003:00000a34 00000104H .CRT$XTA                DATA
+ 0003:00000b38 00000104H .CRT$XTB                DATA
+ 0003:00000c3c 00000104H .CRT$XTZ                DATA
+ 0003:00000d40 000026f3H .data                   DATA
+ 0003:00003440 00002d60H .bss                    DATA
+ 0004:00000000 00000064H .idata$2                DATA
+ 0004:00000064 00000014H .idata$3                DATA
+ 0004:00000078 000002acH .idata$4                DATA
+ 0004:00000324 000002acH .idata$5                DATA
+ 0004:000005d0 0000091fH .idata$6                DATA
+ 0005:00000000 00002de8H .data1                  DATA
+ 0006:00000000 00000250H .rsrc$01                DATA
+ 0006:00000250 000010e6H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base     Lib:Object
+
+ 0000:00000000       __except_list              00000000     <absolute>
+ 0000:00000024       ___safe_se_handler_count   00000024     <absolute>
+ 0001:00000010       _DllMain@12                10001010 f   IFXSchedulingDllMain.obj
+ 0001:0000009c       _DisableThreadLibraryCalls@4 1000109c f   kernel32:KERNEL32.dll
+ 0001:000000a4       ?IFXSchedulingStartup@@YIHXZ 100010a4 f   Scheduling:IFXScheduling.obj
+ 0001:000000be       ?IFXSchedulingShutdown@@YIHXZ 100010be f   Scheduling:IFXScheduling.obj
+ 0001:000000d8       @IFXPluginRegister@8       100010d8 f   Scheduling:IFXScheduling.obj
+ 0001:0000011a       @IFXPluginCanUnloadNow@0   1000111a f   Scheduling:IFXScheduling.obj
+ 0001:0000013c       ??8@YIHABUIFXGUID@@0@Z     1000113c f i Scheduling:CIFXClock.obj
+ 0001:00000278       ??_ECIFXClock@@EAEPAXI@Z   10001278 f i Scheduling:CIFXClock.obj
+ 0001:00000278       ??_GCIFXClock@@EAEPAXI@Z   10001278 f i Scheduling:CIFXClock.obj
+ 0001:000002a4       ??0IFXUnknown@@QAE@XZ      100012a4 f i Scheduling:CIFXClock.obj
+ 0001:000002bc       ??0IFXClock@@QAE@XZ        100012bc f i Scheduling:CIFXClock.obj
+ 0001:000002dc       ??0IFXSubject@@QAE@XZ      100012dc f i Scheduling:CIFXClock.obj
+ 0001:00000340       ?CIFXClock_Factory@@YIHABUIFXGUID@@PAPAX@Z 10001340 f   Scheduling:CIFXClock.obj
+ 0001:000004d0       ??0CIFXClock@@AAE@XZ       100014d0 f   Scheduling:CIFXClock.obj
+ 0001:00000660       ??1CIFXClock@@EAE@XZ       10001660 f   Scheduling:CIFXClock.obj
+ 0001:0000075a       ?NotifyPause@CIFXClock@@UAIXXZ 1000175a f   Scheduling:CIFXClock.obj
+ 0001:000007a6       ?Update@CIFXClock@@UAIXXZ  100017a6 f   Scheduling:CIFXClock.obj
+ 0001:0000080c       ?IncrementFrame@CIFXClock@@UAIXXZ 1000180c f   Scheduling:CIFXClock.obj
+ 0001:0000090a       ?AdvanceTo@CIFXClock@@UAIXI@Z 1000190a f   Scheduling:CIFXClock.obj
+ 0001:00000a04       ?AdvanceToEnd@CIFXClock@@UAIXXZ 10001a04 f   Scheduling:CIFXClock.obj
+ 0001:00000a82       ?JumpForward@CIFXClock@@UAIXI@Z 10001a82 f   Scheduling:CIFXClock.obj
+ 0001:00000aca       ?SetRunning@CIFXClock@@UAIXH@Z 10001aca f   Scheduling:CIFXClock.obj
+ 0001:00000b78       ?SetAuto@CIFXClock@@UAIXH@Z 10001b78 f   Scheduling:CIFXClock.obj
+ 0001:00000ba2       ?IsRunning@CIFXClock@@UAIHXZ 10001ba2 f   Scheduling:CIFXClock.obj
+ 0001:00000bc6       ?GetSystemTime@CIFXClock@@UAIIXZ 10001bc6 f   Scheduling:CIFXClock.obj
+ 0001:00000bea       ?GetSystemTime64@CIFXClock@@UAIHPAI0@Z 10001bea f   Scheduling:CIFXClock.obj
+ 0001:00000c4a       ?GetSimulationTime@CIFXClock@@UAIIXZ 10001c4a f   Scheduling:CIFXClock.obj
+ 0001:00000c6e       ?GetSimulationTime64@CIFXClock@@UAIHPAI0@Z 10001c6e f   Scheduling:CIFXClock.obj
+ 0001:00000cce       ?GetSimulationTimeDelta@CIFXClock@@UAIIXZ 10001cce f   Scheduling:CIFXClock.obj
+ 0001:00000cf2       ?GetCurrentFrame@CIFXClock@@UAIIXZ 10001cf2 f   Scheduling:CIFXClock.obj
+ 0001:00000d16       ?GetFrameStart@CIFXClock@@UAIIXZ 10001d16 f   Scheduling:CIFXClock.obj
+ 0001:00000d3a       ?GetFrameEnd@CIFXClock@@UAIIXZ 10001d3a f   Scheduling:CIFXClock.obj
+ 0001:00000d5e       ?AddRef@CIFXClock@@UAIIXZ  10001d5e f   Scheduling:CIFXClock.obj
+ 0001:00000d84       ?Release@CIFXClock@@UAIIXZ 10001d84 f   Scheduling:CIFXClock.obj
+ 0001:00000de2       ?QueryInterface@CIFXClock@@UAIHABUIFXGUID@@PAPAX@Z 10001de2 f   Scheduling:CIFXClock.obj
+ 0001:00000ed4       ?Initialize@CIFXClock@@UAIHPAVIFXCoreServices@@@Z 10001ed4 f   Scheduling:CIFXClock.obj
+ 0001:00000fa6       ?Reset@CIFXClock@@UAIHXZ   10001fa6 f   Scheduling:CIFXClock.obj
+ 0001:00001064       ?AddRef@CIFXClock@@$4PPPPPPPM@OI@AIIXZ 10002064 f i Scheduling:CIFXClock.obj
+ 0001:0000108c       ?Release@CIFXClock@@$4PPPPPPPM@OI@AIIXZ 1000208c f i Scheduling:CIFXClock.obj
+ 0001:000010b4       ?QueryInterface@CIFXClock@@$4PPPPPPPM@OI@AIHABUIFXGUID@@PAPAX@Z 100020b4 f i Scheduling:CIFXClock.obj
+ 0001:000010dc       ?Attach@CIFXSubject@@$4PPPPPPPM@EM@AIHPAVIFXObserver@@IABUIFXGUID@@I@Z 100020dc f i Scheduling:CIFXClock.obj
+ 0001:00001100       ?Detach@CIFXSubject@@$4PPPPPPPM@EM@AIHPAVIFXObserver@@@Z 10002100 f i Scheduling:CIFXClock.obj
+ 0001:00001124       ?PostChanges@CIFXSubject@@$4PPPPPPPM@EM@AIXI@Z 10002124 f i Scheduling:CIFXClock.obj
+ 0001:00001148       ?PreDestruct@CIFXSubject@@$4PPPPPPPM@EM@AIXXZ 10002148 f i Scheduling:CIFXClock.obj
+ 0001:0000116c       ??_ECIFXClock@@G3AEPAXI@Z  1000216c f i Scheduling:CIFXClock.obj
+ 0001:00001184       ??_ECIFXErrorInfo@@EAEPAXI@Z 10002184 f i Scheduling:CIFXErrorInfo.obj
+ 0001:00001184       ??_GCIFXErrorInfo@@EAEPAXI@Z 10002184 f i Scheduling:CIFXErrorInfo.obj
+ 0001:000011b0       ??0IFXTaskData@@QAE@XZ     100021b0 f i Scheduling:CIFXErrorInfo.obj
+ 0001:000011d0       ??0IFXErrorInfo@@QAE@XZ    100021d0 f i Scheduling:CIFXErrorInfo.obj
+ 0001:000011f0       ?CIFXErrorInfo_Factory@@YIHABUIFXGUID@@PAPAX@Z 100021f0 f   Scheduling:CIFXErrorInfo.obj
+ 0001:00001382       ??0CIFXErrorInfo@@AAE@XZ   10002382 f   Scheduling:CIFXErrorInfo.obj
+ 0001:000013e6       ??1CIFXErrorInfo@@EAE@XZ   100023e6 f   Scheduling:CIFXErrorInfo.obj
+ 0001:000014ba       ?AddRef@CIFXErrorInfo@@UAIIXZ 100024ba f   Scheduling:CIFXErrorInfo.obj
+ 0001:000014d6       ?Release@CIFXErrorInfo@@UAIIXZ 100024d6 f   Scheduling:CIFXErrorInfo.obj
+ 0001:00001526       ?QueryInterface@CIFXErrorInfo@@UAIHABUIFXGUID@@PAPAX@Z 10002526 f   Scheduling:CIFXErrorInfo.obj
+ 0001:000015d2       ?Initialize@CIFXErrorInfo@@UAIHPAVIFXCoreServices@@@Z 100025d2 f   Scheduling:CIFXErrorInfo.obj
+ 0001:00001672       ?GetCoreServices@CIFXErrorInfo@@UAIHPAPAVIFXCoreServices@@@Z 10002672 f   Scheduling:CIFXErrorInfo.obj
+ 0001:000016dc       ?SetOrigin@CIFXErrorInfo@@UAIHPAVIFXUnknown@@@Z 100026dc f   Scheduling:CIFXErrorInfo.obj
+ 0001:00001762       ?GetOrigin@CIFXErrorInfo@@UAIHPAPAVIFXUnknown@@@Z 10002762 f   Scheduling:CIFXErrorInfo.obj
+ 0001:000017cc       ?SetTaskManager@CIFXErrorInfo@@UAIHPAVIFXTaskManager@@@Z 100027cc f   Scheduling:CIFXErrorInfo.obj
+ 0001:00001852       ?GetTaskManager@CIFXErrorInfo@@UAIHPAPAVIFXTaskManager@@@Z 10002852 f   Scheduling:CIFXErrorInfo.obj
+ 0001:000018bc       ?SetTaskHandle@CIFXErrorInfo@@UAIHI@Z 100028bc f   Scheduling:CIFXErrorInfo.obj
+ 0001:000018f6       ?GetTaskHandle@CIFXErrorInfo@@UAIHPAI@Z 100028f6 f   Scheduling:CIFXErrorInfo.obj
+ 0001:00001942       ?SetUserData@CIFXErrorInfo@@UAIHPAX@Z 10002942 f   Scheduling:CIFXErrorInfo.obj
+ 0001:0000197c       ?GetUserData@CIFXErrorInfo@@UAIHPAPAX@Z 1000297c f   Scheduling:CIFXErrorInfo.obj
+ 0001:000019c8       ?SetTime@CIFXErrorInfo@@UAIHI@Z 100029c8 f   Scheduling:CIFXErrorInfo.obj
+ 0001:00001a02       ?GetTime@CIFXErrorInfo@@UAIHPAI@Z 10002a02 f   Scheduling:CIFXErrorInfo.obj
+ 0001:00001a4e       ?MatchPattern@CIFXErrorInfo@@UAIHPAVIFXTaskData@@PAH@Z 10002a4e f   Scheduling:CIFXErrorInfo.obj
+ 0001:00001b66       ?GetSortKey@CIFXErrorInfo@@UAIHPAI@Z 10002b66 f   Scheduling:CIFXErrorInfo.obj
+ 0001:00001bb2       ?GetErrorTask@CIFXErrorInfo@@UAIHPAPAVIFXTask@@@Z 10002bb2 f   Scheduling:CIFXErrorInfo.obj
+ 0001:00001c2c       ?SetErrorTask@CIFXErrorInfo@@UAIHPAVIFXTask@@@Z 10002c2c f   Scheduling:CIFXErrorInfo.obj
+ 0001:00001cd2       ?GetErrorTaskHandle@CIFXErrorInfo@@UAIHPAI@Z 10002cd2 f   Scheduling:CIFXErrorInfo.obj
+ 0001:00001d1e       ?SetErrorTaskHandle@CIFXErrorInfo@@UAIHI@Z 10002d1e f   Scheduling:CIFXErrorInfo.obj
+ 0001:00001d58       ?GetErrorCode@CIFXErrorInfo@@UAIHPAH@Z 10002d58 f   Scheduling:CIFXErrorInfo.obj
+ 0001:00001da4       ?SetErrorCode@CIFXErrorInfo@@UAIHH@Z 10002da4 f   Scheduling:CIFXErrorInfo.obj
+ 0001:00001de0       ??_GCIFXNotificationInfo@@EAEPAXI@Z 10002de0 f i Scheduling:CIFXNotificationInfo.obj
+ 0001:00001de0       ??_ECIFXNotificationInfo@@EAEPAXI@Z 10002de0 f i Scheduling:CIFXNotificationInfo.obj
+ 0001:00001e0c       ??4IFXString@@QAEAAV0@ABV0@@Z 10002e0c f i Scheduling:CIFXNotificationInfo.obj
+ 0001:00001e2c       ??0IFXNotificationInfo@@QAE@XZ 10002e2c f i Scheduling:CIFXNotificationInfo.obj
+ 0001:00001e4c       ?CIFXNotificationInfo_Factory@@YIHABUIFXGUID@@PAPAX@Z 10002e4c f   Scheduling:CIFXNotificationInfo.obj
+ 0001:00001fde       ??0CIFXNotificationInfo@@AAE@XZ 10002fde f   Scheduling:CIFXNotificationInfo.obj
+ 0001:000020ce       ??1CIFXNotificationInfo@@EAE@XZ 100030ce f   Scheduling:CIFXNotificationInfo.obj
+ 0001:0000220c       ?AddRef@CIFXNotificationInfo@@UAIIXZ 1000320c f   Scheduling:CIFXNotificationInfo.obj
+ 0001:00002228       ?Release@CIFXNotificationInfo@@UAIIXZ 10003228 f   Scheduling:CIFXNotificationInfo.obj
+ 0001:00002278       ?QueryInterface@CIFXNotificationInfo@@UAIHABUIFXGUID@@PAPAX@Z 10003278 f   Scheduling:CIFXNotificationInfo.obj
+ 0001:00002324       ?Initialize@CIFXNotificationInfo@@UAIHPAVIFXCoreServices@@@Z 10003324 f   Scheduling:CIFXNotificationInfo.obj
+ 0001:000023c4       ?GetCoreServices@CIFXNotificationInfo@@UAIHPAPAVIFXCoreServices@@@Z 100033c4 f   Scheduling:CIFXNotificationInfo.obj
+ 0001:0000242e       ?SetOrigin@CIFXNotificationInfo@@UAIHPAVIFXUnknown@@@Z 1000342e f   Scheduling:CIFXNotificationInfo.obj
+ 0001:000024c4       ?GetOrigin@CIFXNotificationInfo@@UAIHPAPAVIFXUnknown@@@Z 100034c4 f   Scheduling:CIFXNotificationInfo.obj
+ 0001:0000252e       ?SetTaskManager@CIFXNotificationInfo@@UAIHPAVIFXTaskManager@@@Z 1000352e f   Scheduling:CIFXNotificationInfo.obj
+ 0001:000025b4       ?GetTaskManager@CIFXNotificationInfo@@UAIHPAPAVIFXTaskManager@@@Z 100035b4 f   Scheduling:CIFXNotificationInfo.obj
+ 0001:0000261e       ?SetTaskHandle@CIFXNotificationInfo@@UAIHI@Z 1000361e f   Scheduling:CIFXNotificationInfo.obj
+ 0001:00002658       ?GetTaskHandle@CIFXNotificationInfo@@UAIHPAI@Z 10003658 f   Scheduling:CIFXNotificationInfo.obj
+ 0001:000026a4       ?SetUserData@CIFXNotificationInfo@@UAIHPAX@Z 100036a4 f   Scheduling:CIFXNotificationInfo.obj
+ 0001:000026de       ?GetUserData@CIFXNotificationInfo@@UAIHPAPAX@Z 100036de f   Scheduling:CIFXNotificationInfo.obj
+ 0001:0000272a       ?SetNotificationData@CIFXNotificationInfo@@UAIHPAX@Z 1000372a f   Scheduling:CIFXNotificationInfo.obj
+ 0001:00002764       ?GetNotificationData@CIFXNotificationInfo@@UAIHPAPAX@Z 10003764 f   Scheduling:CIFXNotificationInfo.obj
+ 0001:000027b0       ?SetTime@CIFXNotificationInfo@@UAIHI@Z 100037b0 f   Scheduling:CIFXNotificationInfo.obj
+ 0001:000027ea       ?GetTime@CIFXNotificationInfo@@UAIHPAI@Z 100037ea f   Scheduling:CIFXNotificationInfo.obj
+ 0001:00002836       ?MatchPattern@CIFXNotificationInfo@@UAIHPAVIFXTaskData@@PAH@Z 10003836 f   Scheduling:CIFXNotificationInfo.obj
+ 0001:00002afe       ?GetSortKey@CIFXNotificationInfo@@UAIHPAI@Z 10003afe f   Scheduling:CIFXNotificationInfo.obj
+ 0001:00002b4a       ?SetType@CIFXNotificationInfo@@UAIHW5IFXNotificationType@@@Z 10003b4a f   Scheduling:CIFXNotificationInfo.obj
+ 0001:00002b84       ?GetType@CIFXNotificationInfo@@UAIHPAW5IFXNotificationType@@@Z 10003b84 f   Scheduling:CIFXNotificationInfo.obj
+ 0001:00002bd0       ?SetId@CIFXNotificationInfo@@UAIHW5IFXNotificationId@@@Z 10003bd0 f   Scheduling:CIFXNotificationInfo.obj
+ 0001:00002c0a       ?GetId@CIFXNotificationInfo@@UAIHPAW5IFXNotificationId@@@Z 10003c0a f   Scheduling:CIFXNotificationInfo.obj
+ 0001:00002c56       ?SetName@CIFXNotificationInfo@@UAIHVIFXString@@@Z 10003c56 f   Scheduling:CIFXNotificationInfo.obj
+ 0001:00002d12       ?GetName@CIFXNotificationInfo@@UAIHAAVIFXString@@@Z 10003d12 f   Scheduling:CIFXNotificationInfo.obj
+ 0001:00002d56       ?SetKeyFilter@CIFXNotificationInfo@@UAIHI@Z 10003d56 f   Scheduling:CIFXNotificationInfo.obj
+ 0001:00002d90       ?GetKeyFilter@CIFXNotificationInfo@@UAIHPAI@Z 10003d90 f   Scheduling:CIFXNotificationInfo.obj
+ 0001:00002ddc       ?SetBitFilter@CIFXNotificationInfo@@UAIHI@Z 10003ddc f   Scheduling:CIFXNotificationInfo.obj
+ 0001:00002e16       ?GetBitFilter@CIFXNotificationInfo@@UAIHPAI@Z 10003e16 f   Scheduling:CIFXNotificationInfo.obj
+ 0001:00002e62       ?SetObjectFilter@CIFXNotificationInfo@@UAIHPAVIFXUnknown@@@Z 10003e62 f   Scheduling:CIFXNotificationInfo.obj
+ 0001:00002ee8       ?GetObjectFilter@CIFXNotificationInfo@@UAIHPAPAVIFXUnknown@@@Z 10003ee8 f   Scheduling:CIFXNotificationInfo.obj
+ 0001:00002f54       ??_ECIFXNotificationManager@@EAEPAXI@Z 10003f54 f i Scheduling:CIFXNotificationManager.obj
+ 0001:00002f54       ??_GCIFXNotificationManager@@EAEPAXI@Z 10003f54 f i Scheduling:CIFXNotificationManager.obj
+ 0001:00002f80       ??0IFXTask@@QAE@XZ         10003f80 f i Scheduling:CIFXNotificationManager.obj
+ 0001:00002fe4       ??0IFXNotificationManager@@QAE@XZ 10003fe4 f i Scheduling:CIFXNotificationManager.obj
+ 0001:00003058       ?CIFXNotificationManager_Factory@@YIHABUIFXGUID@@PAPAX@Z 10004058 f   Scheduling:CIFXNotificationManager.obj
+ 0001:000031f2       ??0CIFXNotificationManager@@AAE@XZ 100041f2 f   Scheduling:CIFXNotificationManager.obj
+ 0001:000032b2       ??1CIFXNotificationManager@@EAE@XZ 100042b2 f   Scheduling:CIFXNotificationManager.obj
+ 0001:0000335e       ?AddRef@CIFXNotificationManager@@UAIIXZ 1000435e f   Scheduling:CIFXNotificationManager.obj
+ 0001:0000337e       ?Release@CIFXNotificationManager@@UAIIXZ 1000437e f   Scheduling:CIFXNotificationManager.obj
+ 0001:000033d2       ?QueryInterface@CIFXNotificationManager@@UAIHABUIFXGUID@@PAPAX@Z 100043d2 f   Scheduling:CIFXNotificationManager.obj
+ 0001:000034a8       ?Execute@CIFXNotificationManager@@UAIHPAVIFXTaskData@@@Z 100044a8 f   Scheduling:CIFXNotificationManager.obj
+ 0001:000035ea       ?GetNextType@CIFXNotificationManager@@UAIHPAW5IFXNotificationType@@@Z 100045ea f   Scheduling:CIFXNotificationManager.obj
+ 0001:00003656       ?GetNextId@CIFXNotificationManager@@UAIHPAW5IFXNotificationId@@@Z 10004656 f   Scheduling:CIFXNotificationManager.obj
+ 0001:000036fe       ?AddEventId@CIFXNotificationManager@@UAIHIW5IFXNotificationId@@@Z 100046fe f   Scheduling:CIFXNotificationManager.obj
+ 0001:000037c0       ?FindEventId@CIFXNotificationManager@@UAIHIPAW5IFXNotificationId@@@Z 100047c0 f   Scheduling:CIFXNotificationManager.obj
+ 0001:00003856       ?Initialize@CIFXNotificationManager@@UAIHPAVIFXCoreServices@@@Z 10004856 f   Scheduling:CIFXNotificationManager.obj
+ 0001:00003980       ?Reset@CIFXNotificationManager@@UAIHXZ 10004980 f   Scheduling:CIFXNotificationManager.obj
+ 0001:000039f4       ?Cleanup@CIFXNotificationManager@@UAIHXZ 100049f4 f   Scheduling:CIFXNotificationManager.obj
+ 0001:00003a54       ?SubmitEvent@CIFXNotificationManager@@UAIHPAVIFXNotificationInfo@@@Z 10004a54 f   Scheduling:CIFXNotificationManager.obj
+ 0001:00003b6a       ?SubmitEvent@CIFXNotificationManager@@UAIHW5IFXNotificationType@@W5IFXNotificationId@@IPAX@Z 10004b6a f   Scheduling:CIFXNotificationManager.obj
+ 0001:00003d06       ?RegisterTask@CIFXNotificationManager@@UAIHPAVIFXTask@@W5IFXNotificationType@@W5IFXNotificationId@@PAI@Z 10004d06 f   Scheduling:CIFXNotificationManager.obj
+ 0001:00003f72       ?RegisterTask@CIFXNotificationManager@@UAIHPAVIFXTask@@W5IFXNotificationType@@W5IFXNotificationId@@PAXPAVIFXUnknown@@PAI@Z 10004f72 f   Scheduling:CIFXNotificationManager.obj
+ 0001:0000426e       ?UnregisterTask@CIFXNotificationManager@@UAIHI@Z 1000526e f   Scheduling:CIFXNotificationManager.obj
+ 0001:000042c8       ?SubmitError@CIFXNotificationManager@@UAIHPAVIFXErrorInfo@@@Z 100052c8 f   Scheduling:CIFXNotificationManager.obj
+ 0001:00004712       ?GetTaskManager@CIFXNotificationManager@@UAIHPAPAVIFXTaskManager@@@Z 10005712 f   Scheduling:CIFXNotificationManager.obj
+ 0001:0000477c       ?AddRef@CIFXNotificationManager@@$4PPPPPPPM@A@AIIXZ 1000577c f i Scheduling:CIFXNotificationManager.obj
+ 0001:0000479c       ?Release@CIFXNotificationManager@@$4PPPPPPPM@A@AIIXZ 1000579c f i Scheduling:CIFXNotificationManager.obj
+ 0001:000047bc       ?QueryInterface@CIFXNotificationManager@@$4PPPPPPPM@A@AIHABUIFXGUID@@PAPAX@Z 100057bc f i Scheduling:CIFXNotificationManager.obj
+ 0001:000047dc       ??_ECIFXScheduler@@EAEPAXI@Z 100057dc f i Scheduling:CIFXScheduler.obj
+ 0001:000047dc       ??_GCIFXScheduler@@EAEPAXI@Z 100057dc f i Scheduling:CIFXScheduler.obj
+ 0001:00004808       ??0IFXScheduler@@QAE@XZ    10005808 f i Scheduling:CIFXScheduler.obj
+ 0001:00004828       ?CIFXScheduler_Factory@@YIHABUIFXGUID@@PAPAX@Z 10005828 f   Scheduling:CIFXScheduler.obj
+ 0001:000049c2       ??0CIFXScheduler@@AAE@XZ   100059c2 f   Scheduling:CIFXScheduler.obj
+ 0001:00004a1e       ??1CIFXScheduler@@EAE@XZ   10005a1e f   Scheduling:CIFXScheduler.obj
+ 0001:00004b7a       ?AddRef@CIFXScheduler@@UAIIXZ 10005b7a f   Scheduling:CIFXScheduler.obj
+ 0001:00004b90       ?Release@CIFXScheduler@@UAIIXZ 10005b90 f   Scheduling:CIFXScheduler.obj
+ 0001:00004bd8       ?QueryInterface@CIFXScheduler@@UAIHABUIFXGUID@@PAPAX@Z 10005bd8 f   Scheduling:CIFXScheduler.obj
+ 0001:00004c74       ?GetNotificationManager@CIFXScheduler@@UAIHPAPAVIFXNotificationManager@@@Z 10005c74 f   Scheduling:CIFXScheduler.obj
+ 0001:00004cd6       ?GetTimeManager@CIFXScheduler@@UAIHPAPAVIFXTimeManager@@@Z 10005cd6 f   Scheduling:CIFXScheduler.obj
+ 0001:00004d38       ?GetSystemManager@CIFXScheduler@@UAIHPAPAVIFXSystemManager@@@Z 10005d38 f   Scheduling:CIFXScheduler.obj
+ 0001:00004d9a       ?GetSimulationManager@CIFXScheduler@@UAIHPAPAVIFXSimulationManager@@@Z 10005d9a f   Scheduling:CIFXScheduler.obj
+ 0001:00004dfc       ?Initialize@CIFXScheduler@@UAIHPAVIFXCoreServices@@@Z 10005dfc f   Scheduling:CIFXScheduler.obj
+ 0001:0000593a       ?AdvanceSimulationTimeTo@CIFXScheduler@@UAIHI@Z 1000693a f   Scheduling:CIFXScheduler.obj
+ 0001:00005972       ?GetSimulationFrame@CIFXScheduler@@UAIHPAI@Z 10006972 f   Scheduling:CIFXScheduler.obj
+ 0001:00005a0c       ?GetSimulationState@CIFXScheduler@@UAIHPAH@Z 10006a0c f   Scheduling:CIFXScheduler.obj
+ 0001:00005a5c       ?GetSimulationTime@CIFXScheduler@@UAIHPAI@Z 10006a5c f   Scheduling:CIFXScheduler.obj
+ 0001:00005aac       ?GetSimulationTimeDelta@CIFXScheduler@@UAIHPAI@Z 10006aac f   Scheduling:CIFXScheduler.obj
+ 0001:00005afc       ?GetSystemTime@CIFXScheduler@@UAIHPAI@Z 10006afc f   Scheduling:CIFXScheduler.obj
+ 0001:00005b4c       ?AdvanceTo@CIFXScheduler@@UAIHI@Z 10006b4c f   Scheduling:CIFXScheduler.obj
+ 0001:00005bd6       ?ResetSimulation@CIFXScheduler@@UAIHXZ 10006bd6 f   Scheduling:CIFXScheduler.obj
+ 0001:00005c6c       ?ResetSimulationTime@CIFXScheduler@@UAIHXZ 10006c6c f   Scheduling:CIFXScheduler.obj
+ 0001:00005cea       ?NotifyPause@CIFXScheduler@@UAIHXZ 10006cea f   Scheduling:CIFXScheduler.obj
+ 0001:00005d68       ?SetSimulationState@CIFXScheduler@@UAIHHH@Z 10006d68 f   Scheduling:CIFXScheduler.obj
+ 0001:00005e14       ?GetCoreServices@CIFXScheduler@@UAIHPAPAVIFXCoreServices@@@Z 10006e14 f   Scheduling:CIFXScheduler.obj
+ 0001:00005e76       ?Service@CIFXScheduler@@UAIHXZ 10006e76 f   Scheduling:CIFXScheduler.obj
+ 0001:000060a8       ?Reset@CIFXScheduler@@UAIHXZ 100070a8 f   Scheduling:CIFXScheduler.obj
+ 0001:00006282       ?GetTaskManager@CIFXScheduler@@UAIHPAPAVIFXTaskManager@@@Z 10007282 f   Scheduling:CIFXScheduler.obj
+ 0001:000062ec       ?GetNextTaskHandle@CIFXScheduler@@UAIHPAI@Z 100072ec f   Scheduling:CIFXScheduler.obj
+ 0001:00006340       ??_ECIFXSchedulerInfo@@EAEPAXI@Z 10007340 f i Scheduling:CIFXSchedulerInfo.obj
+ 0001:00006340       ??_GCIFXSchedulerInfo@@EAEPAXI@Z 10007340 f i Scheduling:CIFXSchedulerInfo.obj
+ 0001:0000636c       ??0IFXSchedulerInfo@@QAE@XZ 1000736c f i Scheduling:CIFXSchedulerInfo.obj
+ 0001:0000638c       ?CIFXSchedulerInfo_Factory@@YIHABUIFXGUID@@PAPAX@Z 1000738c f   Scheduling:CIFXSchedulerInfo.obj
+ 0001:0000651e       ??0CIFXSchedulerInfo@@AAE@XZ 1000751e f   Scheduling:CIFXSchedulerInfo.obj
+ 0001:00006576       ??1CIFXSchedulerInfo@@EAE@XZ 10007576 f   Scheduling:CIFXSchedulerInfo.obj
+ 0001:0000660e       ?AddRef@CIFXSchedulerInfo@@UAIIXZ 1000760e f   Scheduling:CIFXSchedulerInfo.obj
+ 0001:0000662a       ?Release@CIFXSchedulerInfo@@UAIIXZ 1000762a f   Scheduling:CIFXSchedulerInfo.obj
+ 0001:0000667a       ?QueryInterface@CIFXSchedulerInfo@@UAIHABUIFXGUID@@PAPAX@Z 1000767a f   Scheduling:CIFXSchedulerInfo.obj
+ 0001:00006726       ?Initialize@CIFXSchedulerInfo@@UAIHPAVIFXCoreServices@@@Z 10007726 f   Scheduling:CIFXSchedulerInfo.obj
+ 0001:000067c6       ?GetCoreServices@CIFXSchedulerInfo@@UAIHPAPAVIFXCoreServices@@@Z 100077c6 f   Scheduling:CIFXSchedulerInfo.obj
+ 0001:00006830       ?SetOrigin@CIFXSchedulerInfo@@UAIHPAVIFXUnknown@@@Z 10007830 f   Scheduling:CIFXSchedulerInfo.obj
+ 0001:000068c6       ?GetOrigin@CIFXSchedulerInfo@@UAIHPAPAVIFXUnknown@@@Z 100078c6 f   Scheduling:CIFXSchedulerInfo.obj
+ 0001:00006930       ?SetTaskManager@CIFXSchedulerInfo@@UAIHPAVIFXTaskManager@@@Z 10007930 f   Scheduling:CIFXSchedulerInfo.obj
+ 0001:000069b6       ?GetTaskManager@CIFXSchedulerInfo@@UAIHPAPAVIFXTaskManager@@@Z 100079b6 f   Scheduling:CIFXSchedulerInfo.obj
+ 0001:00006a20       ?SetTaskHandle@CIFXSchedulerInfo@@UAIHI@Z 10007a20 f   Scheduling:CIFXSchedulerInfo.obj
+ 0001:00006a5a       ?GetTaskHandle@CIFXSchedulerInfo@@UAIHPAI@Z 10007a5a f   Scheduling:CIFXSchedulerInfo.obj
+ 0001:00006aa6       ?SetUserData@CIFXSchedulerInfo@@UAIHPAX@Z 10007aa6 f   Scheduling:CIFXSchedulerInfo.obj
+ 0001:00006ae0       ?GetUserData@CIFXSchedulerInfo@@UAIHPAPAX@Z 10007ae0 f   Scheduling:CIFXSchedulerInfo.obj
+ 0001:00006b2c       ?SetTime@CIFXSchedulerInfo@@UAIHI@Z 10007b2c f   Scheduling:CIFXSchedulerInfo.obj
+ 0001:00006b66       ?GetTime@CIFXSchedulerInfo@@UAIHPAI@Z 10007b66 f   Scheduling:CIFXSchedulerInfo.obj
+ 0001:00006bb2       ?MatchPattern@CIFXSchedulerInfo@@UAIHPAVIFXTaskData@@PAH@Z 10007bb2 f   Scheduling:CIFXSchedulerInfo.obj
+ 0001:00006bfe       ?GetSortKey@CIFXSchedulerInfo@@UAIHPAI@Z 10007bfe f   Scheduling:CIFXSchedulerInfo.obj
+ 0001:00006c4a       ?SetPriority@CIFXSchedulerInfo@@UAIHI@Z 10007c4a f   Scheduling:CIFXSchedulerInfo.obj
+ 0001:00006c84       ?GetPriority@CIFXSchedulerInfo@@UAIHPAI@Z 10007c84 f   Scheduling:CIFXSchedulerInfo.obj
+ 0001:00006cd0       ??_ECIFXSimulationManager@@EAEPAXI@Z 10007cd0 f i Scheduling:CIFXSimulationManager.obj
+ 0001:00006cd0       ??_GCIFXSimulationManager@@EAEPAXI@Z 10007cd0 f i Scheduling:CIFXSimulationManager.obj
+ 0001:00006cfc       ??0IFXSimulationManager@@QAE@XZ 10007cfc f i Scheduling:CIFXSimulationManager.obj
+ 0001:00006d70       ?CIFXSimulationManager_Factory@@YIHABUIFXGUID@@PAPAX@Z 10007d70 f   Scheduling:CIFXSimulationManager.obj
+ 0001:00006f14       ?AddRef@CIFXSimulationManager@@UAIIXZ 10007f14 f   Scheduling:CIFXSimulationManager.obj
+ 0001:00006f2e       ?Release@CIFXSimulationManager@@UAIIXZ 10007f2e f   Scheduling:CIFXSimulationManager.obj
+ 0001:00006f7e       ?QueryInterface@CIFXSimulationManager@@UAIHABUIFXGUID@@PAPAX@Z 10007f7e f   Scheduling:CIFXSimulationManager.obj
+ 0001:00007054       ?Execute@CIFXSimulationManager@@UAIHPAVIFXTaskData@@@Z 10008054 f   Scheduling:CIFXSimulationManager.obj
+ 0001:00007fc6       ?Initialize@CIFXSimulationManager@@UAIHPAVIFXCoreServices@@@Z 10008fc6 f   Scheduling:CIFXSimulationManager.obj
+ 0001:000081bc       ?Reset@CIFXSimulationManager@@UAIHXZ 100091bc f   Scheduling:CIFXSimulationManager.obj
+ 0001:00008232       ?GetSimulationFrame@CIFXSimulationManager@@UAIHPAI@Z 10009232 f   Scheduling:CIFXSimulationManager.obj
+ 0001:00008296       ?GetSimulationState@CIFXSimulationManager@@UAIHPAH@Z 10009296 f   Scheduling:CIFXSimulationManager.obj
+ 0001:000082fa       ?GetSimulationTime@CIFXSimulationManager@@UAIHPAI@Z 100092fa f   Scheduling:CIFXSimulationManager.obj
+ 0001:0000835e       ?GetSimulationTimeDelta@CIFXSimulationManager@@UAIHPAI@Z 1000935e f   Scheduling:CIFXSimulationManager.obj
+ 0001:000083c2       ?GetSystemTime@CIFXSimulationManager@@UAIHPAI@Z 100093c2 f   Scheduling:CIFXSimulationManager.obj
+ 0001:0000843e       ?GetTaskManager@CIFXSimulationManager@@UAIHPAPAVIFXTaskManager@@@Z 1000943e f   Scheduling:CIFXSimulationManager.obj
+ 0001:000084ae       ?GetClock@CIFXSimulationManager@@UAIHPAPAVIFXClock@@@Z 100094ae f   Scheduling:CIFXSimulationManager.obj
+ 0001:0000851e       ?RegisterTask@CIFXSimulationManager@@UAIHPAVIFXTask@@IPAXPAI@Z 1000951e f   Scheduling:CIFXSimulationManager.obj
+ 0001:00008696       ?UnregisterTask@CIFXSimulationManager@@UAIHI@Z 10009696 f   Scheduling:CIFXSimulationManager.obj
+ 0001:000086f0       ??0CIFXSimulationManager@@AAE@XZ 100096f0 f   Scheduling:CIFXSimulationManager.obj
+ 0001:000087a0       ??1CIFXSimulationManager@@EAE@XZ 100097a0 f   Scheduling:CIFXSimulationManager.obj
+ 0001:00008870       ?AddRef@CIFXSimulationManager@@$4PPPPPPPM@A@AIIXZ 10009870 f i Scheduling:CIFXSimulationManager.obj
+ 0001:00008890       ?Release@CIFXSimulationManager@@$4PPPPPPPM@A@AIIXZ 10009890 f i Scheduling:CIFXSimulationManager.obj
+ 0001:000088b0       ?QueryInterface@CIFXSimulationManager@@$4PPPPPPPM@A@AIHABUIFXGUID@@PAPAX@Z 100098b0 f i Scheduling:CIFXSimulationManager.obj
+ 0001:000088d0       ??_ECIFXSimulationInfo@@EAEPAXI@Z 100098d0 f i Scheduling:CIFXSimulationInfo.obj
+ 0001:000088d0       ??_GCIFXSimulationInfo@@EAEPAXI@Z 100098d0 f i Scheduling:CIFXSimulationInfo.obj
+ 0001:000088fc       ??0IFXSimulationInfo@@QAE@XZ 100098fc f i Scheduling:CIFXSimulationInfo.obj
+ 0001:0000891c       ?CIFXSimulationInfo_Factory@@YIHABUIFXGUID@@PAPAX@Z 1000991c f   Scheduling:CIFXSimulationInfo.obj
+ 0001:00008aae       ??0CIFXSimulationInfo@@AAE@XZ 10009aae f   Scheduling:CIFXSimulationInfo.obj
+ 0001:00008b0c       ??1CIFXSimulationInfo@@EAE@XZ 10009b0c f   Scheduling:CIFXSimulationInfo.obj
+ 0001:00008bd0       ?AddRef@CIFXSimulationInfo@@UAIIXZ 10009bd0 f   Scheduling:CIFXSimulationInfo.obj
+ 0001:00008bec       ?Release@CIFXSimulationInfo@@UAIIXZ 10009bec f   Scheduling:CIFXSimulationInfo.obj
+ 0001:00008c3c       ?QueryInterface@CIFXSimulationInfo@@UAIHABUIFXGUID@@PAPAX@Z 10009c3c f   Scheduling:CIFXSimulationInfo.obj
+ 0001:00008ce8       ?Initialize@CIFXSimulationInfo@@UAIHPAVIFXCoreServices@@@Z 10009ce8 f   Scheduling:CIFXSimulationInfo.obj
+ 0001:00008d92       ?GetCoreServices@CIFXSimulationInfo@@UAIHPAPAVIFXCoreServices@@@Z 10009d92 f   Scheduling:CIFXSimulationInfo.obj
+ 0001:00008dfc       ?SetOrigin@CIFXSimulationInfo@@UAIHPAVIFXUnknown@@@Z 10009dfc f   Scheduling:CIFXSimulationInfo.obj
+ 0001:00008e82       ?GetOrigin@CIFXSimulationInfo@@UAIHPAPAVIFXUnknown@@@Z 10009e82 f   Scheduling:CIFXSimulationInfo.obj
+ 0001:00008eec       ?SetTaskManager@CIFXSimulationInfo@@UAIHPAVIFXTaskManager@@@Z 10009eec f   Scheduling:CIFXSimulationInfo.obj
+ 0001:00008f72       ?GetTaskManager@CIFXSimulationInfo@@UAIHPAPAVIFXTaskManager@@@Z 10009f72 f   Scheduling:CIFXSimulationInfo.obj
+ 0001:00008fdc       ?SetTaskHandle@CIFXSimulationInfo@@UAIHI@Z 10009fdc f   Scheduling:CIFXSimulationInfo.obj
+ 0001:00009016       ?GetTaskHandle@CIFXSimulationInfo@@UAIHPAI@Z 1000a016 f   Scheduling:CIFXSimulationInfo.obj
+ 0001:00009062       ?SetUserData@CIFXSimulationInfo@@UAIHPAX@Z 1000a062 f   Scheduling:CIFXSimulationInfo.obj
+ 0001:0000909c       ?GetUserData@CIFXSimulationInfo@@UAIHPAPAX@Z 1000a09c f   Scheduling:CIFXSimulationInfo.obj
+ 0001:000090e8       ?SetTime@CIFXSimulationInfo@@UAIHI@Z 1000a0e8 f   Scheduling:CIFXSimulationInfo.obj
+ 0001:00009122       ?GetTime@CIFXSimulationInfo@@UAIHPAI@Z 1000a122 f   Scheduling:CIFXSimulationInfo.obj
+ 0001:0000916e       ?MatchPattern@CIFXSimulationInfo@@UAIHPAVIFXTaskData@@PAH@Z 1000a16e f   Scheduling:CIFXSimulationInfo.obj
+ 0001:00009286       ?GetSortKey@CIFXSimulationInfo@@UAIHPAI@Z 1000a286 f   Scheduling:CIFXSimulationInfo.obj
+ 0001:000092d2       ?SetPriority@CIFXSimulationInfo@@UAIHI@Z 1000a2d2 f   Scheduling:CIFXSimulationInfo.obj
+ 0001:0000930c       ?GetPriority@CIFXSimulationInfo@@UAIHPAI@Z 1000a30c f   Scheduling:CIFXSimulationInfo.obj
+ 0001:00009358       ?SetMsg@CIFXSimulationInfo@@UAIHW4IFXSimulationMsg@@@Z 1000a358 f   Scheduling:CIFXSimulationInfo.obj
+ 0001:00009382       ?GetMsg@CIFXSimulationInfo@@UAI?AW4IFXSimulationMsg@@XZ 1000a382 f   Scheduling:CIFXSimulationInfo.obj
+ 0001:00009392       ?SetTimeInterval@CIFXSimulationInfo@@UAIHII@Z 1000a392 f   Scheduling:CIFXSimulationInfo.obj
+ 0001:000093d2       ?GetTimeInterval@CIFXSimulationInfo@@UAIHPAI0@Z 1000a3d2 f   Scheduling:CIFXSimulationInfo.obj
+ 0001:0000941c       ?SetMaxTime@CIFXSimulationInfo@@UAIHI@Z 1000a41c f   Scheduling:CIFXSimulationInfo.obj
+ 0001:00009446       ?GetMaxTime@CIFXSimulationInfo@@UAIIXZ 1000a446 f   Scheduling:CIFXSimulationInfo.obj
+ 0001:00009458       ??_ECIFXSystemManager@@EAEPAXI@Z 1000a458 f i Scheduling:CIFXSystemManager.obj
+ 0001:00009458       ??_GCIFXSystemManager@@EAEPAXI@Z 1000a458 f i Scheduling:CIFXSystemManager.obj
+ 0001:00009484       ??0IFXSystemManager@@QAE@XZ 1000a484 f i Scheduling:CIFXSystemManager.obj
+ 0001:000094f8       ?CIFXSystemManager_Factory@@YIHABUIFXGUID@@PAPAX@Z 1000a4f8 f   Scheduling:CIFXSystemManager.obj
+ 0001:0000969c       ??0CIFXSystemManager@@AAE@XZ 1000a69c f   Scheduling:CIFXSystemManager.obj
+ 0001:00009746       ??1CIFXSystemManager@@EAE@XZ 1000a746 f   Scheduling:CIFXSystemManager.obj
+ 0001:000097e8       ?AddRef@CIFXSystemManager@@UAIIXZ 1000a7e8 f   Scheduling:CIFXSystemManager.obj
+ 0001:00009802       ?Release@CIFXSystemManager@@UAIIXZ 1000a802 f   Scheduling:CIFXSystemManager.obj
+ 0001:00009852       ?QueryInterface@CIFXSystemManager@@UAIHABUIFXGUID@@PAPAX@Z 1000a852 f   Scheduling:CIFXSystemManager.obj
+ 0001:00009928       ?Execute@CIFXSystemManager@@UAIHPAVIFXTaskData@@@Z 1000a928 f   Scheduling:CIFXSystemManager.obj
+ 0001:00009d46       ?Initialize@CIFXSystemManager@@UAIHPAVIFXCoreServices@@@Z 1000ad46 f   Scheduling:CIFXSystemManager.obj
+ 0001:00009e70       ?Reset@CIFXSystemManager@@UAIHXZ 1000ae70 f   Scheduling:CIFXSystemManager.obj
+ 0001:00009ebe       ?GetTaskManager@CIFXSystemManager@@UAIHPAPAVIFXTaskManager@@@Z 1000aebe f   Scheduling:CIFXSystemManager.obj
+ 0001:00009f28       ?RegisterTask@CIFXSystemManager@@UAIHPAVIFXTask@@IPAXPAI@Z 1000af28 f   Scheduling:CIFXSystemManager.obj
+ 0001:0000a0a0       ?UnregisterTask@CIFXSystemManager@@UAIHI@Z 1000b0a0 f   Scheduling:CIFXSystemManager.obj
+ 0001:0000a0fc       ?AddRef@CIFXSystemManager@@$4PPPPPPPM@A@AIIXZ 1000b0fc f i Scheduling:CIFXSystemManager.obj
+ 0001:0000a11c       ?Release@CIFXSystemManager@@$4PPPPPPPM@A@AIIXZ 1000b11c f i Scheduling:CIFXSystemManager.obj
+ 0001:0000a13c       ?QueryInterface@CIFXSystemManager@@$4PPPPPPPM@A@AIHABUIFXGUID@@PAPAX@Z 1000b13c f i Scheduling:CIFXSystemManager.obj
+ 0001:0000a15c       ??_ECIFXTaskData@@EAEPAXI@Z 1000b15c f i Scheduling:CIFXTaskData.obj
+ 0001:0000a15c       ??_GCIFXTaskData@@EAEPAXI@Z 1000b15c f i Scheduling:CIFXTaskData.obj
+ 0001:0000a188       ?CIFXTaskData_Factory@@YIHABUIFXGUID@@PAPAX@Z 1000b188 f   Scheduling:CIFXTaskData.obj
+ 0001:0000a31a       ??0CIFXTaskData@@AAE@XZ    1000b31a f   Scheduling:CIFXTaskData.obj
+ 0001:0000a36c       ??1CIFXTaskData@@EAE@XZ    1000b36c f   Scheduling:CIFXTaskData.obj
+ 0001:0000a404       ?AddRef@CIFXTaskData@@UAIIXZ 1000b404 f   Scheduling:CIFXTaskData.obj
+ 0001:0000a420       ?Release@CIFXTaskData@@UAIIXZ 1000b420 f   Scheduling:CIFXTaskData.obj
+ 0001:0000a470       ?QueryInterface@CIFXTaskData@@UAIHABUIFXGUID@@PAPAX@Z 1000b470 f   Scheduling:CIFXTaskData.obj
+ 0001:0000a51c       ?Initialize@CIFXTaskData@@UAIHPAVIFXCoreServices@@@Z 1000b51c f   Scheduling:CIFXTaskData.obj
+ 0001:0000a5bc       ?SetOrigin@CIFXTaskData@@UAIHPAVIFXUnknown@@@Z 1000b5bc f   Scheduling:CIFXTaskData.obj
+ 0001:0000a652       ?GetOrigin@CIFXTaskData@@UAIHPAPAVIFXUnknown@@@Z 1000b652 f   Scheduling:CIFXTaskData.obj
+ 0001:0000a6bc       ?SetTaskManager@CIFXTaskData@@UAIHPAVIFXTaskManager@@@Z 1000b6bc f   Scheduling:CIFXTaskData.obj
+ 0001:0000a742       ?GetTaskManager@CIFXTaskData@@UAIHPAPAVIFXTaskManager@@@Z 1000b742 f   Scheduling:CIFXTaskData.obj
+ 0001:0000a7ac       ?SetTaskHandle@CIFXTaskData@@UAIHI@Z 1000b7ac f   Scheduling:CIFXTaskData.obj
+ 0001:0000a7e6       ?GetTaskHandle@CIFXTaskData@@UAIHPAI@Z 1000b7e6 f   Scheduling:CIFXTaskData.obj
+ 0001:0000a832       ?SetUserData@CIFXTaskData@@UAIHPAX@Z 1000b832 f   Scheduling:CIFXTaskData.obj
+ 0001:0000a86c       ?GetUserData@CIFXTaskData@@UAIHPAPAX@Z 1000b86c f   Scheduling:CIFXTaskData.obj
+ 0001:0000a8b8       ?GetCoreServices@CIFXTaskData@@UAIHPAPAVIFXCoreServices@@@Z 1000b8b8 f   Scheduling:CIFXTaskData.obj
+ 0001:0000a922       ?SetTime@CIFXTaskData@@UAIHI@Z 1000b922 f   Scheduling:CIFXTaskData.obj
+ 0001:0000a95c       ?GetTime@CIFXTaskData@@UAIHPAI@Z 1000b95c f   Scheduling:CIFXTaskData.obj
+ 0001:0000a9a8       ?MatchPattern@CIFXTaskData@@UAIHPAVIFXTaskData@@PAH@Z 1000b9a8 f   Scheduling:CIFXTaskData.obj
+ 0001:0000a9f4       ?GetSortKey@CIFXTaskData@@UAIHPAI@Z 1000b9f4 f   Scheduling:CIFXTaskData.obj
+ 0001:0000aa40       ??_GCIFXTaskManager@@EAEPAXI@Z 1000ba40 f i Scheduling:CIFXTaskManager.obj
+ 0001:0000aa40       ??_ECIFXTaskManager@@EAEPAXI@Z 1000ba40 f i Scheduling:CIFXTaskManager.obj
+ 0001:0000aa6c       ??0IFXTaskManager@@QAE@XZ  1000ba6c f i Scheduling:CIFXTaskManager.obj
+ 0001:0000aa8c       ?CIFXTaskManager_Factory@@YIHABUIFXGUID@@PAPAX@Z 1000ba8c f   Scheduling:CIFXTaskManager.obj
+ 0001:0000ac1e       ?SetTaskListRoot@CIFXTaskManager@@AAEXPAVIFXTaskManagerNode@@@Z 1000bc1e f   Scheduling:CIFXTaskManager.obj
+ 0001:0000aca6       ??0CIFXTaskManager@@AAE@XZ 1000bca6 f   Scheduling:CIFXTaskManager.obj
+ 0001:0000acec       ??1CIFXTaskManager@@EAE@XZ 1000bcec f   Scheduling:CIFXTaskManager.obj
+ 0001:0000ad98       ?DisposeList@CIFXTaskManager@@AAEXPAPAVIFXTaskManagerNode@@@Z 1000bd98 f   Scheduling:CIFXTaskManager.obj
+ 0001:0000b0fa       ?AddRef@CIFXTaskManager@@UAIIXZ 1000c0fa f   Scheduling:CIFXTaskManager.obj
+ 0001:0000b110       ?Release@CIFXTaskManager@@UAIIXZ 1000c110 f   Scheduling:CIFXTaskManager.obj
+ 0001:0000b15c       ?QueryInterface@CIFXTaskManager@@UAIHABUIFXGUID@@PAPAX@Z 1000c15c f   Scheduling:CIFXTaskManager.obj
+ 0001:0000b208       ?Initialize@CIFXTaskManager@@UAIHPAVIFXCoreServices@@@Z 1000c208 f   Scheduling:CIFXTaskManager.obj
+ 0001:0000b2e2       ?Reset@CIFXTaskManager@@UAIHXZ 1000c2e2 f   Scheduling:CIFXTaskManager.obj
+ 0001:0000b350       ?SetOrigin@CIFXTaskManager@@UAIHPAVIFXUnknown@@@Z 1000c350 f   Scheduling:CIFXTaskManager.obj
+ 0001:0000b3d6       ?GetOrigin@CIFXTaskManager@@UAIHPAPAVIFXUnknown@@@Z 1000c3d6 f   Scheduling:CIFXTaskManager.obj
+ 0001:0000b440       ?AddTask@CIFXTaskManager@@UAIHPAVIFXTaskManagerNode@@@Z 1000c440 f   Scheduling:CIFXTaskManager.obj
+ 0001:0000b4f4       ?AddTask@CIFXTaskManager@@UAIHPAVIFXTask@@PAVIFXTaskData@@IPAI@Z 1000c4f4 f   Scheduling:CIFXTaskManager.obj
+ 0001:0000b6a4       ?CreateView@CIFXTaskManager@@UAIHPAVIFXTaskData@@PAPAVIFXTaskManagerView@@@Z 1000c6a4 f   Scheduling:CIFXTaskManager.obj
+ 0001:0000b8a2       ?GetTask@CIFXTaskManager@@UAIHIPAPAVIFXTaskManagerNode@@@Z 1000c8a2 f   Scheduling:CIFXTaskManager.obj
+ 0001:0000b98c       ?RemoveTask@CIFXTaskManager@@UAIHI@Z 1000c98c f   Scheduling:CIFXTaskManager.obj
+ 0001:0000bc3c       ??_ECIFXTaskManagerNode@@EAEPAXI@Z 1000cc3c f i Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000bc3c       ??_GCIFXTaskManagerNode@@EAEPAXI@Z 1000cc3c f i Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000bc68       ??0IFXTaskManagerNode@@QAE@XZ 1000cc68 f i Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000bc88       ?CIFXTaskManagerNode_Factory@@YIHABUIFXGUID@@PAPAX@Z 1000cc88 f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000be1a       ??0CIFXTaskManagerNode@@AAE@XZ 1000ce1a f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000be8e       ??1CIFXTaskManagerNode@@EAE@XZ 1000ce8e f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000beaa       ?AddRef@CIFXTaskManagerNode@@UAIIXZ 1000ceaa f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000bec0       ?Release@CIFXTaskManagerNode@@UAIIXZ 1000cec0 f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000bf0c       ?QueryInterface@CIFXTaskManagerNode@@UAIHABUIFXGUID@@PAPAX@Z 1000cf0c f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000bfb8       ?Initialize@CIFXTaskManagerNode@@UAIHPAVIFXCoreServices@@@Z 1000cfb8 f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000c0f4       ?GetCoreServices@CIFXTaskManagerNode@@UAIHPAPAVIFXCoreServices@@@Z 1000d0f4 f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000c15e       ?Reset@CIFXTaskManagerNode@@UAIHXZ 1000d15e f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000c2b2       ?GetPriority@CIFXTaskManagerNode@@UAIHPAI@Z 1000d2b2 f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000c2fe       ?SetPriority@CIFXTaskManagerNode@@UAIHI@Z 1000d2fe f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000c338       ?GetEnabled@CIFXTaskManagerNode@@UAIHPAH@Z 1000d338 f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000c384       ?SetEnabled@CIFXTaskManagerNode@@UAIHH@Z 1000d384 f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000c3be       ?SetMarkForDelete@CIFXTaskManagerNode@@UAIHH@Z 1000d3be f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000c3f8       ?GetMarkForDelete@CIFXTaskManagerNode@@UAIHPAH@Z 1000d3f8 f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000c444       ?SetTaskHandle@CIFXTaskManagerNode@@UAIHI@Z 1000d444 f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000c47e       ?GetTaskHandle@CIFXTaskManagerNode@@UAIHPAI@Z 1000d47e f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000c4ca       ?SetTask@CIFXTaskManagerNode@@UAIHPAVIFXTask@@@Z 1000d4ca f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000c570       ?GetTask@CIFXTaskManagerNode@@UAIHPAPAVIFXTask@@@Z 1000d570 f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000c5ea       ?SetTaskData@CIFXTaskManagerNode@@UAIHPAVIFXTaskData@@@Z 1000d5ea f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000c680       ?GetTaskData@CIFXTaskManagerNode@@UAIHPAPAVIFXTaskData@@@Z 1000d680 f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000c6ea       ?Execute@CIFXTaskManagerNode@@UAIHPAVIFXTaskData@@@Z 1000d6ea f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000c7f8       ?MatchPattern@CIFXTaskManagerNode@@UAIHPAVIFXTaskData@@PAH@Z 1000d7f8 f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000c872       ?SetTaskManager@CIFXTaskManagerNode@@UAIHPAVIFXTaskManager@@@Z 1000d872 f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000c908       ?GetTaskManager@CIFXTaskManagerNode@@UAIHPAPAVIFXTaskManager@@@Z 1000d908 f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000c972       ?SetNext@CIFXTaskManagerNode@@UAIHPAVIFXTaskManagerNode@@@Z 1000d972 f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000c9f8       ?SetPrev@CIFXTaskManagerNode@@UAIHPAVIFXTaskManagerNode@@@Z 1000d9f8 f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000ca7e       ?GetNext_NoAddRef@CIFXTaskManagerNode@@UAIPAVIFXTaskManagerNode@@XZ 1000da7e f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000ca8e       ?GetPrev_NoAddRef@CIFXTaskManagerNode@@UAIPAVIFXTaskManagerNode@@XZ 1000da8e f   Scheduling:CIFXTaskManagerNode.obj
+ 0001:0000caa0       ??_ECIFXTaskManagerView@@EAEPAXI@Z 1000daa0 f i Scheduling:CIFXTaskManagerView.obj
+ 0001:0000caa0       ??_GCIFXTaskManagerView@@EAEPAXI@Z 1000daa0 f i Scheduling:CIFXTaskManagerView.obj
+ 0001:0000cacc       ??0IFXTaskManagerView@@QAE@XZ 1000dacc f i Scheduling:CIFXTaskManagerView.obj
+ 0001:0000caec       ??0?$IFXAutoRelease@VIFXErrorInfo@@@@QAE@AAPAVIFXErrorInfo@@@Z 1000daec f i Scheduling:CIFXTaskManagerView.obj
+ 0001:0000cb48       ??1?$IFXAutoRelease@VIFXErrorInfo@@@@QAE@XZ 1000db48 f i Scheduling:CIFXTaskManagerView.obj
+ 0001:0000cbc0       ??0?$IFXAutoRelease@VIFXNotificationManager@@@@QAE@AAPAVIFXNotificationManager@@@Z 1000dbc0 f i Scheduling:CIFXTaskManagerView.obj
+ 0001:0000cc1c       ??1?$IFXAutoRelease@VIFXNotificationManager@@@@QAE@XZ 1000dc1c f i Scheduling:CIFXTaskManagerView.obj
+ 0001:0000cca0       ??0?$IFXAutoRelease@VIFXTask@@@@QAE@AAPAVIFXTask@@@Z 1000dca0 f i Scheduling:CIFXTaskManagerView.obj
+ 0001:0000ccfc       ??1?$IFXAutoRelease@VIFXTask@@@@QAE@XZ 1000dcfc f i Scheduling:CIFXTaskManagerView.obj
+ 0001:0000cd80       ?CIFXTaskManagerView_Factory@@YIHABUIFXGUID@@PAPAX@Z 1000dd80 f   Scheduling:CIFXTaskManagerView.obj
+ 0001:0000cf12       ??0CIFXTaskManagerView@@AAE@XZ 1000df12 f   Scheduling:CIFXTaskManagerView.obj
+ 0001:0000cf62       ??1CIFXTaskManagerView@@EAE@XZ 1000df62 f   Scheduling:CIFXTaskManagerView.obj
+ 0001:0000cfda       ?IncreaseAlloc@CIFXTaskManagerView@@AAEHXZ 1000dfda f   Scheduling:CIFXTaskManagerView.obj
+ 0001:0000d0f0       ?AddRef@CIFXTaskManagerView@@UAIIXZ 1000e0f0 f   Scheduling:CIFXTaskManagerView.obj
+ 0001:0000d106       ?Release@CIFXTaskManagerView@@UAIIXZ 1000e106 f   Scheduling:CIFXTaskManagerView.obj
+ 0001:0000d152       ?QueryInterface@CIFXTaskManagerView@@UAIHABUIFXGUID@@PAPAX@Z 1000e152 f   Scheduling:CIFXTaskManagerView.obj
+ 0001:0000d1fe       ?Initialize@CIFXTaskManagerView@@UAIHPAVIFXCoreServices@@@Z 1000e1fe f   Scheduling:CIFXTaskManagerView.obj
+ 0001:0000d29e       ?GetCoreServices@CIFXTaskManagerView@@UAIHPAPAVIFXCoreServices@@@Z 1000e29e f   Scheduling:CIFXTaskManagerView.obj
+ 0001:0000d308       ?GetRefCount@CIFXTaskManagerView@@UAIIXZ 1000e308 f   Scheduling:CIFXTaskManagerView.obj
+ 0001:0000d318       ?Reset@CIFXTaskManagerView@@UAIHXZ 1000e318 f   Scheduling:CIFXTaskManagerView.obj
+ 0001:0000d3c4       ?SetAlloc@CIFXTaskManagerView@@UAIHI@Z 1000e3c4 f   Scheduling:CIFXTaskManagerView.obj
+ 0001:0000d41a       ?AddTask@CIFXTaskManagerView@@UAIHPAVIFXTaskManagerNode@@@Z 1000e41a f   Scheduling:CIFXTaskManagerView.obj
+ 0001:0000d508       ?GetSize@CIFXTaskManagerView@@UAIHPAI@Z 1000e508 f   Scheduling:CIFXTaskManagerView.obj
+ 0001:0000d554       ?GetElementAt@CIFXTaskManagerView@@UAIHIPAPAVIFXTaskManagerNode@@@Z 1000e554 f   Scheduling:CIFXTaskManagerView.obj
+ 0001:0000d5dc       ?ExecuteAll@CIFXTaskManagerView@@UAIHPAVIFXTaskData@@H@Z 1000e5dc f   Scheduling:CIFXTaskManagerView.obj
+ 0001:0000dca8       ??_ECIFXTimeManager@@EAEPAXI@Z 1000eca8 f i Scheduling:CIFXTimeManager.obj
+ 0001:0000dca8       ??_GCIFXTimeManager@@EAEPAXI@Z 1000eca8 f i Scheduling:CIFXTimeManager.obj
+ 0001:0000dcd4       ??0IFXTimeManager@@QAE@XZ  1000ecd4 f i Scheduling:CIFXTimeManager.obj
+ 0001:0000dd48       ?CIFXTimeManager_Factory@@YIHABUIFXGUID@@PAPAX@Z 1000ed48 f   Scheduling:CIFXTimeManager.obj
+ 0001:0000dee2       ??0CIFXTimeManager@@AAE@XZ 1000eee2 f   Scheduling:CIFXTimeManager.obj
+ 0001:0000dfae       ??1CIFXTimeManager@@EAE@XZ 1000efae f   Scheduling:CIFXTimeManager.obj
+ 0001:0000e076       ?AddRef@CIFXTimeManager@@UAIIXZ 1000f076 f   Scheduling:CIFXTimeManager.obj
+ 0001:0000e096       ?Release@CIFXTimeManager@@UAIIXZ 1000f096 f   Scheduling:CIFXTimeManager.obj
+ 0001:0000e0ea       ?QueryInterface@CIFXTimeManager@@UAIHABUIFXGUID@@PAPAX@Z 1000f0ea f   Scheduling:CIFXTimeManager.obj
+ 0001:0000e1c0       ?Execute@CIFXTimeManager@@UAIHPAVIFXTaskData@@@Z 1000f1c0 f   Scheduling:CIFXTimeManager.obj
+ 0001:0000e4f2       ?Initialize@CIFXTimeManager@@UAIHPAVIFXCoreServices@@@Z 1000f4f2 f   Scheduling:CIFXTimeManager.obj
+ 0001:0000e614       ?Reset@CIFXTimeManager@@UAIHXZ 1000f614 f   Scheduling:CIFXTimeManager.obj
+ 0001:0000e660       ?Cleanup@CIFXTimeManager@@UAIHXZ 1000f660 f   Scheduling:CIFXTimeManager.obj
+ 0001:0000e6f0       ?GetTaskManager@CIFXTimeManager@@UAIHPAPAVIFXTaskManager@@@Z 1000f6f0 f   Scheduling:CIFXTimeManager.obj
+ 0001:0000e75a       ?SetTimer@CIFXTimeManager@@UAIHW5IFXNotificationId@@IIIPAI@Z 1000f75a f   Scheduling:CIFXTimeManager.obj
+ 0001:0000e7bc       ?SetAutoTimer@CIFXTimeManager@@UAIHW5IFXNotificationId@@IIIPAIHI@Z 1000f7bc f   Scheduling:CIFXTimeManager.obj
+ 0001:0000e8ee       ?KillTimer@CIFXTimeManager@@UAIHI@Z 1000f8ee f   Scheduling:CIFXTimeManager.obj
+ 0001:0000e9ee       ?InsertTimer@CIFXTimeManager@@UAIHPAUCIFXTimer@@@Z 1000f9ee f   Scheduling:CIFXTimeManager.obj
+ 0001:0000eafe       ?PopTimer@CIFXTimeManager@@UAEPAUCIFXTimer@@XZ 1000fafe f   Scheduling:CIFXTimeManager.obj
+ 0001:0000eb36       ?DeleteTimer@CIFXTimeManager@@UAIHPAUCIFXTimer@@@Z 1000fb36 f   Scheduling:CIFXTimeManager.obj
+ 0001:0000ebb2       ?NewTimer@CIFXTimeManager@@UAEPAUCIFXTimer@@XZ 1000fbb2 f   Scheduling:CIFXTimeManager.obj
+ 0001:0000ec68       ?RegisterTask@CIFXTimeManager@@UAIHPAVIFXTask@@IIIPAI@Z 1000fc68 f   Scheduling:CIFXTimeManager.obj
+ 0001:0000efb4       ?UnregisterTask@CIFXTimeManager@@UAIHI@Z 1000ffb4 f   Scheduling:CIFXTimeManager.obj
+ 0001:0000f27e       ?QueryInterval@CIFXTimeManager@@IAEHIIPAI@Z 1001027e f   Scheduling:CIFXTimeManager.obj
+ 0001:0000f2da       ?AdvanceInterval@CIFXTimeManager@@IAEHII@Z 100102da f   Scheduling:CIFXTimeManager.obj
+ 0001:0000f558       ?AddRef@CIFXTimeManager@@$4PPPPPPPM@A@AIIXZ 10010558 f i Scheduling:CIFXTimeManager.obj
+ 0001:0000f578       ?Release@CIFXTimeManager@@$4PPPPPPPM@A@AIIXZ 10010578 f i Scheduling:CIFXTimeManager.obj
+ 0001:0000f598       ?QueryInterface@CIFXTimeManager@@$4PPPPPPPM@A@AIHABUIFXGUID@@PAPAX@Z 10010598 f i Scheduling:CIFXTimeManager.obj
+ 0001:0000f5b8       ??_ECIFXTaskCallback@@EAEPAXI@Z 100105b8 f i Scheduling:CIFXTaskCallback.obj
+ 0001:0000f5b8       ??_GCIFXTaskCallback@@EAEPAXI@Z 100105b8 f i Scheduling:CIFXTaskCallback.obj
+ 0001:0000f5e4       ??0IFXTaskCallback@@QAE@XZ 100105e4 f i Scheduling:CIFXTaskCallback.obj
+ 0001:0000f658       ?CIFXTaskCallback_Factory@@YIHABUIFXGUID@@PAPAX@Z 10010658 f   Scheduling:CIFXTaskCallback.obj
+ 0001:0000f7ec       ?AddRef@CIFXTaskCallback@@UAIIXZ 100107ec f   Scheduling:CIFXTaskCallback.obj
+ 0001:0000f806       ?Release@CIFXTaskCallback@@UAIIXZ 10010806 f   Scheduling:CIFXTaskCallback.obj
+ 0001:0000f852       ?QueryInterface@CIFXTaskCallback@@UAIHABUIFXGUID@@PAPAX@Z 10010852 f   Scheduling:CIFXTaskCallback.obj
+ 0001:0000f932       ?Execute@CIFXTaskCallback@@UAIHPAVIFXTaskData@@@Z 10010932 f   Scheduling:CIFXTaskCallback.obj
+ 0001:0000f96e       ?GetFunction@CIFXTaskCallback@@UBIP6AHPAVIFXTaskData@@@ZXZ 1001096e f   Scheduling:CIFXTaskCallback.obj
+ 0001:0000f97e       ?SetFunction@CIFXTaskCallback@@UAIXP6AHPAVIFXTaskData@@@Z@Z 1001097e f   Scheduling:CIFXTaskCallback.obj
+ 0001:0000f996       ??0CIFXTaskCallback@@AAE@XZ 10010996 f   Scheduling:CIFXTaskCallback.obj
+ 0001:0000fa34       ??1CIFXTaskCallback@@EAE@XZ 10010a34 f   Scheduling:CIFXTaskCallback.obj
+ 0001:0000fa5c       ?AddRef@CIFXTaskCallback@@$4PPPPPPPM@A@AIIXZ 10010a5c f i Scheduling:CIFXTaskCallback.obj
+ 0001:0000fa7c       ?Release@CIFXTaskCallback@@$4PPPPPPPM@A@AIIXZ 10010a7c f i Scheduling:CIFXTaskCallback.obj
+ 0001:0000fa9c       ?QueryInterface@CIFXTaskCallback@@$4PPPPPPPM@A@AIHABUIFXGUID@@PAPAX@Z 10010a9c f i Scheduling:CIFXTaskCallback.obj
+ 0001:0000fabc       ??3@YAXPAX@Z               10010abc f   Scheduling:IFXCorePluginStatic.obj
+ 0001:0000faf0       ??_V@YAXPAX@Z              10010af0 f   Scheduling:IFXCorePluginStatic.obj
+ 0001:0000fb02       ??2@YAPAXI@Z               10010b02 f   Scheduling:IFXCorePluginStatic.obj
+ 0001:0000fb34       ??_U@YAPAXI@Z              10010b34 f   Scheduling:IFXCorePluginStatic.obj
+ 0001:0000fb50       ??_E?$CArrayList@PAUSIFXObserverRequest@@@@QAEPAXI@Z 10010b50 f i Scheduling:CIFXSubject.obj
+ 0001:0000fb50       ??_G?$CArrayList@PAUSIFXObserverRequest@@@@QAEPAXI@Z 10010b50 f i Scheduling:CIFXSubject.obj
+ 0001:0000fb7c       ??_ECIFXSubject@@UAEPAXI@Z 10010b7c f i Scheduling:CIFXSubject.obj
+ 0001:0000fb7c       ??_GCIFXSubject@@UAEPAXI@Z 10010b7c f i Scheduling:CIFXSubject.obj
+ 0001:0000fba8       ??_E?$CRedBlackTree@PAUSIFXObserverRequest@@PAVIFXObserver@@VCompareObservers@@@@UAEPAXI@Z 10010ba8 f i Scheduling:CIFXSubject.obj
+ 0001:0000fba8       ??_G?$CRedBlackTree@PAUSIFXObserverRequest@@PAVIFXObserver@@VCompareObservers@@@@UAEPAXI@Z 10010ba8 f i Scheduling:CIFXSubject.obj
+ 0001:0000fbd4       ??0SIFXObserverRequest@@QAE@PAVIFXObserver@@IABUIFXGUID@@II@Z 10010bd4 f i Scheduling:CIFXSubject.obj
+ 0001:0000fc10       ?Deallocate@IFXUnitAllocator@@QAEXPAE@Z 10010c10 f i Scheduling:CIFXSubject.obj
+ 0001:0000fc68       ?Allocate@IFXUnitAllocator@@QAEPAEXZ 10010c68 f i Scheduling:CIFXSubject.obj
+ 0001:0000fccc       ??RCompareObservers@@QBEHPBUSIFXObserverRequest@@0@Z 10010ccc f i Scheduling:CIFXSubject.obj
+ 0001:0000fd2c       ??RCompareObservers@@QBEHPBUSIFXObserverRequest@@PBVIFXObserver@@@Z 10010d2c f i Scheduling:CIFXSubject.obj
+ 0001:0000fd88       ?ResolvePendingAttachments@CIFXSubject@@AAEXXZ 10010d88 f i Scheduling:CIFXSubject.obj
+ 0001:0000ff78       ?rotateLeft@?$CRedBlackTree@PAUSIFXObserverRequest@@PAVIFXObserver@@VCompareObservers@@@@AAEXPAURBNode@1@@Z 10010f78 f i Scheduling:CIFXSubject.obj
+ 0001:00010028       ?rotateRight@?$CRedBlackTree@PAUSIFXObserverRequest@@PAVIFXObserver@@VCompareObservers@@@@AAEXPAURBNode@1@@Z 10011028 f i Scheduling:CIFXSubject.obj
+ 0001:000100d8       ?rebalanceAfterInsert@?$CRedBlackTree@PAUSIFXObserverRequest@@PAVIFXObserver@@VCompareObservers@@@@AAEXPAURBNode@1@@Z 100110d8 f i Scheduling:CIFXSubject.obj
+ 0001:00010280       ?rebalanceAfterDelete@?$CRedBlackTree@PAUSIFXObserverRequest@@PAVIFXObserver@@VCompareObservers@@@@AAEXPAURBNode@1@@Z 10011280 f i Scheduling:CIFXSubject.obj
+ 0001:000104dc       ?remove@?$CRedBlackTree@PAUSIFXObserverRequest@@PAVIFXObserver@@VCompareObservers@@@@AAEHPAURBNode@1@@Z 100114dc f i Scheduling:CIFXSubject.obj
+ 0001:00010628       ??0?$CRedBlackTree@PAUSIFXObserverRequest@@PAVIFXObserver@@VCompareObservers@@@@QAE@II@Z 10011628 f i Scheduling:CIFXSubject.obj
+ 0001:00010790       ??1?$CRedBlackTree@PAUSIFXObserverRequest@@PAVIFXObserver@@VCompareObservers@@@@UAE@XZ 10011790 f i Scheduling:CIFXSubject.obj
+ 0001:0001087c       ?deleteNode@?$CRedBlackTree@PAUSIFXObserverRequest@@PAVIFXObserver@@VCompareObservers@@@@QAEXPAURBNode@1@@Z 1001187c f i Scheduling:CIFXSubject.obj
+ 0001:000108f8       ?insert@?$CRedBlackTree@PAUSIFXObserverRequest@@PAVIFXObserver@@VCompareObservers@@@@QAEXABQAUSIFXObserverRequest@@@Z 100118f8 f i Scheduling:CIFXSubject.obj
+ 0001:00010a78       ?find@?$CRedBlackTree@PAUSIFXObserverRequest@@PAVIFXObserver@@VCompareObservers@@@@QBEHABQAVIFXObserver@@AAViterator@1@@Z 10011a78 f i Scheduling:CIFXSubject.obj
+ 0001:00010b38       ?clear@?$CRedBlackTree@PAUSIFXObserverRequest@@PAVIFXObserver@@VCompareObservers@@@@QAEXXZ 10011b38 f i Scheduling:CIFXSubject.obj
+ 0001:00010b7c       ?remove@?$CRedBlackTree@PAUSIFXObserverRequest@@PAVIFXObserver@@VCompareObservers@@@@QAEHViterator@1@@Z 10011b7c f i Scheduling:CIFXSubject.obj
+ 0001:00010ba0       ?traverseInOrder@?$CRedBlackTree@PAUSIFXObserverRequest@@PAVIFXObserver@@VCompareObservers@@@@QAEXP6AXViterator@1@PAX@Z1@Z 10011ba0 f i Scheduling:CIFXSubject.obj
+ 0001:00010bec       ?inOrderNode@?$CRedBlackTree@PAUSIFXObserverRequest@@PAVIFXObserver@@VCompareObservers@@@@QAEXPAURBNode@1@P6AXViterator@1@PAX@Z2@Z 10011bec f i Scheduling:CIFXSubject.obj
+ 0001:00010ca0       ??0?$CArrayList@PAUSIFXObserverRequest@@@@QAE@I@Z 10011ca0 f i Scheduling:CIFXSubject.obj
+ 0001:00010ccc       ??1?$CArrayList@PAUSIFXObserverRequest@@@@QAE@XZ 10011ccc f i Scheduling:CIFXSubject.obj
+ 0001:00010d04       ?destroy@?$CArrayList@PAUSIFXObserverRequest@@@@QAEXXZ 10011d04 f i Scheduling:CIFXSubject.obj
+ 0001:00010d3c       ?empty@?$CArrayList@PAUSIFXObserverRequest@@@@QBEHXZ 10011d3c f i Scheduling:CIFXSubject.obj
+ 0001:00010d64       ?begin@?$CArrayList@PAUSIFXObserverRequest@@@@QBEIXZ 10011d64 f i Scheduling:CIFXSubject.obj
+ 0001:00010d70       ?end@?$CArrayList@PAUSIFXObserverRequest@@@@QBEIXZ 10011d70 f i Scheduling:CIFXSubject.obj
+ 0001:00010d80       ?clear@?$CArrayList@PAUSIFXObserverRequest@@@@QAEXXZ 10011d80 f i Scheduling:CIFXSubject.obj
+ 0001:00010da0       ?remove@?$CArrayList@PAUSIFXObserverRequest@@@@QAEHI@Z 10011da0 f i Scheduling:CIFXSubject.obj
+ 0001:00010e40       ?remove@?$CArrayList@PAUSIFXObserverRequest@@@@QAEHABQAUSIFXObserverRequest@@@Z 10011e40 f i Scheduling:CIFXSubject.obj
+ 0001:00010ea4       ?push_back@?$CArrayList@PAUSIFXObserverRequest@@@@QAEIABQAUSIFXObserverRequest@@@Z 10011ea4 f i Scheduling:CIFXSubject.obj
+ 0001:00011030       ?find@?$CArrayList@PAUSIFXObserverRequest@@@@QAEHPAUSIFXObserverRequest@@AAI@Z 10012030 f i Scheduling:CIFXSubject.obj
+ 0001:00011090       ??A?$CArrayList@PAUSIFXObserverRequest@@@@QAEAAPAUSIFXObserverRequest@@I@Z 10012090 f i Scheduling:CIFXSubject.obj
+ 0001:000111c4       ??0?$CArrayList@PAVIFXObserver@@@@QAE@I@Z 100121c4 f i Scheduling:CIFXSubject.obj
+ 0001:000111f0       ??1?$CArrayList@PAVIFXObserver@@@@QAE@XZ 100121f0 f i Scheduling:CIFXSubject.obj
+ 0001:00011228       ?destroy@?$CArrayList@PAVIFXObserver@@@@QAEXXZ 10012228 f i Scheduling:CIFXSubject.obj
+ 0001:00011260       ?empty@?$CArrayList@PAVIFXObserver@@@@QBEHXZ 10012260 f i Scheduling:CIFXSubject.obj
+ 0001:00011288       ?begin@?$CArrayList@PAVIFXObserver@@@@QBEIXZ 10012288 f i Scheduling:CIFXSubject.obj
+ 0001:00011294       ?end@?$CArrayList@PAVIFXObserver@@@@QBEIXZ 10012294 f i Scheduling:CIFXSubject.obj
+ 0001:000112a4       ?clear@?$CArrayList@PAVIFXObserver@@@@QAEXXZ 100122a4 f i Scheduling:CIFXSubject.obj
+ 0001:000112c4       ?push_back@?$CArrayList@PAVIFXObserver@@@@QAEIABQAVIFXObserver@@@Z 100122c4 f i Scheduling:CIFXSubject.obj
+ 0001:00011450       ??A?$CArrayList@PAVIFXObserver@@@@QAEAAPAVIFXObserver@@I@Z 10012450 f i Scheduling:CIFXSubject.obj
+ 0001:00011584       ??0?$CArrayList@UObserverInterest@@@@QAE@I@Z 10012584 f i Scheduling:CIFXSubject.obj
+ 0001:000115b0       ??1?$CArrayList@UObserverInterest@@@@QAE@XZ 100125b0 f i Scheduling:CIFXSubject.obj
+ 0001:000115e8       ?destroy@?$CArrayList@UObserverInterest@@@@QAEXXZ 100125e8 f i Scheduling:CIFXSubject.obj
+ 0001:00011620       ?begin@?$CArrayList@UObserverInterest@@@@QBEIXZ 10012620 f i Scheduling:CIFXSubject.obj
+ 0001:0001162c       ?end@?$CArrayList@UObserverInterest@@@@QBEIXZ 1001262c f i Scheduling:CIFXSubject.obj
+ 0001:0001163c       ?clear@?$CArrayList@UObserverInterest@@@@QAEXXZ 1001263c f i Scheduling:CIFXSubject.obj
+ 0001:0001165c       ?push_back@?$CArrayList@UObserverInterest@@@@QAEIABUObserverInterest@@@Z 1001265c f i Scheduling:CIFXSubject.obj
+ 0001:000117f4       ??A?$CArrayList@UObserverInterest@@@@QAEAAUObserverInterest@@I@Z 100127f4 f i Scheduling:CIFXSubject.obj
+ 0001:00011928       ??0iterator@?$CRedBlackTree@PAUSIFXObserverRequest@@PAVIFXObserver@@VCompareObservers@@@@QAE@PAURBNode@1@@Z 10012928 f i Scheduling:CIFXSubject.obj
+ 0001:00011940       ??Diterator@?$CRedBlackTree@PAUSIFXObserverRequest@@PAVIFXObserver@@VCompareObservers@@@@QBEPAUSIFXObserverRequest@@XZ 10012940 f i Scheduling:CIFXSubject.obj
+ 0001:00011954       ?NotifyObserverOfShutDown@@YAXViterator@?$CRedBlackTree@PAUSIFXObserverRequest@@PAVIFXObserver@@VCompareObservers@@@@PAX@Z 10012954 f   Scheduling:CIFXSubject.obj
+ 0001:00011a14       ??0CIFXSubject@@QAE@XZ     10012a14 f   Scheduling:CIFXSubject.obj
+ 0001:00011c94       ??1CIFXSubject@@UAE@XZ     10012c94 f   Scheduling:CIFXSubject.obj
+ 0001:00011fb8       ?Attach@CIFXSubject@@UAIHPAVIFXObserver@@IABUIFXGUID@@I@Z 10012fb8 f   Scheduling:CIFXSubject.obj
+ 0001:000124c6       ?Detach@CIFXSubject@@UAIHPAVIFXObserver@@@Z 100134c6 f   Scheduling:CIFXSubject.obj
+ 0001:0001268a       ?PostChanges@CIFXSubject@@UAIXI@Z 1001368a f   Scheduling:CIFXSubject.obj
+ 0001:000128d0       ?PreDestruct@CIFXSubject@@UAIXXZ 100138d0 f   Scheduling:CIFXSubject.obj
+ 0001:000129f4       ?Attach@CIFXSubject@@$4PPPPPPPM@A@AIHPAVIFXObserver@@IABUIFXGUID@@I@Z 100139f4 f i Scheduling:CIFXSubject.obj
+ 0001:00012a14       ?Detach@CIFXSubject@@$4PPPPPPPM@A@AIHPAVIFXObserver@@@Z 10013a14 f i Scheduling:CIFXSubject.obj
+ 0001:00012a34       ?PostChanges@CIFXSubject@@$4PPPPPPPM@A@AIXI@Z 10013a34 f i Scheduling:CIFXSubject.obj
+ 0001:00012a54       ?PreDestruct@CIFXSubject@@$4PPPPPPPM@A@AIXXZ 10013a54 f i Scheduling:CIFXSubject.obj
+ 0001:00012a74       ??_GIFXString@@UAEPAXI@Z   10013a74 f i Scheduling:IFXString.obj
+ 0001:00012a74       ??_EIFXString@@UAEPAXI@Z   10013a74 f i Scheduling:IFXString.obj
+ 0001:00012aa0       ?Raw@IFXString@@QBEPBGXZ   10013aa0 f i Scheduling:IFXString.obj
+ 0001:00012ab0       ?Concatenate@IFXString@@QAEHPBV1@@Z 10013ab0 f i Scheduling:IFXString.obj
+ 0001:00012af0       ?Concatenate@IFXString@@QAEHPBE@Z 10013af0 f i Scheduling:IFXString.obj
+ 0001:00012bb8       ?NewBuffer@IFXString@@AAEXI@Z 10013bb8 f i Scheduling:IFXString.obj
+ 0001:00012c04       ?DeleteBuffer@IFXString@@AAEXXZ 10013c04 f i Scheduling:IFXString.obj
+ 0001:00012c38       ??0IFXString@@QAE@XZ       10013c38 f   Scheduling:IFXString.obj
+ 0001:00012c5c       ??0IFXString@@QAE@ABV0@@Z  10013c5c f   Scheduling:IFXString.obj
+ 0001:00012cc8       ??0IFXString@@QAE@PBV0@@Z  10013cc8 f   Scheduling:IFXString.obj
+ 0001:00012d46       ??0IFXString@@QAE@PBD@Z    10013d46 f   Scheduling:IFXString.obj
+ 0001:00012de0       ??0IFXString@@QAE@PBE@Z    10013de0 f   Scheduling:IFXString.obj
+ 0001:00012e7a       ??0IFXString@@QAE@PBG@Z    10013e7a f   Scheduling:IFXString.obj
+ 0001:00012efc       ??0IFXString@@QAE@I@Z      10013efc f   Scheduling:IFXString.obj
+ 0001:00012f48       ??1IFXString@@UAE@XZ       10013f48 f   Scheduling:IFXString.obj
+ 0001:00012f64       ?Clear@IFXString@@QAEHXZ   10013f64 f   Scheduling:IFXString.obj
+ 0001:00012f7a       ?Length@IFXString@@QBEIXZ  10013f7a f   Scheduling:IFXString.obj
+ 0001:00012fb2       ?LengthU8@IFXString@@QBEIXZ 10013fb2 f   Scheduling:IFXString.obj
+ 0001:00012fe2       ?GetLengthU8@IFXString@@QAEHPAI@Z 10013fe2 f   Scheduling:IFXString.obj
+ 0001:00013038       ?IsEmpty@IFXString@@QAEHXZ 10014038 f   Scheduling:IFXString.obj
+ 0001:0001306c       ?Assign@IFXString@@QAEHPBV1@@Z 1001406c f   Scheduling:IFXString.obj
+ 0001:000130e6       ?Assign@IFXString@@QAEHPBE@Z 100140e6 f   Scheduling:IFXString.obj
+ 0001:0001318c       ?Assign@IFXString@@QAEHPBG@Z 1001418c f   Scheduling:IFXString.obj
+ 0001:00013206       ?Compare@IFXString@@QBEHPBG@Z 10014206 f   Scheduling:IFXString.obj
+ 0001:0001326e       ?CompareNoCase@IFXString@@QBEHPBG@Z 1001426e f   Scheduling:IFXString.obj
+ 0001:0001340a       ?ForceUppercase@IFXString@@QAEXXZ 1001440a f   Scheduling:IFXString.obj
+ 0001:0001347c       ?ForceLowercase@IFXString@@QAEXXZ 1001447c f   Scheduling:IFXString.obj
+ 0001:000134ee       ?ConvertToRawU8@IFXString@@QAEHPAEI@Z 100144ee f   Scheduling:IFXString.obj
+ 0001:00013570       ?Substring@IFXString@@QBEHPAV1@II@Z 10014570 f   Scheduling:IFXString.obj
+ 0001:00013606       ?Substring@IFXString@@QBEHPAGIII@Z 10014606 f   Scheduling:IFXString.obj
+ 0001:0001368a       ?FindSubstring@IFXString@@QBEHPBGPAI@Z 1001468a f   Scheduling:IFXString.obj
+ 0001:000137d2       ?SetAt@IFXString@@QAEHIPAG@Z 100147d2 f   Scheduling:IFXString.obj
+ 0001:00013836       ?GetAt@IFXString@@QAEHIPAG@Z 10014836 f   Scheduling:IFXString.obj
+ 0001:0001389a       ?IsDigit@IFXString@@QAEHI@Z 1001489a f   Scheduling:IFXString.obj
+ 0001:000138fe       ?ToString@IFXString@@QAEHID@Z 100148fe f   Scheduling:IFXString.obj
+ 0001:00013a1a       ?ToValue@IFXString@@QAEHPAID@Z 10014a1a f   Scheduling:IFXString.obj
+ 0001:00013a90       ?Concatenate@IFXString@@QAEHPBG@Z 10014a90 f   Scheduling:IFXString.obj
+ 0001:00013be8       ??HIFXString@@QBE?AV0@ABV0@@Z 10014be8 f   Scheduling:IFXString.obj
+ 0001:00013c86       ??HIFXString@@QBE?AV0@PBE@Z 10014c86 f   Scheduling:IFXString.obj
+ 0001:00013d22       ??HIFXString@@QBE?AV0@PBG@Z 10014d22 f   Scheduling:IFXString.obj
+ 0001:00013dbe       ?VSPrintf@IFXString@@QAEAAV1@PBGPAD@Z 10014dbe f   Scheduling:IFXString.obj
+ 0001:00013e90       ?Match@IFXString@@QAEIPBGI@Z 10014e90 f   Scheduling:IFXString.obj
+ 0001:00013ed4       ??0IFXUnitAllocator@@QAE@XZ 10014ed4 f   Scheduling:IFXUnitAllocator.obj
+ 0001:00013f24       ??1IFXUnitAllocator@@QAE@XZ 10014f24 f   Scheduling:IFXUnitAllocator.obj
+ 0001:00013f38       ?Initialize@IFXUnitAllocator@@QAEHIII@Z 10014f38 f   Scheduling:IFXUnitAllocator.obj
+ 0001:0001404e       ?ThreadMemory@IFXUnitAllocator@@AAEHPAE@Z 1001504e f   Scheduling:IFXUnitAllocator.obj
+ 0001:000140aa       ?Destroy@IFXUnitAllocator@@AAEHXZ 100150aa f   Scheduling:IFXUnitAllocator.obj
+ 0001:00014178       ?Grow@IFXUnitAllocator@@AAEPAEXZ 10015178 f   Scheduling:IFXUnitAllocator.obj
+ 0001:00014218       ?_wc_specialchar@@YAHH@Z   10015218 f   Scheduling:wcmatch.obj
+ 0001:0001423e       ?_wc_ci_strchr@@YAPBGPBGGH@Z 1001523e f   Scheduling:wcmatch.obj
+ 0001:000142da       _WCPossible                100152da f   Scheduling:wcmatch.obj
+ 0001:0001435c       ?_equal_chars@@YAHHHH@Z    1001535c f   Scheduling:wcmatch.obj
+ 0001:000143c4       ?_wc_match@@YAPBGPBG0H@Z   100153c4 f   Scheduling:wcmatch.obj
+ 0001:0001460e       _WCMatchPos                1001560e f   Scheduling:wcmatch.obj
+ 0001:000146ca       _WCMatch                   100156ca f   Scheduling:wcmatch.obj
+ 0001:00014708       @IFXCreateComponent@12     10015708 f   IFXCore:IFXCore.dll
+ 0001:0001470e       @IFXDeallocate@4           1001570e f   IFXCore:IFXCore.dll
+ 0001:00014714       @IFXAllocate@4             10015714 f   IFXCore:IFXCore.dll
+ 0001:0001471a       @IFXReallocate@8           1001571a f   IFXCore:IFXCore.dll
+ 0001:00014720       __CRT_INIT@12              10015720 f   LIBCMTD:dllcrt0.obj
+ 0001:00014970       __DllMainCRTStartup@12     10015970 f   LIBCMTD:dllcrt0.obj
+ 0001:00014af0       __amsg_exit                10015af0 f   LIBCMTD:dllcrt0.obj
+ 0001:00014b30       __global_unwind2           10015b30 f   LIBCMTD:exsup.obj
+ 0001:00014b72       __local_unwind2            10015b72 f   LIBCMTD:exsup.obj
+ 0001:00014bca       __NLG_Return2              10015bca     LIBCMTD:exsup.obj
+ 0001:00014bda       __abnormal_termination     10015bda f   LIBCMTD:exsup.obj
+ 0001:00014bfd       __NLG_Notify1              10015bfd f   LIBCMTD:exsup.obj
+ 0001:00014c06       __NLG_Notify               10015c06 f   LIBCMTD:exsup.obj
+ 0001:00014c19       __NLG_Dispatch             10015c19     LIBCMTD:exsup.obj
+ 0001:00014c20       ?_JumpToContinuation@@YGXPAXPAUEHRegistrationNode@@@Z 10015c20 f   LIBCMTD:trnsctrl.obj
+ 0001:00014c60       ?_CallMemberFunction0@@YGXPAX0@Z 10015c60 f   LIBCMTD:trnsctrl.obj
+ 0001:00014c70       ?_CallMemberFunction1@@YGXPAX00@Z 10015c70 f   LIBCMTD:trnsctrl.obj
+ 0001:00014c80       ?_CallMemberFunction2@@YGXPAX00H@Z 10015c80 f   LIBCMTD:trnsctrl.obj
+ 0001:00014c90       ?_UnwindNestedFrames@@YGXPAUEHRegistrationNode@@PAUEHExceptionRecord@@@Z 10015c90 f   LIBCMTD:trnsctrl.obj
+ 0001:00014cf0       ___CxxFrameHandler         10015cf0 f   LIBCMTD:trnsctrl.obj
+ 0001:00014d30       ___CxxLongjmpUnwind@4      10015d30 f   LIBCMTD:trnsctrl.obj
+ 0001:00014d60       ?_CallCatchBlock2@@YAPAXPAUEHRegistrationNode@@PBU_s_FuncInfo@@PAXHK@Z 10015d60 f   LIBCMTD:trnsctrl.obj
+ 0001:00014e30       ?_CallSETranslator@@YAHPAUEHExceptionRecord@@PAUEHRegistrationNode@@PAX2PBU_s_FuncInfo@@H1@Z 10015e30 f   LIBCMTD:trnsctrl.obj
+ 0001:00014fe0       ?_GetRangeOfTrysToCheck@@YAPBU_s_TryBlockMapEntry@@PBU_s_FuncInfo@@HHPAI1@Z 10015fe0 f   LIBCMTD:trnsctrl.obj
+ 0001:00015070       ?_CreateFrameInfo@@YAPAUFrameInfo@@PAU1@PAX@Z 10016070 f   LIBCMTD:trnsctrl.obj
+ 0001:000150a0       ?IsExceptionObjectToBeDestroyed@@YAHPAX@Z 100160a0 f   LIBCMTD:trnsctrl.obj
+ 0001:000150d0       ?_FindAndUnlinkFrame@@YAXPAUFrameInfo@@@Z 100160d0 f   LIBCMTD:trnsctrl.obj
+ 0001:00015130       __purecall                 10016130 f   LIBCMTD:purevirt.obj
+ 0001:00015150       __set_purecall_handler     10016150 f   LIBCMTD:purevirt.obj
+ 0001:00015180       ??1type_info@@UAE@XZ       10016180 f   LIBCMTD:typinfo.obj
+ 0001:00015210       ??_Gtype_info@@UAEPAXI@Z   10016210 f i LIBCMTD:typinfo.obj
+ 0001:00015210       ??_Etype_info@@UAEPAXI@Z   10016210 f i LIBCMTD:typinfo.obj
+ 0001:00015240       ??8type_info@@QBEHABV0@@Z  10016240 f   LIBCMTD:typinfo.obj
+ 0001:00015270       ??9type_info@@QBEHABV0@@Z  10016270 f   LIBCMTD:typinfo.obj
+ 0001:000152a0       ?before@type_info@@QBEHABV1@@Z 100162a0 f   LIBCMTD:typinfo.obj
+ 0001:000152d0       ?raw_name@type_info@@QBEPBDXZ 100162d0 f   LIBCMTD:typinfo.obj
+ 0001:000152f0       ??0type_info@@AAE@ABV0@@Z  100162f0 f   LIBCMTD:typinfo.obj
+ 0001:00015310       ??4type_info@@AAEAAV0@ABV0@@Z 10016310 f   LIBCMTD:typinfo.obj
+ 0001:00015320       _wcscat                    10016320 f   LIBCMTD:wcscat.obj
+ 0001:00015370       _wcscpy                    10016370 f   LIBCMTD:wcscat.obj
+ 0001:000153b0       _wcslen                    100163b0 f   LIBCMTD:wcslen.obj
+ 0001:000153e0       _wcscmp                    100163e0 f   LIBCMTD:wcscmp.obj
+ 0001:00015440       _towupper                  10016440 f   LIBCMTD:towupper.obj
+ 0001:000154b0       ___towupper_mt             100164b0 f   LIBCMTD:towupper.obj
+ 0001:00015530       _towlower                  10016530 f   LIBCMTD:towlower.obj
+ 0001:000155b0       ___towlower_mt             100165b0 f   LIBCMTD:towlower.obj
+ 0001:00015630       _wcsncpy                   10016630 f   LIBCMTD:wcsncpy.obj
+ 0001:000156a0       _wcsncmp                   100166a0 f   LIBCMTD:wcsncmp.obj
+ 0001:00015700       _isleadbyte                10016700 f   LIBCMTD:_wctype.obj
+ 0001:00015720       _iswalpha                  10016720 f   LIBCMTD:_wctype.obj
+ 0001:00015740       _iswupper                  10016740 f   LIBCMTD:_wctype.obj
+ 0001:00015760       _iswlower                  10016760 f   LIBCMTD:_wctype.obj
+ 0001:00015780       _iswdigit                  10016780 f   LIBCMTD:_wctype.obj
+ 0001:000157a0       _iswxdigit                 100167a0 f   LIBCMTD:_wctype.obj
+ 0001:000157c0       _iswspace                  100167c0 f   LIBCMTD:_wctype.obj
+ 0001:000157e0       _iswpunct                  100167e0 f   LIBCMTD:_wctype.obj
+ 0001:00015800       _iswalnum                  10016800 f   LIBCMTD:_wctype.obj
+ 0001:00015820       _iswprint                  10016820 f   LIBCMTD:_wctype.obj
+ 0001:00015840       _iswgraph                  10016840 f   LIBCMTD:_wctype.obj
+ 0001:00015860       _iswcntrl                  10016860 f   LIBCMTD:_wctype.obj
+ 0001:00015880       _iswascii                  10016880 f   LIBCMTD:_wctype.obj
+ 0001:000158a0       _wcstol                    100168a0 f   LIBCMTD:wcstol.obj
+ 0001:00015bc0       _wcstoul                   10016bc0 f   LIBCMTD:wcstol.obj
+ 0001:00015be0       ?vswprintf@@YAHPAGIPBGPAD@Z 10016be0 f   LIBCMTD:vswprinn.obj
+ 0001:00015c00       ?vswprintf@@YAHPA_WIPB_WPAD@Z 10016c00 f   LIBCMTD:vswprinn.obj
+ 0001:00015d30       _wcschr                    10016d30 f   LIBCMTD:wcschr.obj
+ 0001:00015d70       __toupper                  10016d70 f   LIBCMTD:toupper.obj
+ 0001:00015d80       _toupper                   10016d80 f   LIBCMTD:toupper.obj
+ 0001:00015dc0       ___toupper_mt              10016dc0 f   LIBCMTD:toupper.obj
+ 0001:00015f00       __cinit                    10016f00 f   LIBCMTD:crt0dat.obj
+ 0001:00015f60       _exit                      10016f60 f   LIBCMTD:crt0dat.obj
+ 0001:00015f80       __exit                     10016f80 f   LIBCMTD:crt0dat.obj
+ 0001:00015fa0       __cexit                    10016fa0 f   LIBCMTD:crt0dat.obj
+ 0001:00015fc0       __c_exit                   10016fc0 f   LIBCMTD:crt0dat.obj
+ 0001:00016110       ___crtExitProcess          10017110 f   LIBCMTD:crt0dat.obj
+ 0001:00016160       __lockexit                 10017160 f   LIBCMTD:crt0dat.obj
+ 0001:00016170       __unlockexit               10017170 f   LIBCMTD:crt0dat.obj
+ 0001:000161f0       ___crtTlsAlloc@4           100171f0 f   LIBCMTD:tidtable.obj
+ 0001:00016200       __mtinit                   10017200 f   LIBCMTD:tidtable.obj
+ 0001:00016350       __mtterm                   10017350 f   LIBCMTD:tidtable.obj
+ 0001:00016380       __initptd                  10017380 f   LIBCMTD:tidtable.obj
+ 0001:000163a0       __getptd                   100173a0 f   LIBCMTD:tidtable.obj
+ 0001:00016440       __freefls@4                10017440 f   LIBCMTD:tidtable.obj
+ 0001:000166c0       __freeptd                  100176c0 f   LIBCMTD:tidtable.obj
+ 0001:00016700       ___threadid                10017700 f   LIBCMTD:tidtable.obj
+ 0001:00016710       ___threadhandle            10017710 f   LIBCMTD:tidtable.obj
+ 0001:00016720       _malloc                    10017720 f   LIBCMTD:dbgheap.obj
+ 0001:00016750       __malloc_dbg               10017750 f   LIBCMTD:dbgheap.obj
+ 0001:00016780       __nh_malloc                10017780 f   LIBCMTD:dbgheap.obj
+ 0001:000167a0       __nh_malloc_dbg            100177a0 f   LIBCMTD:dbgheap.obj
+ 0001:00016840       __heap_alloc               10017840 f   LIBCMTD:dbgheap.obj
+ 0001:00016860       __heap_alloc_dbg           10017860 f   LIBCMTD:dbgheap.obj
+ 0001:00016b80       _calloc                    10017b80 f   LIBCMTD:dbgheap.obj
+ 0001:00016bb0       __calloc_dbg               10017bb0 f   LIBCMTD:dbgheap.obj
+ 0001:00016c10       _realloc                   10017c10 f   LIBCMTD:dbgheap.obj
+ 0001:00016c40       __realloc_dbg              10017c40 f   LIBCMTD:dbgheap.obj
+ 0001:000171e0       __expand                   100181e0 f   LIBCMTD:dbgheap.obj
+ 0001:00017210       __expand_dbg               10018210 f   LIBCMTD:dbgheap.obj
+ 0001:000172a0       _free                      100182a0 f   LIBCMTD:dbgheap.obj
+ 0001:000172c0       __free_lk                  100182c0 f   LIBCMTD:dbgheap.obj
+ 0001:000172e0       __free_dbg                 100182e0 f   LIBCMTD:dbgheap.obj
+ 0001:00017350       __free_dbg_lk              10018350 f   LIBCMTD:dbgheap.obj
+ 0001:00017760       __msize                    10018760 f   LIBCMTD:dbgheap.obj
+ 0001:00017780       __msize_dbg                10018780 f   LIBCMTD:dbgheap.obj
+ 0001:000178f0       __CrtSetBreakAlloc         100188f0 f   LIBCMTD:dbgheap.obj
+ 0001:00017910       __CrtSetDbgBlockType       10018910 f   LIBCMTD:dbgheap.obj
+ 0001:000179f0       __CrtSetAllocHook          100189f0 f   LIBCMTD:dbgheap.obj
+ 0001:00017a60       __CrtCheckMemory           10018a60 f   LIBCMTD:dbgheap.obj
+ 0001:00017dd0       __CrtSetDbgFlag            10018dd0 f   LIBCMTD:dbgheap.obj
+ 0001:00017e80       __CrtDoForAllClientObjects 10018e80 f   LIBCMTD:dbgheap.obj
+ 0001:00017f30       __CrtIsValidPointer        10018f30 f   LIBCMTD:dbgheap.obj
+ 0001:00017f80       __CrtIsValidHeapPointer    10018f80 f   LIBCMTD:dbgheap.obj
+ 0001:00018030       __CrtIsMemoryBlock         10019030 f   LIBCMTD:dbgheap.obj
+ 0001:00018160       __CrtReportBlockType       10019160 f   LIBCMTD:dbgheap.obj
+ 0001:00018190       __CrtSetDumpClient         10019190 f   LIBCMTD:dbgheap.obj
+ 0001:000181b0       __CrtMemCheckpoint         100191b0 f   LIBCMTD:dbgheap.obj
+ 0001:00018350       __CrtMemDifference         10019350 f   LIBCMTD:dbgheap.obj
+ 0001:00018470       __CrtMemDumpAllObjectsSince 10019470 f   LIBCMTD:dbgheap.obj
+ 0001:00018870       __CrtDumpMemoryLeaks       10019870 f   LIBCMTD:dbgheap.obj
+ 0001:000188e0       __CrtMemDumpStatistics     100198e0 f   LIBCMTD:dbgheap.obj
+ 0001:00018990       __aligned_malloc           10019990 f   LIBCMTD:dbgheap.obj
+ 0001:000189b0       __aligned_malloc_dbg       100199b0 f   LIBCMTD:dbgheap.obj
+ 0001:000189d0       __aligned_realloc          100199d0 f   LIBCMTD:dbgheap.obj
+ 0001:000189f0       __aligned_realloc_dbg      100199f0 f   LIBCMTD:dbgheap.obj
+ 0001:00018a20       __aligned_offset_malloc    10019a20 f   LIBCMTD:dbgheap.obj
+ 0001:00018a40       __aligned_offset_malloc_dbg 10019a40 f   LIBCMTD:dbgheap.obj
+ 0001:00018b80       __aligned_offset_realloc   10019b80 f   LIBCMTD:dbgheap.obj
+ 0001:00018bb0       __aligned_offset_realloc_dbg 10019bb0 f   LIBCMTD:dbgheap.obj
+ 0001:00018e10       __aligned_free             10019e10 f   LIBCMTD:dbgheap.obj
+ 0001:00018e30       __aligned_free_dbg         10019e30 f   LIBCMTD:dbgheap.obj
+ 0001:00018ee0       __ioinit                   10019ee0 f   LIBCMTD:ioinit.obj
+ 0001:00019270       __ioterm                   1001a270 f   LIBCMTD:ioinit.obj
+ 0001:00019310       __setenvp                  1001a310 f   LIBCMTD:stdenvp.obj
+ 0001:00019490       __setargv                  1001a490 f   LIBCMTD:stdargv.obj
+ 0001:000198f0       ___crtGetEnvironmentStringsA 1001a8f0 f   LIBCMTD:a_env.obj
+ 0001:00019b10       __RTC_Initialize           1001ab10 f   LIBCMTD:initsect.obj
+ 0001:00019b90       __RTC_Terminate            1001ab90 f   LIBCMTD:initsect.obj
+ 0001:00019c10       ___heap_select             1001ac10 f   LIBCMTD:heapinit.obj
+ 0001:00019c40       __heap_init                1001ac40 f   LIBCMTD:heapinit.obj
+ 0001:00019cb0       __heap_term                1001acb0 f   LIBCMTD:heapinit.obj
+ 0001:00019d60       __get_heap_handle          1001ad60 f   LIBCMTD:heapinit.obj
+ 0001:00019d70       __chkstk                   1001ad70 f   LIBCMTD:chkstk.obj
+ 0001:00019d70       __alloca_probe             1001ad70     LIBCMTD:chkstk.obj
+ 0001:00019db0       ___CppXcptFilter           1001adb0 f   LIBCMTD:winxfltr.obj
+ 0001:00019de0       __XcptFilter               1001ade0 f   LIBCMTD:winxfltr.obj
+ 0001:0001a000       __except_handler3          1001b000 f   LIBCMTD:exsup3.obj
+ 0001:0001a0e6       __seh_longjmp_unwind@4     1001b0e6 f   LIBCMTD:exsup3.obj
+ 0001:0001a110       __FF_MSGBANNER             1001b110 f   LIBCMTD:crt0msg.obj
+ 0001:0001a160       __NMSG_WRITE               1001b160 f   LIBCMTD:crt0msg.obj
+ 0001:0001a370       __GET_RTERRMSG             1001b370 f   LIBCMTD:crt0msg.obj
+ 0001:0001a3c0       ___InternalCxxFrameHandler 1001b3c0 f   LIBCMTD:frame.obj
+ 0001:0001a930       ___FrameUnwindToState      1001b930 f   LIBCMTD:frame.obj
+ 0001:0001b0a0       ___DestructExceptionObject 1001c0a0 f   LIBCMTD:frame.obj
+ 0001:0001b180       ?__uncaught_exception@@YA_NXZ 1001c180 f   LIBCMTD:frame.obj
+ 0001:0001b1a0       ___CxxExceptionFilter      1001c1a0 f   LIBCMTD:frame.obj
+ 0001:0001b350       ___CxxRegisterExceptionObject 1001c350 f   LIBCMTD:frame.obj
+ 0001:0001b470       ___CxxDetectRethrow        1001c470 f   LIBCMTD:frame.obj
+ 0001:0001b4d0       ___CxxUnregisterExceptionObject 1001c4d0 f   LIBCMTD:frame.obj
+ 0001:0001b5a0       ___CxxQueryExceptionSize   1001c5a0 f   LIBCMTD:frame.obj
+ 0001:0001b5b0       ___CxxCallUnwindDtor       1001c5b0 f   LIBCMTD:frame.obj
+ 0001:0001b620       ___CxxCallUnwindVecDtor    1001c620 f   LIBCMTD:frame.obj
+ 0001:0001b6a0       __CallSettingFrame@12      1001c6a0 f   LIBCMTD:lowhelpr.obj
+ 0001:0001b6c7       __NLG_Return               1001c6c7     LIBCMTD:lowhelpr.obj
+ 0001:0001b6f0       ?terminate@@YAXXZ          1001c6f0 f   LIBCMTD:hooks.obj
+ 0001:0001b760       ?unexpected@@YAXXZ         1001c760 f   LIBCMTD:hooks.obj
+ 0001:0001b780       ?_inconsistency@@YAXXZ     1001c780 f   LIBCMTD:hooks.obj
+ 0001:0001b7f0       __mtinitlocks              1001c7f0 f   LIBCMTD:mlock.obj
+ 0001:0001b880       __mtdeletelocks            1001c880 f   LIBCMTD:mlock.obj
+ 0001:0001b940       __mtinitlocknum            1001c940 f   LIBCMTD:mlock.obj
+ 0001:0001ba60       __lock                     1001ca60 f   LIBCMTD:mlock.obj
+ 0001:0001baa0       __unlock                   1001caa0 f   LIBCMTD:mlock.obj
+ 0001:0001bac0       __lockerr_exit             1001cac0 f   LIBCMTD:mlock.obj
+ 0001:0001bae0       __free_base                1001cae0 f   LIBCMTD:free.obj
+ 0001:0001bbb0       _strcmp                    1001cbb0 f   LIBCMTD:strcmp.obj
+ 0001:0001bc40       ____setlc_active_func      1001cc40 f   LIBCMTD:setlocal.obj
+ 0001:0001bc50       ____unguarded_readlc_active_add_func 1001cc50 f   LIBCMTD:setlocal.obj
+ 0001:0001bc60       ___freetlocinfo            1001cc60 f   LIBCMTD:setlocal.obj
+ 0001:0001bde0       ___updatetlocinfo          1001cde0 f   LIBCMTD:setlocal.obj
+ 0001:0001c020       _setlocale                 1001d020 f   LIBCMTD:setlocal.obj
+ 0001:0001cad0       __expandlocale             1001dad0 f   LIBCMTD:setlocal.obj
+ 0001:0001ccb0       ___init_dummy              1001dcb0 f   LIBCMTD:setlocal.obj
+ 0001:0001ccc0       __strcats                  1001dcc0 f   LIBCMTD:setlocal.obj
+ 0001:0001cd10       ___lc_strtolc              1001dd10 f   LIBCMTD:setlocal.obj
+ 0001:0001ce80       ___lc_lctostr              1001de80 f   LIBCMTD:setlocal.obj
+ 0001:0001cef0       ___crtLCMapStringW         1001def0 f   LIBCMTD:w_map.obj
+ 0001:0001d2d0       _iswctype                  1001e2d0 f   LIBCMTD:iswctype.obj
+ 0001:0001d340       ___iswctype_mt             1001e340 f   LIBCMTD:iswctype.obj
+ 0001:0001d3b0       _is_wctype                 1001e3b0 f   LIBCMTD:iswctype.obj
+ 0001:0001d3d0       ___pwctype_func            1001e3d0 f   LIBCMTD:ctype.obj
+ 0001:0001d3e0       ___pctype_func             1001e3e0 f   LIBCMTD:ctype.obj
+ 0001:0001d3f0       __dosmaperr                1001e3f0 f   LIBCMTD:dosmap.obj
+ 0001:0001d490       __errno                    1001e490 f   LIBCMTD:dosmap.obj
+ 0001:0001d4a0       ___doserrno                1001e4a0 f   LIBCMTD:dosmap.obj
+ 0001:0001d4b0       __wchartodigit             1001e4b0 f   LIBCMTD:wchtodig.obj
+ 0001:0001d7d0       __flsbuf                   1001e7d0 f   LIBCMTD:_flsbuf.obj
+ 0001:0001da30       __woutput                  1001ea30 f   LIBCMTD:woutput.obj
+ 0001:0001e900       __CrtDbgBreak              1001f900 f   LIBCMTD:dbgrpt.obj
+ 0001:0001e910       __CrtSetReportMode         1001f910 f   LIBCMTD:dbgrpt.obj
+ 0001:0001e970       __CrtSetReportFile         1001f970 f   LIBCMTD:dbgrpt.obj
+ 0001:0001e9f0       __CrtSetReportHook         1001f9f0 f   LIBCMTD:dbgrpt.obj
+ 0001:0001ea10       __CrtSetReportHook2        1001fa10 f   LIBCMTD:dbgrpt.obj
+ 0001:0001ec60       __CrtDbgReport             1001fc60 f   LIBCMTD:dbgrpt.obj
+ 0001:0001f3d0       ___crtLCMapStringA         100203d0 f   LIBCMTD:a_map.obj
+ 0001:0001f990       __chvalidator              10020990 f   LIBCMTD:isctype.obj
+ 0001:0001f9d0       __chvalidator_mt           100209d0 f   LIBCMTD:isctype.obj
+ 0001:0001fa10       __isctype                  10020a10 f   LIBCMTD:isctype.obj
+ 0001:0001fa50       ___isctype_mt              10020a50 f   LIBCMTD:isctype.obj
+ 0001:0001fb10       __onexit                   10020b10 f   LIBCMTD:onexit.obj
+ 0001:0001fc70       _atexit                    10020c70 f   LIBCMTD:onexit.obj
+ 0001:0001fc90       ___onexitinit              10020c90 f   LIBCMTD:onexit.obj
+ 0001:0001fce0       ___updatetmbcinfo          10020ce0 f   LIBCMTD:mbctype.obj
+ 0001:0001fdb0       __setmbcp                  10020db0 f   LIBCMTD:mbctype.obj
+ 0001:000206f0       __getmbcp                  100216f0 f   LIBCMTD:mbctype.obj
+ 0001:00020710       ___initmbctable            10021710 f   LIBCMTD:mbctype.obj
+ 0001:00020740       ?_set_new_handler@@YAP6AHI@ZP6AHI@Z@Z 10021740 f   LIBCMTD:handler.obj
+ 0001:00020770       ?_query_new_handler@@YAP6AHI@ZXZ 10021770 f   LIBCMTD:handler.obj
+ 0001:00020780       __callnewh                 10021780 f   LIBCMTD:handler.obj
+ 0001:000207b0       _memset                    100217b0 f   LIBCMTD:memset.obj
+ 0001:00020810       __malloc_base              10021810 f   LIBCMTD:malloc.obj
+ 0001:00020830       __nh_malloc_base           10021830 f   LIBCMTD:malloc.obj
+ 0001:00020890       __heap_alloc_base          10021890 f   LIBCMTD:malloc.obj
+ 0001:00020960       __CrtDefaultAllocHook      10021960 f   LIBCMTD:dbghook.obj
+ 0001:00020970       __expand_base              10021970 f   LIBCMTD:expand.obj
+ 0001:00020a90       __realloc_base             10021a90 f   LIBCMTD:realloc.obj
+ 0001:00020d40       __heapchk                  10021d40 f   LIBCMTD:heapchk.obj
+ 0001:00020e00       __heapset                  10021e00 f   LIBCMTD:heapchk.obj
+ 0001:00020e10       __get_sbh_threshold        10021e10 f   LIBCMTD:sbheap.obj
+ 0001:00020e30       __set_sbh_threshold        10021e30 f   LIBCMTD:sbheap.obj
+ 0001:00020ea0       ___sbh_heap_init           10021ea0 f   LIBCMTD:sbheap.obj
+ 0001:00020f10       ___sbh_find_block          10021f10 f   LIBCMTD:sbheap.obj
+ 0001:00020f70       ___sbh_verify_block        10021f70 f   LIBCMTD:sbheap.obj
+ 0001:00020fd0       ___sbh_free_block          10021fd0 f   LIBCMTD:sbheap.obj
+ 0001:00021590       ___sbh_alloc_block         10022590 f   LIBCMTD:sbheap.obj
+ 0001:00021ab0       ___sbh_alloc_new_region    10022ab0 f   LIBCMTD:sbheap.obj
+ 0001:00021bc0       ___sbh_alloc_new_group     10022bc0 f   LIBCMTD:sbheap.obj
+ 0001:00021db0       ___sbh_resize_block        10022db0 f   LIBCMTD:sbheap.obj
+ 0001:00022380       ___sbh_heapmin             10023380 f   LIBCMTD:sbheap.obj
+ 0001:000224b0       ___sbh_heap_check          100234b0 f   LIBCMTD:sbheap.obj
+ 0001:000229c0       _sprintf                   100239c0 f   LIBCMTD:sprintf.obj
+ 0001:00022ab0       __scprintf                 10023ab0 f   LIBCMTD:sprintf.obj
+ 0001:00022b30       @__security_check_cookie@4 10023b30 f   LIBCMTD:secchk.obj
+ 0001:00022bb0       _memcpy                    10023bb0 f   LIBCMTD:memcpy.obj
+ 0001:00022ef0       ___crtInitCritSecAndSpinCount 10023ef0 f   LIBCMTD:initcrit.obj
+ 0001:00023010       _strcpy                    10024010 f   LIBCMTD:strcat.obj
+ 0001:00023020       _strcat                    10024020 f   LIBCMTD:strcat.obj
+ 0001:00023110       _strlen                    10024110 f   LIBCMTD:strlen.obj
+ 0001:000231a0       __ValidateEH3RN            100241a0 f   LIBCMTD:eh3valid.obj
+ 0001:00023590       ___crtMessageBoxA          10024590 f   LIBCMTD:crtmbox.obj
+ 0001:00023700       _strncpy                   10024700 f   LIBCMTD:strncpy.obj
+ 0001:00023830       ?__CxxUnhandledExceptionFilter@@YGJPAU_EXCEPTION_POINTERS@@@Z 10024830 f   LIBCMTD:unhandld.obj
+ 0001:000238a0       ?__CxxSetUnhandledExceptionFilter@@YAHXZ 100248a0 f   LIBCMTD:unhandld.obj
+ 0001:000238c0       ?__CxxRestoreUnhandledExceptionFilter@@YAXXZ 100248c0 f   LIBCMTD:unhandld.obj
+ 0001:000238e0       ?_ValidateRead@@YAHPBXI@Z  100248e0 f   LIBCMTD:validate.obj
+ 0001:00023910       ?_ValidateWrite@@YAHPAXI@Z 10024910 f   LIBCMTD:validate.obj
+ 0001:00023940       ?_ValidateExecute@@YAHP6GHXZ@Z 10024940 f   LIBCMTD:validate.obj
+ 0001:00023970       _memmove                   10024970 f   LIBCMTD:memmove.obj
+ 0001:00023cb0       _abort                     10024cb0 f   LIBCMTD:abort.obj
+ 0001:00023cd0       __Getdays                  10024cd0 f   LIBCMTD:strftime.obj
+ 0001:00023e00       __Getmonths                10024e00 f   LIBCMTD:strftime.obj
+ 0001:00023f30       __Gettnames                10024f30 f   LIBCMTD:strftime.obj
+ 0001:000242c0       _strftime                  100252c0 f   LIBCMTD:strftime.obj
+ 0001:000242e0       __Strftime                 100252e0 f   LIBCMTD:strftime.obj
+ 0001:00024330       __Strftime_mt              10025330 f   LIBCMTD:strftime.obj
+ 0001:00025550       _localeconv                10026550 f   LIBCMTD:lconv.obj
+ 0001:00025560       ___init_time               10026560 f   LIBCMTD:inittime.obj
+ 0001:00025b70       ___free_lc_time            10026b70 f   LIBCMTD:inittime.obj
+ 0001:00025e80       ___init_numeric            10026e80 f   LIBCMTD:initnum.obj
+ 0001:000261c0       ___free_lconv_num          100271c0 f   LIBCMTD:initnum.obj
+ 0001:00026260       ___init_monetary           10027260 f   LIBCMTD:initmon.obj
+ 0001:00026660       ___free_lconv_mon          10027660 f   LIBCMTD:initmon.obj
+ 0001:000267c0       ___init_ctype              100277c0 f   LIBCMTD:initctyp.obj
+ 0001:00026a80       ____mb_cur_max_func        10027a80 f   LIBCMTD:initctyp.obj
+ 0001:00026a90       ____lc_codepage_func       10027a90 f   LIBCMTD:initctyp.obj
+ 0001:00026ac0       ____lc_collate_cp_func     10027ac0 f   LIBCMTD:initctyp.obj
+ 0001:00026af0       ____lc_handle_func         10027af0 f   LIBCMTD:initctyp.obj
+ 0001:00026b20       ___init_collate            10027b20 f   LIBCMTD:initcoll.obj
+ 0001:00026b30       _strcspn                   10027b30 f   LIBCMTD:strcspn.obj
+ 0001:00026b80       _strncmp                   10027b80 f   LIBCMTD:strncmp.obj
+ 0001:00026bc0       _strpbrk                   10027bc0 f   LIBCMTD:strpbrk.obj
+ 0001:00026c00       _memcmp                    10027c00 f   LIBCMTD:memcmp.obj
+ 0001:00026cc0       ___crtGetStringTypeA       10027cc0 f   LIBCMTD:a_str.obj
+ 0001:00026f60       ___get_qualified_locale    10027f60 f   LIBCMTD:getqloc.obj
+ 0001:00027d90       __resetstkoflw             10028d90 f   LIBCMTD:resetstk.obj
+ 0001:00027ee0       ___ansicp                  10028ee0 f   LIBCMTD:convrtcp.obj
+ 0001:00027f40       ___convertcp               10028f40 f   LIBCMTD:convrtcp.obj
+ 0001:000281e0       ___crtGetStringTypeW       100291e0 f   LIBCMTD:w_str.obj
+ 0001:00028510       __lseek                    10029510 f   LIBCMTD:lseek.obj
+ 0001:00028620       __lseek_lk                 10029620 f   LIBCMTD:lseek.obj
+ 0001:000286e0       __write                    100296e0 f   LIBCMTD:write.obj
+ 0001:000287f0       __write_lk                 100297f0 f   LIBCMTD:write.obj
+ 0001:00028ae0       __getbuf                   10029ae0 f   LIBCMTD:_getbuf.obj
+ 0001:00028ba0       __isatty                   10029ba0 f   LIBCMTD:isatty.obj
+ 0001:00028be0       ___iob_func                10029be0 f   LIBCMTD:_file.obj
+ 0001:00028bf0       ___initstdio               10029bf0 f   LIBCMTD:_file.obj
+ 0001:00028d20       ___endstdio                10029d20 f   LIBCMTD:_file.obj
+ 0001:00028d40       __lock_file                10029d40 f   LIBCMTD:_file.obj
+ 0001:00028d80       __lock_file2               10029d80 f   LIBCMTD:_file.obj
+ 0001:00028db0       __unlock_file              10029db0 f   LIBCMTD:_file.obj
+ 0001:00028df0       __unlock_file2             10029df0 f   LIBCMTD:_file.obj
+ 0001:00028e20       __output                   10029e20 f   LIBCMTD:output.obj
+ 0001:00029da0       _mbtowc                    1002ada0 f   LIBCMTD:mbtowc.obj
+ 0001:00029de0       ___mbtowc_mt               1002ade0 f   LIBCMTD:mbtowc.obj
+ 0001:00029f30       __aulldiv                  1002af30 f   LIBCMTD:ulldiv.obj
+ 0001:00029fa0       __aullrem                  1002afa0 f   LIBCMTD:ullrem.obj
+ 0001:0002a020       _fputwc                    1002b020 f   LIBCMTD:fputwc.obj
+ 0001:0002a0d0       __putwc_lk                 1002b0d0 f   LIBCMTD:fputwc.obj
+ 0001:0002a260       _putwc                     1002b260 f   LIBCMTD:fputwc.obj
+ 0001:0002a280       __itoa                     1002b280 f   LIBCMTD:xtoa.obj
+ 0001:0002a3a0       __ltoa                     1002b3a0 f   LIBCMTD:xtoa.obj
+ 0001:0002a3e0       __ultoa                    1002b3e0 f   LIBCMTD:xtoa.obj
+ 0001:0002a400       __i64toa                   1002b400 f   LIBCMTD:xtoa.obj
+ 0001:0002a550       __ui64toa                  1002b550 f   LIBCMTD:xtoa.obj
+ 0001:0002a570       __snprintf                 1002b570 f   LIBCMTD:snprintf.obj
+ 0001:0002a660       __vsnprintf                1002b660 f   LIBCMTD:vsnprint.obj
+ 0001:0002a730       _signal                    1002b730 f   LIBCMTD:winsig.obj
+ 0001:0002aa70       _raise                     1002ba70 f   LIBCMTD:winsig.obj
+ 0001:0002ad30       ___fpecode                 1002bd30 f   LIBCMTD:winsig.obj
+ 0001:0002ad40       ___pxcptinfoptrs           1002bd40 f   LIBCMTD:winsig.obj
+ 0001:0002ad50       ___security_init_cookie    1002bd50 f   LIBCMTD:seccinit.obj
+ 0001:0002adf0       ___security_error_handler  1002bdf0 f   LIBCMTD:secfail.obj
+ 0001:0002b020       __set_security_error_handler 1002c020 f   LIBCMTD:secfail.obj
+ 0001:0002b040       ___buffer_overrun          1002c040 f   LIBCMTD:secfail.obj
+ 0001:0002b060       ___set_buffer_overrun_handler 1002c060 f   LIBCMTD:secfail.obj
+ 0001:0002b080       ___tzset                   1002c080 f   LIBCMTD:tzset.obj
+ 0001:0002b110       __tzset                    1002c110 f   LIBCMTD:tzset.obj
+ 0001:0002b5a0       __isindst                  1002c5a0 f   LIBCMTD:tzset.obj
+ 0001:0002bb80       ___ascii_stricmp           1002cb80 f   LIBCMTD:_stricmp.obj
+ 0001:0002bbd0       ___getlocaleinfo           1002cbd0 f   LIBCMTD:inithelp.obj
+ 0001:0002be30       __stricmp                  1002ce30 f   LIBCMTD:stricmp.obj
+ 0001:0002bee0       __strnicmp                 1002cee0 f   LIBCMTD:strnicmp.obj
+ 0001:0002bfa0       _atol                      1002cfa0 f   LIBCMTD:atox.obj
+ 0001:0002c0b0       _atoi                      1002d0b0 f   LIBCMTD:atox.obj
+ 0001:0002c0d0       __atoi64                   1002d0d0 f   LIBCMTD:atox.obj
+ 0001:0002c210       __alloc_osfhnd             1002d210 f   LIBCMTD:osfinfo.obj
+ 0001:0002c490       __set_osfhnd               1002d490 f   LIBCMTD:osfinfo.obj
+ 0001:0002c550       __free_osfhnd              1002d550 f   LIBCMTD:osfinfo.obj
+ 0001:0002c630       __get_osfhandle            1002d630 f   LIBCMTD:osfinfo.obj
+ 0001:0002c6a0       __open_osfhandle           1002d6a0 f   LIBCMTD:osfinfo.obj
+ 0001:0002c7f0       __lock_fhandle             1002d7f0 f   LIBCMTD:osfinfo.obj
+ 0001:0002c8e0       __unlock_fhandle           1002d8e0 f   LIBCMTD:osfinfo.obj
+ 0001:0002c910       __lseeki64                 1002d910 f   LIBCMTD:lseeki64.obj
+ 0001:0002ca30       __lseeki64_lk              1002da30 f   LIBCMTD:lseeki64.obj
+ 0001:0002cb00       __fcloseall                1002db00 f   LIBCMTD:closeall.obj
+ 0001:0002cc20       _fflush                    1002dc20 f   LIBCMTD:fflush.obj
+ 0001:0002ccb0       __fflush_lk                1002dcb0 f   LIBCMTD:fflush.obj
+ 0001:0002ccf0       __flush                    1002dcf0 f   LIBCMTD:fflush.obj
+ 0001:0002cdb0       __flushall                 1002ddb0 f   LIBCMTD:fflush.obj
+ 0001:0002cf50       __fptrap                   1002df50 f   LIBCMTD:crt0fp.obj
+ 0001:0002cf60       _wctomb                    1002df60 f   LIBCMTD:wctomb.obj
+ 0001:0002cfa0       ___wctomb_mt               1002dfa0 f   LIBCMTD:wctomb.obj
+ 0001:0002d040       __flswbuf                  1002e040 f   LIBCMTD:_flswbuf.obj
+ 0001:0002d2b0       _getenv                    1002e2b0 f   LIBCMTD:getenv.obj
+ 0001:0002d320       __getenv_lk                1002e320 f   LIBCMTD:getenv.obj
+ 0001:0002d3f0       _isalpha                   1002e3f0 f   LIBCMTD:_ctype.obj
+ 0001:0002d460       _isupper                   1002e460 f   LIBCMTD:_ctype.obj
+ 0001:0002d4c0       _islower                   1002e4c0 f   LIBCMTD:_ctype.obj
+ 0001:0002d520       _isdigit                   1002e520 f   LIBCMTD:_ctype.obj
+ 0001:0002d580       _isxdigit                  1002e580 f   LIBCMTD:_ctype.obj
+ 0001:0002d5f0       _isspace                   1002e5f0 f   LIBCMTD:_ctype.obj
+ 0001:0002d650       _ispunct                   1002e650 f   LIBCMTD:_ctype.obj
+ 0001:0002d6b0       _isalnum                   1002e6b0 f   LIBCMTD:_ctype.obj
+ 0001:0002d720       _isprint                   1002e720 f   LIBCMTD:_ctype.obj
+ 0001:0002d790       _isgraph                   1002e790 f   LIBCMTD:_ctype.obj
+ 0001:0002d800       _iscntrl                   1002e800 f   LIBCMTD:_ctype.obj
+ 0001:0002d860       ___isascii                 1002e860 f   LIBCMTD:_ctype.obj
+ 0001:0002d870       ___toascii                 1002e870 f   LIBCMTD:_ctype.obj
+ 0001:0002d880       ___iscsymf                 1002e880 f   LIBCMTD:_ctype.obj
+ 0001:0002d8c0       ___iscsym                  1002e8c0 f   LIBCMTD:_ctype.obj
+ 0001:0002d900       ___crtGetLocaleInfoW       1002e900 f   LIBCMTD:w_loc.obj
+ 0001:0002dae0       ___crtGetLocaleInfoA       1002eae0 f   LIBCMTD:a_loc.obj
+ 0001:0002dcd0       __tolower                  1002ecd0 f   LIBCMTD:tolower.obj
+ 0001:0002dce0       _tolower                   1002ece0 f   LIBCMTD:tolower.obj
+ 0001:0002dd20       ___tolower_mt              1002ed20 f   LIBCMTD:tolower.obj
+ 0001:0002de60       ___ascii_strnicmp          1002ee60 f   LIBCMTD:_strnicm.obj
+ 0001:0002ded0       __allmul                   1002eed0 f   LIBCMTD:llmul.obj
+ 0001:0002df10       _fclose                    1002ef10 f   LIBCMTD:fclose.obj
+ 0001:0002dfd0       __fclose_lk                1002efd0 f   LIBCMTD:fclose.obj
+ 0001:0002e080       __commit                   1002f080 f   LIBCMTD:commit.obj
+ 0001:0002e190       __mbsnbicoll               1002f190 f   LIBCMTD:mbsnbico.obj
+ 0001:0002e200       ___wtomb_environ           1002f200 f   LIBCMTD:wtombenv.obj
+ 0001:0002e2f0       __close                    1002f2f0 f   LIBCMTD:close.obj
+ 0001:0002e3e0       __close_lk                 1002f3e0 f   LIBCMTD:close.obj
+ 0001:0002e490       __freebuf                  1002f490 f   LIBCMTD:_freebuf.obj
+ 0001:0002e520       ___crtCompareStringA       1002f520 f   LIBCMTD:a_cmp.obj
+ 0001:0002eae0       ___crtsetenv               1002fae0 f   LIBCMTD:setenv.obj
+ 0001:0002efd0       __mbschr                   1002ffd0 f   LIBCMTD:mbschr.obj
+ 0001:0002f0b0       _strchr                    100300b0 f   LIBCMTD:strchr.obj
+ 0001:0002f0b6       ___from_strstr_to_strchr   100300b6     LIBCMTD:strchr.obj
+ 0001:0002f16e       _GetCurrentThreadId@0      1003016e f   kernel32:KERNEL32.dll
+ 0001:0002f174       _GetCommandLineA@0         10030174 f   kernel32:KERNEL32.dll
+ 0001:0002f17a       _GetVersionExA@4           1003017a f   kernel32:KERNEL32.dll
+ 0001:0002f180       _RtlUnwind@16              10030180 f   kernel32:KERNEL32.dll
+ 0001:0002f186       _TerminateProcess@8        10030186 f   kernel32:KERNEL32.dll
+ 0001:0002f18c       _GetCurrentProcess@0       1003018c f   kernel32:KERNEL32.dll
+ 0001:0002f192       _ExitProcess@4             10030192 f   kernel32:KERNEL32.dll
+ 0001:0002f198       _GetProcAddress@8          10030198 f   kernel32:KERNEL32.dll
+ 0001:0002f19e       _GetModuleHandleA@4        1003019e f   kernel32:KERNEL32.dll
+ 0001:0002f1a4       _TlsAlloc@0                100301a4 f   kernel32:KERNEL32.dll
+ 0001:0002f1aa       _TlsFree@4                 100301aa f   kernel32:KERNEL32.dll
+ 0001:0002f1b0       _TlsSetValue@8             100301b0 f   kernel32:KERNEL32.dll
+ 0001:0002f1b6       _TlsGetValue@4             100301b6 f   kernel32:KERNEL32.dll
+ 0001:0002f1bc       _SetLastError@4            100301bc f   kernel32:KERNEL32.dll
+ 0001:0002f1c2       _GetLastError@0            100301c2 f   kernel32:KERNEL32.dll
+ 0001:0002f1c8       _GetCurrentThread@0        100301c8 f   kernel32:KERNEL32.dll
+ 0001:0002f1ce       _IsBadWritePtr@8           100301ce f   kernel32:KERNEL32.dll
+ 0001:0002f1d4       _IsBadReadPtr@8            100301d4 f   kernel32:KERNEL32.dll
+ 0001:0002f1da       _HeapValidate@12           100301da f   kernel32:KERNEL32.dll
+ 0001:0002f1e0       _SetHandleCount@4          100301e0 f   kernel32:KERNEL32.dll
+ 0001:0002f1e6       _GetStdHandle@4            100301e6 f   kernel32:KERNEL32.dll
+ 0001:0002f1ec       _GetFileType@4             100301ec f   kernel32:KERNEL32.dll
+ 0001:0002f1f2       _GetStartupInfoA@4         100301f2 f   kernel32:KERNEL32.dll
+ 0001:0002f1f8       _DeleteCriticalSection@4   100301f8 f   kernel32:KERNEL32.dll
+ 0001:0002f1fe       _GetModuleFileNameA@12     100301fe f   kernel32:KERNEL32.dll
+ 0001:0002f204       _FreeEnvironmentStringsA@4 10030204 f   kernel32:KERNEL32.dll
+ 0001:0002f20a       _GetEnvironmentStrings@0   1003020a f   kernel32:KERNEL32.dll
+ 0001:0002f210       _FreeEnvironmentStringsW@4 10030210 f   kernel32:KERNEL32.dll
+ 0001:0002f216       _WideCharToMultiByte@32    10030216 f   kernel32:KERNEL32.dll
+ 0001:0002f21c       _GetEnvironmentStringsW@0  1003021c f   kernel32:KERNEL32.dll
+ 0001:0002f222       _HeapDestroy@4             10030222 f   kernel32:KERNEL32.dll
+ 0001:0002f228       _HeapCreate@12             10030228 f   kernel32:KERNEL32.dll
+ 0001:0002f22e       _HeapFree@12               1003022e f   kernel32:KERNEL32.dll
+ 0001:0002f234       _VirtualFree@12            10030234 f   kernel32:KERNEL32.dll
+ 0001:0002f23a       _UnhandledExceptionFilter@4 1003023a f   kernel32:KERNEL32.dll
+ 0001:0002f240       _WriteFile@20              10030240 f   kernel32:KERNEL32.dll
+ 0001:0002f246       _EnterCriticalSection@4    10030246 f   kernel32:KERNEL32.dll
+ 0001:0002f24c       _LeaveCriticalSection@4    1003024c f   kernel32:KERNEL32.dll
+ 0001:0002f252       _FatalAppExitA@8           10030252 f   kernel32:KERNEL32.dll
+ 0001:0002f258       _MultiByteToWideChar@24    10030258 f   kernel32:KERNEL32.dll
+ 0001:0002f25e       _LCMapStringA@24           1003025e f   kernel32:KERNEL32.dll
+ 0001:0002f264       _LCMapStringW@24           10030264 f   kernel32:KERNEL32.dll
+ 0001:0002f26a       _DebugBreak@0              1003026a f   kernel32:KERNEL32.dll
+ 0001:0002f270       _InterlockedDecrement@4    10030270 f   kernel32:KERNEL32.dll
+ 0001:0002f276       _OutputDebugStringA@4      10030276 f   kernel32:KERNEL32.dll
+ 0001:0002f27c       _LoadLibraryA@4            1003027c f   kernel32:KERNEL32.dll
+ 0001:0002f282       _InterlockedIncrement@4    10030282 f   kernel32:KERNEL32.dll
+ 0001:0002f288       _GetACP@0                  10030288 f   kernel32:KERNEL32.dll
+ 0001:0002f28e       _GetOEMCP@0                1003028e f   kernel32:KERNEL32.dll
+ 0001:0002f294       _GetCPInfo@8               10030294 f   kernel32:KERNEL32.dll
+ 0001:0002f29a       _HeapAlloc@12              1003029a f   kernel32:KERNEL32.dll
+ 0001:0002f2a0       _HeapReAlloc@16            100302a0 f   kernel32:KERNEL32.dll
+ 0001:0002f2a6       _VirtualAlloc@16           100302a6 f   kernel32:KERNEL32.dll
+ 0001:0002f2ac       _InitializeCriticalSection@4 100302ac f   kernel32:KERNEL32.dll
+ 0001:0002f2b2       _VirtualQuery@12           100302b2 f   kernel32:KERNEL32.dll
+ 0001:0002f2b8       _InterlockedExchange@8     100302b8 f   kernel32:KERNEL32.dll
+ 0001:0002f2be       _SetUnhandledExceptionFilter@4 100302be f   kernel32:KERNEL32.dll
+ 0001:0002f2c4       _IsBadCodePtr@4            100302c4 f   kernel32:KERNEL32.dll
+ 0001:0002f2ca       _GetTimeFormatA@24         100302ca f   kernel32:KERNEL32.dll
+ 0001:0002f2d0       _GetDateFormatA@24         100302d0 f   kernel32:KERNEL32.dll
+ 0001:0002f2d6       _GetStringTypeA@20         100302d6 f   kernel32:KERNEL32.dll
+ 0001:0002f2dc       _GetStringTypeW@16         100302dc f   kernel32:KERNEL32.dll
+ 0001:0002f2e2       _IsValidLocale@8           100302e2 f   kernel32:KERNEL32.dll
+ 0001:0002f2e8       _IsValidCodePage@4         100302e8 f   kernel32:KERNEL32.dll
+ 0001:0002f2ee       _GetLocaleInfoA@16         100302ee f   kernel32:KERNEL32.dll
+ 0001:0002f2f4       _EnumSystemLocalesA@8      100302f4 f   kernel32:KERNEL32.dll
+ 0001:0002f2fa       _GetUserDefaultLCID@0      100302fa f   kernel32:KERNEL32.dll
+ 0001:0002f300       _VirtualProtect@16         10030300 f   kernel32:KERNEL32.dll
+ 0001:0002f306       _GetSystemInfo@4           10030306 f   kernel32:KERNEL32.dll
+ 0001:0002f30c       _SetFilePointer@16         1003030c f   kernel32:KERNEL32.dll
+ 0001:0002f312       _SetConsoleCtrlHandler@8   10030312 f   kernel32:KERNEL32.dll
+ 0001:0002f318       _QueryPerformanceCounter@4 10030318 f   kernel32:KERNEL32.dll
+ 0001:0002f31e       _GetTickCount@0            1003031e f   kernel32:KERNEL32.dll
+ 0001:0002f324       _GetCurrentProcessId@0     10030324 f   kernel32:KERNEL32.dll
+ 0001:0002f32a       _GetSystemTimeAsFileTime@4 1003032a f   kernel32:KERNEL32.dll
+ 0001:0002f330       _GetTimeZoneInformation@4  10030330 f   kernel32:KERNEL32.dll
+ 0001:0002f336       _SetStdHandle@8            10030336 f   kernel32:KERNEL32.dll
+ 0001:0002f33c       _GetLocaleInfoW@16         1003033c f   kernel32:KERNEL32.dll
+ 0001:0002f342       _FlushFileBuffers@4        10030342 f   kernel32:KERNEL32.dll
+ 0001:0002f348       _CloseHandle@4             10030348 f   kernel32:KERNEL32.dll
+ 0001:0002f34e       _CompareStringA@24         1003034e f   kernel32:KERNEL32.dll
+ 0001:0002f354       _CompareStringW@24         10030354 f   kernel32:KERNEL32.dll
+ 0001:0002f35a       _SetEnvironmentVariableA@8 1003035a f   kernel32:KERNEL32.dll
+ 0001:0002f3a0       @IFXGetSystemDefaultLangID@0 100303a0 f   Platform:IFXOSUtilities.obj
+ 0001:0002f3b4       @IFXOSCheckCPUFeature@4    100303b4 f   Platform:IFXOSUtilities.obj
+ 0001:0002f428       @IFXOSInitialize@0         10030428 f   Platform:IFXOSUtilities.obj
+ 0001:0002f4b6       @IFXOSUninitialize@0       100304b6 f   Platform:IFXOSUtilities.obj
+ 0001:0002f4de       @IFXOSGetTime@0            100304de f   Platform:IFXOSUtilities.obj
+ 0001:0002f572       @IFXOSSleep@4              10030572 f   Platform:IFXOSUtilities.obj
+ 0001:0002f59e       @IFXOSControlFP@8          1003059e f   Platform:IFXOSUtilities.obj
+ 0001:0002f5ca       @IFXOSGetDebugLevel@0      100305ca f   Platform:IFXOSUtilities.obj
+ 0001:0002f674       @IFXOSOutputDebugString@4  10030674 f   Platform:IFXOSUtilities.obj
+ 0001:0002f68c       @IFXOSGetUtf8StrSize@8     1003068c f   Platform:IFXOSUtilities.obj
+ 0001:0002f722       @IFXOSGetWideCharStrSize@8 10030722 f   Platform:IFXOSUtilities.obj
+ 0001:0002f7b0       @IFXOSConvertWideCharStrToUtf8@12 100307b0 f   Platform:IFXOSUtilities.obj
+ 0001:0002f848       @IFXOSConvertUtf8StrToWideChar@12 10030848 f   Platform:IFXOSUtilities.obj
+ 0001:0002f8da       @IFXOSDebugOutput@16       100308da f   Platform:IFXOSUtilities.obj
+ 0001:0002f9b6       @IFXSetDefaultLocale@0     100309b6 f   Platform:IFXOSUtilities.obj
+ 0001:0002f9fc       ?IFXAssert@@YAHHPADI00H@Z  100309fc f   Platform:IFXDebug.obj
+ 0001:0002fc32       @IFXDebugAssertBox@24      10030c32 f   Platform:IFXDebug.obj
+ 0001:0002fcba       @IFXDebugStartUp@0         10030cba f   Platform:IFXDebug.obj
+ 0001:0002fcd0       @IFXDebugShutDown@0        10030cd0 f   Platform:IFXDebug.obj
+ 0001:0002fce0       _IFXDebugTraceCustom       10030ce0 f   Platform:IFXDebug.obj
+ 0001:0002fdd2       _IFXDebugTraceGeneric      10030dd2 f   Platform:IFXDebug.obj
+ 0001:0002fec2       ?_GetStringFromIFXRESULT@@YAPBDH@Z 10030ec2 f   Platform:IFXDebug.obj
+ 0001:00030094       ?_GetStringFromIFXRESULT_Component@@YAPBGI@Z 10031094 f   Platform:IFXDebug.obj
+ 0001:00030180       __alldiv                   10031180 f   LIBCMTD:lldiv.obj
+ 0001:00030230       __statusfp                 10031230 f   LIBCMTD:ieee87.obj
+ 0001:00030250       __clearfp                  10031250 f   LIBCMTD:ieee87.obj
+ 0001:00030270       __control87                10031270 f   LIBCMTD:ieee87.obj
+ 0001:000302c0       __controlfp                100312c0 f   LIBCMTD:ieee87.obj
+ 0001:000302e0       __fpreset                  100312e0 f   LIBCMTD:ieee87.obj
+ 0001:00030670       _swprintf                  10031670 f   LIBCMTD:swprintf.obj
+ 0001:000307b0       __scwprintf                100317b0 f   LIBCMTD:swprintf.obj
+ 0001:00030830       _mbstowcs                  10031830 f   LIBCMTD:mbstowcs.obj
+ 0001:00030870       ___mbstowcs_mt             10031870 f   LIBCMTD:mbstowcs.obj
+ 0001:00030a70       ?swprintf@@YAHPAGIPBGZZ    10031a70 f   LIBCMTD:swprintn.obj
+ 0001:00030a90       ?swprintf@@YAHPA_WIPB_WZZ  10031a90 f   LIBCMTD:swprintn.obj
+ 0001:00030bd0       __setdefaultprecision      10031bd0 f   LIBCMTD:fp8.obj
+ 0001:00030be8       _GetSystemDefaultLangID@0  10031be8 f   kernel32:KERNEL32.dll
+ 0001:00030bee       _QueryPerformanceFrequency@4 10031bee f   kernel32:KERNEL32.dll
+ 0001:00030bf4       _Sleep@4                   10031bf4 f   kernel32:KERNEL32.dll
+ 0001:00030bfa       _OutputDebugStringW@4      10031bfa f   kernel32:KERNEL32.dll
+ 0001:00030c00       _MessageBoxW@16            10031c00 f   user32:USER32.dll
+ 0001:00030c06       _RegOpenKeyExW@20          10031c06 f   advapi32:ADVAPI32.dll
+ 0001:00030c0c       _RegQueryValueExW@24       10031c0c f   advapi32:ADVAPI32.dll
+ 0001:00030c12       _RegCloseKey@4             10031c12 f   advapi32:ADVAPI32.dll
+ 0001:00030c18       _timeBeginPeriod@4         10031c18 f   winmm:WINMM.dll
+ 0001:00030c1e       _timeEndPeriod@4           10031c1e f   winmm:WINMM.dll
+ 0001:00030c24       _timeGetTime@0             10031c24 f   winmm:WINMM.dll
+ 0002:0000001c       _CID_IFXSimulationInfo     1003f01c     Scheduling:IFXSchedulingGuids.obj
+ 0002:0000002c       _CID_IFXNotificationInfo   1003f02c     Scheduling:IFXSchedulingGuids.obj
+ 0002:0000003c       _CID_IFXNotificationManager 1003f03c     Scheduling:IFXSchedulingGuids.obj
+ 0002:0000004c       _CID_IFXSchedulerInfo      1003f04c     Scheduling:IFXSchedulingGuids.obj
+ 0002:0000005c       _CID_IFXSimulationManager  1003f05c     Scheduling:IFXSchedulingGuids.obj
+ 0002:0000006c       _CID_IFXSystemManager      1003f06c     Scheduling:IFXSchedulingGuids.obj
+ 0002:0000007c       _CID_IFXScheduler          1003f07c     Scheduling:IFXSchedulingGuids.obj
+ 0002:0000008c       _CID_IFXTaskData           1003f08c     Scheduling:IFXSchedulingGuids.obj
+ 0002:0000009c       _CID_IFXTaskManager        1003f09c     Scheduling:IFXSchedulingGuids.obj
+ 0002:000000ac       _CID_IFXTaskManagerNode    1003f0ac     Scheduling:IFXSchedulingGuids.obj
+ 0002:000000bc       _CID_IFXTaskManagerView    1003f0bc     Scheduling:IFXSchedulingGuids.obj
+ 0002:000000cc       _CID_IFXTimeManager        1003f0cc     Scheduling:IFXSchedulingGuids.obj
+ 0002:000000dc       _CID_IFXErrorInfo          1003f0dc     Scheduling:IFXSchedulingGuids.obj
+ 0002:000000ec       _CID_IFXClock              1003f0ec     Scheduling:IFXSchedulingGuids.obj
+ 0002:000000fc       _CID_IFXTaskCallback       1003f0fc     Scheduling:IFXSchedulingGuids.obj
+ 0002:0000010c       _IID_IFXUnknown            1003f10c     Scheduling:IFXSchedulingGuids.obj
+ 0002:0000011c       _IID_IFXPalette            1003f11c     Scheduling:IFXSchedulingGuids.obj
+ 0002:0000012c       _IID_IFXCoreServices       1003f12c     Scheduling:IFXSchedulingGuids.obj
+ 0002:0000013c       _IID_IFXClock              1003f13c     Scheduling:IFXSchedulingGuids.obj
+ 0002:0000014c       _IID_IFXTaskData           1003f14c     Scheduling:IFXSchedulingGuids.obj
+ 0002:0000015c       _IID_IFXTask               1003f15c     Scheduling:IFXSchedulingGuids.obj
+ 0002:0000016c       _IID_IFXErrorInfo          1003f16c     Scheduling:IFXSchedulingGuids.obj
+ 0002:0000017c       _IID_IFXNotificationInfo   1003f17c     Scheduling:IFXSchedulingGuids.obj
+ 0002:0000018c       _IID_IFXTaskManagerNode    1003f18c     Scheduling:IFXSchedulingGuids.obj
+ 0002:0000019c       _IID_IFXTaskManagerView    1003f19c     Scheduling:IFXSchedulingGuids.obj
+ 0002:000001ac       _IID_IFXTaskManager        1003f1ac     Scheduling:IFXSchedulingGuids.obj
+ 0002:000001bc       _IID_IFXNotificationManager 1003f1bc     Scheduling:IFXSchedulingGuids.obj
+ 0002:000001cc       _IID_IFXSimulationManager  1003f1cc     Scheduling:IFXSchedulingGuids.obj
+ 0002:000001dc       _IID_IFXSystemManager      1003f1dc     Scheduling:IFXSchedulingGuids.obj
+ 0002:000001ec       _IID_IFXTimeManager        1003f1ec     Scheduling:IFXSchedulingGuids.obj
+ 0002:000001fc       _IID_IFXMetaDataX          1003f1fc     Scheduling:IFXSchedulingGuids.obj
+ 0002:0000020c       _IID_IFXMarker             1003f20c     Scheduling:IFXSchedulingGuids.obj
+ 0002:0000021c       _IID_IFXSubject            1003f21c     Scheduling:IFXSchedulingGuids.obj
+ 0002:0000022c       _IID_IFXSceneGraph         1003f22c     Scheduling:IFXSchedulingGuids.obj
+ 0002:0000023c       _IID_IFXScheduler          1003f23c     Scheduling:IFXSchedulingGuids.obj
+ 0002:0000024c       _IID_IFXSchedulerInfo      1003f24c     Scheduling:IFXSchedulingGuids.obj
+ 0002:0000025c       _IID_IFXSimulationInfo     1003f25c     Scheduling:IFXSchedulingGuids.obj
+ 0002:0000026c       _CID_IFXSimulationTask     1003f26c     Scheduling:IFXSchedulingGuids.obj
+ 0002:0000027c       _IID_IFXSimulationTask     1003f27c     Scheduling:IFXSchedulingGuids.obj
+ 0002:0000028c       _IID_IFXTaskCallback       1003f28c     Scheduling:IFXSchedulingGuids.obj
+ 0002:0000029c       _IID_IFXDataBlockX         1003f29c     Scheduling:IFXSchedulingGuids.obj
+ 0002:000002ac       _IID_IFXDataBlockQueueX    1003f2ac     Scheduling:IFXSchedulingGuids.obj
+ 0002:000002bc       _IID_IFXModifier           1003f2bc     Scheduling:IFXSchedulingGuids.obj
+ 0002:000002cc       _IID_IFXFileReference      1003f2cc     Scheduling:IFXSchedulingGuids.obj
+ 0002:000002dc       _IID_IFXNameMap            1003f2dc     Scheduling:IFXSchedulingGuids.obj
+ 0002:00000818       ??_C@_09IFKEODFF@dllcrt0?4c?$AA@ 1003f818     LIBCMTD:dllcrt0.obj
+ 0002:00000838       ??_7type_info@@6B@         1003f838     LIBCMTD:typinfo.obj
+ 0002:0000084c       ??_C@_0P@NHGFNCDP@format?5?$CB?$DN?5NULL?$AA@ 1003f84c     LIBCMTD:vswprinn.obj
+ 0002:0000085c       ??_C@_0N@EMDEFKLH@vswprinn?4cpp?$AA@ 1003f85c     LIBCMTD:vswprinn.obj
+ 0002:0000086c       ??_C@_0P@NFGNABCI@string?5?$CB?$DN?5NULL?$AA@ 1003f86c     LIBCMTD:vswprinn.obj
+ 0002:0000088c       ??_C@_0P@MIGLKIOC@CorExitProcess?$AA@ 1003f88c     LIBCMTD:crt0dat.obj
+ 0002:0000089c       ??_C@_0M@MBOPBNBK@mscoree?4dll?$AA@ 1003f89c     LIBCMTD:crt0dat.obj
+ 0002:000008a8       ??_C@_0L@JKCACIOJ@tidtable?4c?$AA@ 1003f8a8     LIBCMTD:tidtable.obj
+ 0002:000008b4       ??_C@_07PEJMOBNF@FlsFree?$AA@ 1003f8b4     LIBCMTD:tidtable.obj
+ 0002:000008bc       ??_C@_0M@JCPCPOEF@FlsSetValue?$AA@ 1003f8bc     LIBCMTD:tidtable.obj
+ 0002:000008c8       ??_C@_0M@GDNOONDI@FlsGetValue?$AA@ 1003f8c8     LIBCMTD:tidtable.obj
+ 0002:000008d4       ??_C@_08KNHFBNJ@FlsAlloc?$AA@ 1003f8d4     LIBCMTD:tidtable.obj
+ 0002:000008e0       ??_C@_0N@MDJJJHMB@kernel32?4dll?$AA@ 1003f8e0     LIBCMTD:tidtable.obj
+ 0002:00000908       ??_C@_06PJIGMIJB@Client?$AA@ 1003f908     LIBCMTD:dbgheap.obj
+ 0002:00000910       ??_C@_06KMEJCCGM@Ignore?$AA@ 1003f910     LIBCMTD:dbgheap.obj
+ 0002:00000918       ??_C@_03OGPFLFLO@CRT?$AA@  1003f918     LIBCMTD:dbgheap.obj
+ 0002:0000091c       ??_C@_06EFAGIKOH@Normal?$AA@ 1003f91c     LIBCMTD:dbgheap.obj
+ 0002:00000924       ??_C@_04HJMOFLDF@Free?$AA@ 1003f924     LIBCMTD:dbgheap.obj
+ 0002:0000093c       ??_C@_0DC@JEMAGEKG@Error?3?5memory?5allocation?3?5bad?5me@ 1003f93c     LIBCMTD:dbgheap.obj
+ 0002:00000970       ??_C@_0CF@BICKFLAF@Invalid?5allocation?5size?3?5?$CFIu?5byt@ 1003f970     LIBCMTD:dbgheap.obj
+ 0002:00000998       ??_C@_02DKCKIIND@?$CFs?$AA@ 1003f998     LIBCMTD:dbgheap.obj
+ 0002:0000099c       ??_C@_0CB@CCLOLAHO@Client?5hook?5allocation?5failure?4?6@ 1003f99c     LIBCMTD:dbgheap.obj
+ 0002:000009c0       ??_C@_0DF@BBEGIFEK@Client?5hook?5allocation?5failure?5a@ 1003f9c0     LIBCMTD:dbgheap.obj
+ 0002:000009f8       ??_C@_09DPMMACIH@dbgheap?4c?$AA@ 1003f9f8     LIBCMTD:dbgheap.obj
+ 0002:00000a04       ??_C@_0BC@FKEPGOPH@_CrtCheckMemory?$CI?$CJ?$AA@ 1003fa04     LIBCMTD:dbgheap.obj
+ 0002:00000a24       ??_C@_0BK@DJDKJKNJ@_pFirstBlock?5?$DN?$DN?5pOldBlock?$AA@ 1003fa24     LIBCMTD:dbgheap.obj
+ 0002:00000a40       ??_C@_0BJ@PGMLBCKP@_pLastBlock?5?$DN?$DN?5pOldBlock?$AA@ 1003fa40     LIBCMTD:dbgheap.obj
+ 0002:00000a5c       ??_C@_0DC@LIEEBBFH@fRealloc?5?$HM?$HM?5?$CI?$CBfRealloc?5?$CG?$CG?5pNewBl@ 1003fa5c     LIBCMTD:dbgheap.obj
+ 0002:00000a90       ??_C@_0EF@BKJNHFDP@pOldBlock?9?$DOnLine?5?$DN?$DN?5IGNORE_LINE?5@ 1003fa90     LIBCMTD:dbgheap.obj
+ 0002:00000ad8       ??_C@_0CC@MCCNOMLK@_CrtIsValidHeapPointer?$CIpUserData@ 1003fad8     LIBCMTD:dbgheap.obj
+ 0002:00000b00       ??_C@_0EM@LGFLMAGJ@The?5Block?5at?50x?$CFp?5was?5allocated?5@ 1003fb00     LIBCMTD:dbgheap.obj
+ 0002:00000b4c       ??_C@_0CO@KPNFNEPA@Allocation?5too?5large?5or?5negative@ 1003fb4c     LIBCMTD:dbgheap.obj
+ 0002:00000b7c       ??_C@_0CE@DOFMDOL@Client?5hook?5re?9allocation?5failur@ 1003fb7c     LIBCMTD:dbgheap.obj
+ 0002:00000ba0       ??_C@_0DI@KKJPDPGM@Client?5hook?5re?9allocation?5failur@ 1003fba0     LIBCMTD:dbgheap.obj
+ 0002:00000bf4       ??_C@_0BG@JDINNDDC@_pFirstBlock?5?$DN?$DN?5pHead?$AA@ 1003fbf4     LIBCMTD:dbgheap.obj
+ 0002:00000c0c       ??_C@_0BF@LMGMGAEG@_pLastBlock?5?$DN?$DN?5pHead?$AA@ 1003fc0c     LIBCMTD:dbgheap.obj
+ 0002:00000c24       ??_C@_0BO@LGCGBMOH@pHead?9?$DOnBlockUse?5?$DN?$DN?5nBlockUse?$AA@ 1003fc24     LIBCMTD:dbgheap.obj
+ 0002:00000c44       ??_C@_0DN@GKKPDMLN@pHead?9?$DOnLine?5?$DN?$DN?5IGNORE_LINE?5?$CG?$CG?5p@ 1003fc44     LIBCMTD:dbgheap.obj
+ 0002:00000c84       ??_C@_0CI@CMGHMNIC@DAMAGE?3?5after?5?$CFhs?5block?5?$CI?$CD?$CFd?$CJ?5at@ 1003fc84     LIBCMTD:dbgheap.obj
+ 0002:00000cac       ??_C@_0CJ@OHOOBLKI@DAMAGE?3?5before?5?$CFhs?5block?5?$CI?$CD?$CFd?$CJ?5a@ 1003fcac     LIBCMTD:dbgheap.obj
+ 0002:00000cd8       ??_C@_0CH@IAGMNLOM@_BLOCK_TYPE_IS_VALID?$CIpHead?9?$DOnBlo@ 1003fcd8     LIBCMTD:dbgheap.obj
+ 0002:00000d00       ??_C@_0BL@KEIPLFAC@Client?5hook?5free?5failure?4?6?$AA@ 1003fd00     LIBCMTD:dbgheap.obj
+ 0002:00000d20       ??_C@_0EJ@HEIBCIMJ@The?5Block?5at?50x?$CFp?5was?5allocated?5@ 1003fd20     LIBCMTD:dbgheap.obj
+ 0002:00000d8c       ??_C@_0CI@JMLBEDHJ@?$CFhs?5located?5at?50x?$CFp?5is?5?$CFIu?5bytes@ 1003fd8c     LIBCMTD:dbgheap.obj
+ 0002:00000db4       ??_C@_0CA@FGFAGAOM@?$CFhs?5allocated?5at?5file?5?$CFhs?$CI?$CFd?$CJ?4?6?$AA@ 1003fdb4     LIBCMTD:dbgheap.obj
+ 0002:00000dd4       ??_C@_0CH@JKKAOBEK@DAMAGE?3?5on?5top?5of?5Free?5block?5at?5@ 1003fdd4     LIBCMTD:dbgheap.obj
+ 0002:00000dfc       ??_C@_07OHKEFPKJ@DAMAGED?$AA@ 1003fdfc     LIBCMTD:dbgheap.obj
+ 0002:00000e04       ??_C@_0CL@HNNNMKMJ@_heapchk?5fails?5with?5unknown?5retu@ 1003fe04     LIBCMTD:dbgheap.obj
+ 0002:00000e30       ??_C@_0CC@MFFCHFHO@_heapchk?5fails?5with?5_HEAPBADPTR?4@ 1003fe30     LIBCMTD:dbgheap.obj
+ 0002:00000e54       ??_C@_0CC@MJGLGBDG@_heapchk?5fails?5with?5_HEAPBADEND?4@ 1003fe54     LIBCMTD:dbgheap.obj
+ 0002:00000e78       ??_C@_0CD@CPKEAPBD@_heapchk?5fails?5with?5_HEAPBADNODE@ 1003fe78     LIBCMTD:dbgheap.obj
+ 0002:00000e9c       ??_C@_0CE@MKKHMBMK@_heapchk?5fails?5with?5_HEAPBADBEGI@ 1003fe9c     LIBCMTD:dbgheap.obj
+ 0002:00000efc       ??_C@_0CB@EAAIGELO@Bad?5memory?5block?5found?5at?50x?$CFp?4?6@ 1003fefc     LIBCMTD:dbgheap.obj
+ 0002:00000f20       ??_C@_0CI@KDKEAJEJ@_CrtMemCheckPoint?3?5NULL?5state?5po@ 1003ff20     LIBCMTD:dbgheap.obj
+ 0002:00000f54       ??_C@_0CI@ENCLCMLG@_CrtMemDifference?3?5NULL?5state?5po@ 1003ff54     LIBCMTD:dbgheap.obj
+ 0002:00000f7c       ??_C@_0BH@GFGKJDCO@Object?5dump?5complete?4?6?$AA@ 1003ff7c     LIBCMTD:dbgheap.obj
+ 0002:00000f94       ??_C@_0DA@MDLBNIBM@crt?5block?5at?50x?$CFp?0?5subtype?5?$CFx?0?5?$CF@ 1003ff94     LIBCMTD:dbgheap.obj
+ 0002:00000fc4       ??_C@_0CH@FAGDDGPN@normal?5block?5at?50x?$CFp?0?5?$CFIu?5bytes?5@ 1003ffc4     LIBCMTD:dbgheap.obj
+ 0002:00000fec       ??_C@_0DD@GHNAAKBB@client?5block?5at?50x?$CFp?0?5subtype?5?$CFx@ 1003ffec     LIBCMTD:dbgheap.obj
+ 0002:00001020       ??_C@_06PKLGBFGM@?$HL?$CFld?$HN?5?$AA@ 10040020     LIBCMTD:dbgheap.obj
+ 0002:00001028       ??_C@_0L@JMEFFCCJ@?$CFhs?$CI?$CFd?$CJ?5?3?5?$AA@ 10040028     LIBCMTD:dbgheap.obj
+ 0002:00001034       ??_C@_0BE@OIEFNFL@?$CDFile?5Error?$CD?$CI?$CFd?$CJ?5?3?5?$AA@ 10040034     LIBCMTD:dbgheap.obj
+ 0002:00001048       ??_C@_0BE@KCIPKCIA@Dumping?5objects?5?9?$DO?6?$AA@ 10040048     LIBCMTD:dbgheap.obj
+ 0002:0000106c       ??_C@_0BA@HJBKCELP@?5Data?3?5?$DM?$CFs?$DO?5?$CFs?6?$AA@ 1004006c     LIBCMTD:dbgheap.obj
+ 0002:0000107c       ??_C@_05MKKEDADM@?$CF?42X?5?$AA@ 1004007c     LIBCMTD:dbgheap.obj
+ 0002:00001084       ??_C@_0BI@JBFPOEJA@Detected?5memory?5leaks?$CB?6?$AA@ 10040084     LIBCMTD:dbgheap.obj
+ 0002:0000109c       ??_C@_0BP@DEDHGGGI@Total?5allocations?3?5?$CFId?5bytes?4?6?$AA@ 1004009c     LIBCMTD:dbgheap.obj
+ 0002:000010bc       ??_C@_0CB@BLHDAFNE@Largest?5number?5used?3?5?$CFId?5bytes?4?6@ 100400bc     LIBCMTD:dbgheap.obj
+ 0002:000010e0       ??_C@_0BO@DACNIABB@?$CFId?5bytes?5in?5?$CFId?5?$CFhs?5Blocks?4?6?$AA@ 100400e0     LIBCMTD:dbgheap.obj
+ 0002:00001100       ??_C@_0CC@GFBJAAAH@?$CI?$CCoffset?5must?5be?5within?5size?$CC?0?50@ 10040100     LIBCMTD:dbgheap.obj
+ 0002:00001124       ??_C@_0CF@PGBEDOC@?$CI?$CCalignment?5must?5be?5a?5power?5of?52@ 10040124     LIBCMTD:dbgheap.obj
+ 0002:0000114c       ??_C@_0DL@PGHMMKNE@Damage?5before?50x?$CFp?5which?5was?5all@ 1004014c     LIBCMTD:dbgheap.obj
+ 0002:00001188       ??_C@_0EI@NDNJMAJK@The?5block?5at?50x?$CFp?5was?5not?5alloca@ 10040188     LIBCMTD:dbgheap.obj
+ 0002:000011d0       ??_C@_0EF@PGELACII@The?5block?5at?50x?$CFp?5was?5not?5alloca@ 100401d0     LIBCMTD:dbgheap.obj
+ 0002:00001218       ??_C@_08MAFBHINM@ioinit?4c?$AA@ 10040218     LIBCMTD:ioinit.obj
+ 0002:00001224       ??_C@_09HCDLHOJP@stdenvp?4c?$AA@ 10040224     LIBCMTD:stdenvp.obj
+ 0002:00001230       ??_C@_09IKILHJIC@stdargv?4c?$AA@ 10040230     LIBCMTD:stdargv.obj
+ 0002:0000123c       ??_C@_07BPGNOCOG@a_env?4c?$AA@ 1004023c     LIBCMTD:a_env.obj
+ 0002:00001264       ??_C@_0P@GGKDKEEG@runtime?5error?5?$AA@ 10040264     LIBCMTD:crt0msg.obj
+ 0002:00001274       ??_C@_02PCIJFNDE@?$AN?6?$AA@ 10040274     LIBCMTD:crt0msg.obj
+ 0002:00001278       ??_C@_0O@MJNIPGOH@TLOSS?5error?$AN?6?$AA@ 10040278     LIBCMTD:crt0msg.obj
+ 0002:00001288       ??_C@_0N@BONNPDHF@SING?5error?$AN?6?$AA@ 10040288     LIBCMTD:crt0msg.obj
+ 0002:00001298       ??_C@_0P@MBDAJNE@DOMAIN?5error?$AN?6?$AA@ 10040298     LIBCMTD:crt0msg.obj
+ 0002:000012a8       ??_C@_0KC@BDDGGBEJ@R6029?$AN?6?9?5This?5application?5cannot@ 100402a8     LIBCMTD:crt0msg.obj
+ 0002:0000134c       ??_C@_0CF@KJDAIALP@R6028?$AN?6?9?5unable?5to?5initialize?5he@ 1004034c     LIBCMTD:crt0msg.obj
+ 0002:00001374       ??_C@_0DF@GAKBPDFP@R6027?$AN?6?9?5not?5enough?5space?5for?5lo@ 10040374     LIBCMTD:crt0msg.obj
+ 0002:000013ac       ??_C@_0DF@IBLNNAIG@R6026?$AN?6?9?5not?5enough?5space?5for?5st@ 100403ac     LIBCMTD:crt0msg.obj
+ 0002:000013e4       ??_C@_0CG@IOHKGFNJ@R6025?$AN?6?9?5pure?5virtual?5function?5c@ 100403e4     LIBCMTD:crt0msg.obj
+ 0002:0000140c       ??_C@_0DF@JIJJFJDC@R6024?$AN?6?9?5not?5enough?5space?5for?5_o@ 1004040c     LIBCMTD:crt0msg.obj
+ 0002:00001444       ??_C@_0CJ@EGEJHFME@R6019?$AN?6?9?5unable?5to?5open?5console?5@ 10040444     LIBCMTD:crt0msg.obj
+ 0002:00001470       ??_C@_0CB@GNHNIELH@R6018?$AN?6?9?5unexpected?5heap?5error?$AN?6@ 10040470     LIBCMTD:crt0msg.obj
+ 0002:00001494       ??_C@_0CN@FOLDKNG@R6017?$AN?6?9?5unexpected?5multithread?5@ 10040494     LIBCMTD:crt0msg.obj
+ 0002:000014c4       ??_C@_0CM@FAHFJNHO@R6016?$AN?6?9?5not?5enough?5space?5for?5th@ 100404c4     LIBCMTD:crt0msg.obj
+ 0002:000014f0       ??_C@_0JG@LBKMGKLD@?$AN?6This?5application?5has?5requested@ 100404f0     LIBCMTD:crt0msg.obj
+ 0002:00001588       ??_C@_0CM@FLCNIPKK@R6009?$AN?6?9?5not?5enough?5space?5for?5en@ 10040588     LIBCMTD:crt0msg.obj
+ 0002:000015b4       ??_C@_0CK@KMMJOAPP@R6008?$AN?6?9?5not?5enough?5space?5for?5ar@ 100405b4     LIBCMTD:crt0msg.obj
+ 0002:000015e0       ??_C@_0CF@HOHMHDEK@R6002?$AN?6?9?5floating?5point?5not?5load@ 100405e0     LIBCMTD:crt0msg.obj
+ 0002:00001608       ??_C@_0CF@GOGNBNAK@Microsoft?5Visual?5C?$CL?$CL?5Runtime?5Lib@ 10040608     LIBCMTD:crt0msg.obj
+ 0002:00001630       ??_C@_02PHMGELLB@?6?6?$AA@ 10040630     LIBCMTD:crt0msg.obj
+ 0002:00001634       ??_C@_0BK@OFGJDLJJ@Runtime?5Error?$CB?6?6Program?3?5?$AA@ 10040634     LIBCMTD:crt0msg.obj
+ 0002:00001650       ??_C@_03KHICJKCI@?4?4?4?$AA@ 10040650     LIBCMTD:crt0msg.obj
+ 0002:00001654       ??_C@_0BH@DNAGHKFM@?$DMprogram?5name?5unknown?$DO?$AA@ 10040654     LIBCMTD:crt0msg.obj
+ 0002:000016fc       ??_C@_07CKDBCAPD@mlock?4c?$AA@ 100406fc     LIBCMTD:mlock.obj
+ 0002:000018a8       ??_C@_07LCBHPJJN@LC_TIME?$AA@ 100408a8     LIBCMTD:setlocal.obj
+ 0002:000018b0       ??_C@_0L@DLHIECNL@LC_NUMERIC?$AA@ 100408b0     LIBCMTD:setlocal.obj
+ 0002:000018bc       ??_C@_0M@MIENIKLA@LC_MONETARY?$AA@ 100408bc     LIBCMTD:setlocal.obj
+ 0002:000018c8       ??_C@_08EADHIDAD@LC_CTYPE?$AA@ 100408c8     LIBCMTD:setlocal.obj
+ 0002:000018d4       ??_C@_0L@KFJHEKIK@LC_COLLATE?$AA@ 100408d4     LIBCMTD:setlocal.obj
+ 0002:000018e0       ??_C@_06NEFDFEKB@LC_ALL?$AA@ 100408e0     LIBCMTD:setlocal.obj
+ 0002:000018f4       ??_C@_0L@LEECJGMI@setlocal?4c?$AA@ 100408f4     LIBCMTD:setlocal.obj
+ 0002:0000190c       ??_C@_01ICJEACDI@?$DL?$AA@ 1004090c     LIBCMTD:setlocal.obj
+ 0002:00001910       ??_C@_02BALPLPBG@?$DN?$DL?$AA@ 10040910     LIBCMTD:setlocal.obj
+ 0002:00001914       ??_C@_01NEMOKFLO@?$DN?$AA@ 10040914     LIBCMTD:setlocal.obj
+ 0002:00001916       ??_C@_00CNPNBAHC@?$AA@     10040916     LIBCMTD:setlocal.obj
+ 0002:00001918       ??_C@_03EGDHDPFD@_?4?0?$AA@ 10040918     LIBCMTD:setlocal.obj
+ 0002:0000191c       ??_C@_01LFCBOECM@?4?$AA@   1004091c     LIBCMTD:setlocal.obj
+ 0002:00001920       ??_C@_01IDAFKMJL@_?$AA@    10040920     LIBCMTD:setlocal.obj
+ 0002:00001924       ??_C@_07OONBJACK@w_map?4c?$AA@ 10040924     LIBCMTD:w_map.obj
+ 0002:0000192c       ??_C@_13NOLLCAOD@?$AA?$AA?$AA?$AA@ 1004092c     LIBCMTD:w_map.obj
+ 0002:00001948       ___newctype                10040948     LIBCMTD:ctype.obj
+ 0002:00001c48       __wctype                   10040c48     LIBCMTD:ctype.obj
+ 0002:00001e4c       ??_C@_0DP@FICHPIPH@?$CI?$CCinconsistent?5IOB?5fields?$CC?0?5stre@ 10040e4c     LIBCMTD:_flsbuf.obj
+ 0002:00001e8c       ??_C@_09DHJHPHJP@_flsbuf?4c?$AA@ 10040e8c     LIBCMTD:_flsbuf.obj
+ 0002:00001e98       ??_C@_0M@CMNAFCJK@str?5?$CB?$DN?5NULL?$AA@ 10040e98     LIBCMTD:_flsbuf.obj
+ 0002:00001ea4       ??_C@_0CO@OCFDICDP@f?3?2vs70builds?23077?2vc?2crtbld?2crt@ 10040ea4     LIBCMTD:woutput.obj
+ 0002:00001ed4       ??_C@_0BB@NAGLCMLI@Assertion?5Failed?$AA@ 10040ed4     LIBCMTD:dbgrpt.obj
+ 0002:00001ee8       ??_C@_05NAOIJFC@Error?$AA@ 10040ee8     LIBCMTD:dbgrpt.obj
+ 0002:00001ef0       ??_C@_07KGMMFLDN@Warning?$AA@ 10040ef0     LIBCMTD:dbgrpt.obj
+ 0002:00001ef8       ??_C@_08ODMAMGBE@dbgrpt?4c?$AA@ 10040ef8     LIBCMTD:dbgrpt.obj
+ 0002:00001f14       ??_C@_0M@IPILFDFN@?$CFs?$CI?$CFd?$CJ?5?3?5?$CFs?$AA@ 10040f14     LIBCMTD:dbgrpt.obj
+ 0002:00001f20       ??_C@_01EEMJAFIK@?6?$AA@   10040f20     LIBCMTD:dbgrpt.obj
+ 0002:00001f24       ??_C@_01LIIJDEN@?$AN?$AA@  10040f24     LIBCMTD:dbgrpt.obj
+ 0002:00001f28       ??_C@_0BC@LAIDCHCH@Assertion?5failed?$CB?$AA@ 10040f28     LIBCMTD:dbgrpt.obj
+ 0002:00001f3c       ??_C@_0BD@CAENFOHP@Assertion?5failed?3?5?$AA@ 10040f3c     LIBCMTD:dbgrpt.obj
+ 0002:00001f50       ??_C@_0CL@EACFGMNB@_CrtDbgReport?3?5String?5too?5long?5o@ 10040f50     LIBCMTD:dbgrpt.obj
+ 0002:00001f7c       ??_C@_0DC@HLHDIIKH@Second?5Chance?5Assertion?5Failed?3?5@ 10040f7c     LIBCMTD:dbgrpt.obj
+ 0002:00001fb0       ??_C@_09FOPFMPEJ@wsprintfA?$AA@ 10040fb0     LIBCMTD:dbgrpt.obj
+ 0002:00001fbc       ??_C@_0L@GMPLCCII@user32?4dll?$AA@ 10040fbc     LIBCMTD:dbgrpt.obj
+ 0002:00001fd4       ??_C@_0CD@EBCGLDDL@Microsoft?5Visual?5C?$CL?$CL?5Debug?5Libra@ 10040fd4     LIBCMTD:dbgrpt.obj
+ 0002:00001ff8       ??_C@_0FD@IIKNDPHJ@Debug?5?$CFs?$CB?6?6Program?3?5?$CFs?$CFs?$CFs?$CFs?$CFs?$CFs@ 10040ff8     LIBCMTD:dbgrpt.obj
+ 0002:0000204c       ??_C@_09OFBFHMBK@?6Module?3?5?$AA@ 1004104c     LIBCMTD:dbgrpt.obj
+ 0002:00002058       ??_C@_07OPHPPLBG@?6File?3?5?$AA@ 10041058     LIBCMTD:dbgrpt.obj
+ 0002:00002060       ??_C@_07DBMPPHDI@?6Line?3?5?$AA@ 10041060     LIBCMTD:dbgrpt.obj
+ 0002:00002068       ??_C@_0N@MEECIJGN@Expression?3?5?$AA@ 10041068     LIBCMTD:dbgrpt.obj
+ 0002:00002078       ??_C@_0HD@GNBNFCCL@?6?6For?5information?5on?5how?5your?5pr@ 10041078     LIBCMTD:dbgrpt.obj
+ 0002:000020ec       ??_C@_0BG@IHOEIIEJ@szUserMessage?5?$CB?$DN?5NULL?$AA@ 100410ec     LIBCMTD:dbgrpt.obj
+ 0002:00002104       ??_C@_07FEAFKIIG@a_map?4c?$AA@ 10041104     LIBCMTD:a_map.obj
+ 0002:00002134       ??_C@_09BLOOPMDK@isctype?4c?$AA@ 10041134     LIBCMTD:isctype.obj
+ 0002:00002140       ??_C@_0BJ@IAKBGELC@?$CIunsigned?$CJ?$CIc?5?$CL?51?$CJ?5?$DM?$DN?5256?$AA@ 10041140     LIBCMTD:isctype.obj
+ 0002:0000216c       ??_C@_08GNMOIKDK@onexit?4c?$AA@ 1004116c     LIBCMTD:onexit.obj
+ 0002:00002184       ??_C@_09KJLOAKHC@mbctype?4c?$AA@ 10041184     LIBCMTD:mbctype.obj
+ 0002:000021dc       ??_C@_09FNBBCGGI@sprintf?4c?$AA@ 100411dc     LIBCMTD:sprintf.obj
+ 0002:000021f4       ??_C@_0CG@PKBDLMEO@InitializeCriticalSectionAndSpin@ 100411f4     LIBCMTD:initcrit.obj
+ 0002:0000222c       ??_C@_0BI@DFKBFLJE@GetProcessWindowStation?$AA@ 1004122c     LIBCMTD:crtmbox.obj
+ 0002:00002244       ??_C@_0BK@CIDNPOGP@GetUserObjectInformationA?$AA@ 10041244     LIBCMTD:crtmbox.obj
+ 0002:00002260       ??_C@_0BD@HHGDFDBJ@GetLastActivePopup?$AA@ 10041260     LIBCMTD:crtmbox.obj
+ 0002:00002274       ??_C@_0BA@HNOPNCHB@GetActiveWindow?$AA@ 10041274     LIBCMTD:crtmbox.obj
+ 0002:00002284       ??_C@_0M@CHKKJDAI@MessageBoxA?$AA@ 10041284     LIBCMTD:crtmbox.obj
+ 0002:00002290       ??_C@_08JCCMCCIL@HH?3mm?3ss?$AA@ 10041290     LIBCMTD:strftime.obj
+ 0002:0000229c       ??_C@_0BE@CKGJFCPC@dddd?0?5MMMM?5dd?0?5yyyy?$AA@ 1004129c     LIBCMTD:strftime.obj
+ 0002:000022b0       ??_C@_08BPBNCDIB@MM?1dd?1yy?$AA@ 100412b0     LIBCMTD:strftime.obj
+ 0002:000022bc       ??_C@_02CJNFDJBF@PM?$AA@   100412bc     LIBCMTD:strftime.obj
+ 0002:000022c0       ??_C@_02DEDBPAFC@AM?$AA@   100412c0     LIBCMTD:strftime.obj
+ 0002:000022c4       ??_C@_08EDHMEBNP@December?$AA@ 100412c4     LIBCMTD:strftime.obj
+ 0002:000022d0       ??_C@_08HCHEGEOA@November?$AA@ 100412d0     LIBCMTD:strftime.obj
+ 0002:000022dc       ??_C@_07JJNFCEND@October?$AA@ 100412dc     LIBCMTD:strftime.obj
+ 0002:000022e4       ??_C@_09BHHEALKD@September?$AA@ 100412e4     LIBCMTD:strftime.obj
+ 0002:000022f0       ??_C@_06LBBHFDDG@August?$AA@ 100412f0     LIBCMTD:strftime.obj
+ 0002:000022f8       ??_C@_04MIEPOIFP@July?$AA@ 100412f8     LIBCMTD:strftime.obj
+ 0002:00002300       ??_C@_04CNLMGBGM@June?$AA@ 10041300     LIBCMTD:strftime.obj
+ 0002:00002308       ??_C@_05DMJDNLEJ@April?$AA@ 10041308     LIBCMTD:strftime.obj
+ 0002:00002310       ??_C@_05HPCKOFNC@March?$AA@ 10041310     LIBCMTD:strftime.obj
+ 0002:00002318       ??_C@_08GNJGEPFN@February?$AA@ 10041318     LIBCMTD:strftime.obj
+ 0002:00002324       ??_C@_07CGJPFGJA@January?$AA@ 10041324     LIBCMTD:strftime.obj
+ 0002:0000232c       ??_C@_03MKABNOCG@Dec?$AA@  1004132c     LIBCMTD:strftime.obj
+ 0002:00002330       ??_C@_03JPJOFNIA@Nov?$AA@  10041330     LIBCMTD:strftime.obj
+ 0002:00002334       ??_C@_03BMAOKBAD@Oct?$AA@  10041334     LIBCMTD:strftime.obj
+ 0002:00002338       ??_C@_03GGCAPAJC@Sep?$AA@  10041338     LIBCMTD:strftime.obj
+ 0002:0000233c       ??_C@_03IFJFEIGA@Aug?$AA@  1004133c     LIBCMTD:strftime.obj
+ 0002:00002340       ??_C@_03LBGABGKK@Jul?$AA@  10041340     LIBCMTD:strftime.obj
+ 0002:00002344       ??_C@_03IDFGHECI@Jun?$AA@  10041344     LIBCMTD:strftime.obj
+ 0002:00002348       ??_C@_03CNMDKL@May?$AA@    10041348     LIBCMTD:strftime.obj
+ 0002:0000234c       ??_C@_03LEOLGMJP@Apr?$AA@  1004134c     LIBCMTD:strftime.obj
+ 0002:00002350       ??_C@_03ODNJBKGA@Mar?$AA@  10041350     LIBCMTD:strftime.obj
+ 0002:00002354       ??_C@_03HJBDCHOM@Feb?$AA@  10041354     LIBCMTD:strftime.obj
+ 0002:00002358       ??_C@_03JIHJHPIE@Jan?$AA@  10041358     LIBCMTD:strftime.obj
+ 0002:0000235c       ??_C@_08INBOOONO@Saturday?$AA@ 1004135c     LIBCMTD:strftime.obj
+ 0002:00002368       ??_C@_06JECMNKMI@Friday?$AA@ 10041368     LIBCMTD:strftime.obj
+ 0002:00002370       ??_C@_08HACCIKIA@Thursday?$AA@ 10041370     LIBCMTD:strftime.obj
+ 0002:0000237c       ??_C@_09DLIGFAKA@Wednesday?$AA@ 1004137c     LIBCMTD:strftime.obj
+ 0002:00002388       ??_C@_07BAAGCFCM@Tuesday?$AA@ 10041388     LIBCMTD:strftime.obj
+ 0002:00002390       ??_C@_06JLEDEDGH@Monday?$AA@ 10041390     LIBCMTD:strftime.obj
+ 0002:00002398       ??_C@_06OOPIFAJ@Sunday?$AA@ 10041398     LIBCMTD:strftime.obj
+ 0002:000023a0       ??_C@_03FEFJNEK@Sat?$AA@   100413a0     LIBCMTD:strftime.obj
+ 0002:000023a4       ??_C@_03IDIOELNC@Fri?$AA@  100413a4     LIBCMTD:strftime.obj
+ 0002:000023a8       ??_C@_03IOFIKPDN@Thu?$AA@  100413a8     LIBCMTD:strftime.obj
+ 0002:000023ac       ??_C@_03MHOMLAJA@Wed?$AA@  100413ac     LIBCMTD:strftime.obj
+ 0002:000023b0       ??_C@_03NAGEINEP@Tue?$AA@  100413b0     LIBCMTD:strftime.obj
+ 0002:000023b4       ??_C@_03PDAGKDH@Mon?$AA@   100413b4     LIBCMTD:strftime.obj
+ 0002:000023b8       ??_C@_03KOEHGMDN@Sun?$AA@  100413b8     LIBCMTD:strftime.obj
+ 0002:000023bc       ??_C@_0L@OCEOFAIF@strftime?4c?$AA@ 100413bc     LIBCMTD:strftime.obj
+ 0002:000023c8       ??_C@_0DJ@BLPIACFC@?$CI?$CCInvalid?5MBCS?5character?5sequenc@ 100413c8     LIBCMTD:strftime.obj
+ 0002:00002404       ??_C@_0DD@GLPHLKIC@?$CI?$CCZero?5length?5output?5buffer?5pass@ 10041404     LIBCMTD:strftime.obj
+ 0002:00002438       ??_C@_0DL@LLHFCBKO@?$CI?$CCInvalid?5MBCS?5character?5sequenc@ 10041438     LIBCMTD:strftime.obj
+ 0002:00002478       ??_C@_0EC@CJNAOFBG@?$CI?$CCInvalid?5MBCS?5character?5sequenc@ 10041478     LIBCMTD:strftime.obj
+ 0002:000024bc       ??_C@_03EBAPMIKO@a?1p?$AA@ 100414bc     LIBCMTD:strftime.obj
+ 0002:000024c0       ??_C@_05JAMEPDIN@am?1pm?$AA@ 100414c0     LIBCMTD:strftime.obj
+ 0002:000024d4       ??_C@_0L@IOJADHBB@inittime?4c?$AA@ 100414d4     LIBCMTD:inittime.obj
+ 0002:000024e0       ??_C@_09MECGNAGI@initnum?4c?$AA@ 100414e0     LIBCMTD:initnum.obj
+ 0002:000024ec       ??_C@_09HKFHICAL@initmon?4c?$AA@ 100414ec     LIBCMTD:initmon.obj
+ 0002:000024f8       ??_C@_0L@GBAGBCPL@initctyp?4c?$AA@ 100414f8     LIBCMTD:initctyp.obj
+ 0002:00002504       ??_C@_07GPNABLBE@a_str?4c?$AA@ 10041504     LIBCMTD:a_str.obj
+ 0002:00002520       ___rgLocInfo               10041520     LIBCMTD:getqloc.obj
+ 0002:000029c4       ??_C@_08PKBIPKE@Paraguay?$AA@ 100419c4     LIBCMTD:getqloc.obj
+ 0002:000029d0       ??_C@_07GHBIBIBP@Uruguay?$AA@ 100419d0     LIBCMTD:getqloc.obj
+ 0002:000029d8       ??_C@_05HBNKAPDN@Chile?$AA@ 100419d8     LIBCMTD:getqloc.obj
+ 0002:000029e0       ??_C@_07FEIFIPNF@Ecuador?$AA@ 100419e0     LIBCMTD:getqloc.obj
+ 0002:000029e8       ??_C@_09PGNFPGME@Argentina?$AA@ 100419e8     LIBCMTD:getqloc.obj
+ 0002:000029f4       ??_C@_04IALPBJF@Peru?$AA@  100419f4     LIBCMTD:getqloc.obj
+ 0002:000029fc       ??_C@_08IJPLNLKH@Colombia?$AA@ 100419fc     LIBCMTD:getqloc.obj
+ 0002:00002a08       ??_C@_09IDMFKCN@Venezuela?$AA@ 10041a08     LIBCMTD:getqloc.obj
+ 0002:00002a14       ??_C@_0BD@DNEJOGOK@Dominican?5Republic?$AA@ 10041a14     LIBCMTD:getqloc.obj
+ 0002:00002a28       ??_C@_0N@LPINDNDB@South?5Africa?$AA@ 10041a28     LIBCMTD:getqloc.obj
+ 0002:00002a38       ??_C@_06BLJPEOBG@Panama?$AA@ 10041a38     LIBCMTD:getqloc.obj
+ 0002:00002a40       ??_C@_0L@BOCNDGON@Luxembourg?$AA@ 10041a40     LIBCMTD:getqloc.obj
+ 0002:00002a4c       ??_C@_0L@CONEHKA@Costa?5Rica?$AA@ 10041a4c     LIBCMTD:getqloc.obj
+ 0002:00002a58       ??_C@_0M@KGBPELAM@Switzerland?$AA@ 10041a58     LIBCMTD:getqloc.obj
+ 0002:00002a64       ??_C@_09FJGLIMAG@Guatemala?$AA@ 10041a64     LIBCMTD:getqloc.obj
+ 0002:00002a70       ??_C@_06ECHIPDMK@Canada?$AA@ 10041a70     LIBCMTD:getqloc.obj
+ 0002:00002a78       ??_C@_0BG@CCEBNPGH@Spanish?5?9?5Modern?5Sort?$AA@ 10041a78     LIBCMTD:getqloc.obj
+ 0002:00002a90       ??_C@_09EFGJAPAD@Australia?$AA@ 10041a90     LIBCMTD:getqloc.obj
+ 0002:00002a9c       ??_C@_07NEKHPBCG@English?$AA@ 10041a9c     LIBCMTD:getqloc.obj
+ 0002:00002aa4       ??_C@_07LKIIOGFH@Austria?$AA@ 10041aa4     LIBCMTD:getqloc.obj
+ 0002:00002aac       ??_C@_06EDDDIONA@German?$AA@ 10041aac     LIBCMTD:getqloc.obj
+ 0002:00002ab4       ??_C@_07LIIIOFOA@Belgium?$AA@ 10041ab4     LIBCMTD:getqloc.obj
+ 0002:00002abc       ??_C@_06DIAOLLEH@Mexico?$AA@ 10041abc     LIBCMTD:getqloc.obj
+ 0002:00002ac4       ??_C@_07PFALJOGE@Spanish?$AA@ 10041ac4     LIBCMTD:getqloc.obj
+ 0002:00002acc       ??_C@_06FFOOPAJB@Basque?$AA@ 10041acc     LIBCMTD:getqloc.obj
+ 0002:00002ad4       ??_C@_06DGHNDJFJ@Sweden?$AA@ 10041ad4     LIBCMTD:getqloc.obj
+ 0002:00002adc       ??_C@_07OBINPKFN@Swedish?$AA@ 10041adc     LIBCMTD:getqloc.obj
+ 0002:00002ae4       ??_C@_07NCOIHDGC@Iceland?$AA@ 10041ae4     LIBCMTD:getqloc.obj
+ 0002:00002aec       ??_C@_09JHBBDDIA@Icelandic?$AA@ 10041aec     LIBCMTD:getqloc.obj
+ 0002:00002af8       ??_C@_06COBCPIFO@France?$AA@ 10041af8     LIBCMTD:getqloc.obj
+ 0002:00002b00       ??_C@_06GODMCAND@French?$AA@ 10041b00     LIBCMTD:getqloc.obj
+ 0002:00002b08       ??_C@_07MFHPMOED@Finland?$AA@ 10041b08     LIBCMTD:getqloc.obj
+ 0002:00002b10       ??_C@_07MCEAMKOD@Finnish?$AA@ 10041b10     LIBCMTD:getqloc.obj
+ 0002:00002b18       ??_C@_05CBHOCCK@Spain?$AA@ 10041b18     LIBCMTD:getqloc.obj
+ 0002:00002b20       ??_C@_0BL@GIOEGDHB@Spanish?5?9?5Traditional?5Sort?$AA@ 10041b20     LIBCMTD:getqloc.obj
+ 0002:00002b3c       ___rglangidNotDefault      10041b3c     LIBCMTD:getqloc.obj
+ 0002:00002b50       ___rg_country              10041b50     LIBCMTD:getqloc.obj
+ 0002:00002c08       ??_C@_0O@FMJNFNKE@united?9states?$AA@ 10041c08     LIBCMTD:getqloc.obj
+ 0002:00002c18       ??_C@_0P@NDHFFKCA@united?9kingdom?$AA@ 10041c18     LIBCMTD:getqloc.obj
+ 0002:00002c28       ??_C@_0BC@HHDADLGF@trinidad?5?$CG?5tobago?$AA@ 10041c28     LIBCMTD:getqloc.obj
+ 0002:00002c3c       ??_C@_0M@IOAEBDAC@south?9korea?$AA@ 10041c3c     LIBCMTD:getqloc.obj
+ 0002:00002c48       ??_C@_0N@FIELFKIJ@south?9africa?$AA@ 10041c48     LIBCMTD:getqloc.obj
+ 0002:00002c58       ??_C@_0M@OPNDHCMC@south?5korea?$AA@ 10041c58     LIBCMTD:getqloc.obj
+ 0002:00002c64       ??_C@_0N@MDEOEPFI@south?5africa?$AA@ 10041c64     LIBCMTD:getqloc.obj
+ 0002:00002c74       ??_C@_06FKAPCJLB@slovak?$AA@ 10041c74     LIBCMTD:getqloc.obj
+ 0002:00002c7c       ??_C@_0M@EFJANOAL@puerto?9rico?$AA@ 10041c7c     LIBCMTD:getqloc.obj
+ 0002:00002c88       ??_C@_08PGOJKDAI@pr?9china?$AA@ 10041c88     LIBCMTD:getqloc.obj
+ 0002:00002c94       ??_C@_08JHDOMCMI@pr?5china?$AA@ 10041c94     LIBCMTD:getqloc.obj
+ 0002:00002ca0       ??_C@_02JHCHFBLL@nz?$AA@   10041ca0     LIBCMTD:getqloc.obj
+ 0002:00002ca4       ??_C@_0M@LINHDHKP@new?9zealand?$AA@ 10041ca4     LIBCMTD:getqloc.obj
+ 0002:00002cb0       ??_C@_09IIIPPBDB@hong?9kong?$AA@ 10041cb0     LIBCMTD:getqloc.obj
+ 0002:00002cbc       ??_C@_07HJLCKBG@holland?$AA@ 10041cbc     LIBCMTD:getqloc.obj
+ 0002:00002cc4       ??_C@_0O@LEHGMHAG@great?5britain?$AA@ 10041cc4     LIBCMTD:getqloc.obj
+ 0002:00002cd4       ??_C@_07FACOMELA@england?$AA@ 10041cd4     LIBCMTD:getqloc.obj
+ 0002:00002cdc       ??_C@_05JIHCEICB@czech?$AA@ 10041cdc     LIBCMTD:getqloc.obj
+ 0002:00002ce4       ??_C@_05BBJOBLGB@china?$AA@ 10041ce4     LIBCMTD:getqloc.obj
+ 0002:00002cec       ??_C@_07GPKPHICP@britain?$AA@ 10041cec     LIBCMTD:getqloc.obj
+ 0002:00002cf4       ??_C@_07MHIPBHMG@america?$AA@ 10041cf4     LIBCMTD:getqloc.obj
+ 0002:00002d00       ___rg_language             10041d00     LIBCMTD:getqloc.obj
+ 0002:00002f08       ??_C@_03KIALPMKC@usa?$AA@  10041f08     LIBCMTD:getqloc.obj
+ 0002:00002f0c       ??_C@_02FGJGKGGD@us?$AA@   10041f0c     LIBCMTD:getqloc.obj
+ 0002:00002f10       ??_C@_02NEINDODK@uk?$AA@   10041f10     LIBCMTD:getqloc.obj
+ 0002:00002f14       ??_C@_05JMPCFJFJ@swiss?$AA@ 10041f14     LIBCMTD:getqloc.obj
+ 0002:00002f1c       ??_C@_0BA@HLOCPIOD@swedish?9finland?$AA@ 10041f1c     LIBCMTD:getqloc.obj
+ 0002:00002f2c       ??_C@_0BC@PKCNIABK@spanish?9venezuela?$AA@ 10041f2c     LIBCMTD:getqloc.obj
+ 0002:00002f40       ??_C@_0BA@GBHHMIJI@spanish?9uruguay?$AA@ 10041f40     LIBCMTD:getqloc.obj
+ 0002:00002f50       ??_C@_0BE@BHDOHPMC@spanish?9puerto?5rico?$AA@ 10041f50     LIBCMTD:getqloc.obj
+ 0002:00002f64       ??_C@_0N@KMOIDGGN@spanish?9peru?$AA@ 10041f64     LIBCMTD:getqloc.obj
+ 0002:00002f74       ??_C@_0BB@HMHLPGPH@spanish?9paraguay?$AA@ 10041f74     LIBCMTD:getqloc.obj
+ 0002:00002f88       ??_C@_0P@MCPKNGFD@spanish?9panama?$AA@ 10041f88     LIBCMTD:getqloc.obj
+ 0002:00002f98       ??_C@_0BC@IHOHGAIL@spanish?9nicaragua?$AA@ 10041f98     LIBCMTD:getqloc.obj
+ 0002:00002fac       ??_C@_0P@KLMJDNFJ@spanish?9modern?$AA@ 10041fac     LIBCMTD:getqloc.obj
+ 0002:00002fbc       ??_C@_0BA@BPAPGBCM@spanish?9mexican?$AA@ 10041fbc     LIBCMTD:getqloc.obj
+ 0002:00002fcc       ??_C@_0BB@PDECHHHE@spanish?9honduras?$AA@ 10041fcc     LIBCMTD:getqloc.obj
+ 0002:00002fe0       ??_C@_0BC@KLHKFGDB@spanish?9guatemala?$AA@ 10041fe0     LIBCMTD:getqloc.obj
+ 0002:00002ff4       ??_C@_0BE@MFOOKJAI@spanish?9el?5salvador?$AA@ 10041ff4     LIBCMTD:getqloc.obj
+ 0002:00003008       ??_C@_0BA@FCOKFPFC@spanish?9ecuador?$AA@ 10042008     LIBCMTD:getqloc.obj
+ 0002:00003018       ??_C@_0BL@PLMGIMOO@spanish?9dominican?5republic?$AA@ 10042018     LIBCMTD:getqloc.obj
+ 0002:00003034       ??_C@_0BD@HLGDNMHB@spanish?9costa?5rica?$AA@ 10042034     LIBCMTD:getqloc.obj
+ 0002:00003048       ??_C@_0BB@PKCBKCPE@spanish?9colombia?$AA@ 10042048     LIBCMTD:getqloc.obj
+ 0002:0000305c       ??_C@_0O@MCBIJGNE@spanish?9chile?$AA@ 1004205c     LIBCMTD:getqloc.obj
+ 0002:0000306c       ??_C@_0BA@BEFEIGJJ@spanish?9bolivia?$AA@ 1004206c     LIBCMTD:getqloc.obj
+ 0002:0000307c       ??_C@_0BC@EMECMPD@spanish?9argentina?$AA@ 1004207c     LIBCMTD:getqloc.obj
+ 0002:00003090       ??_C@_0BF@EALFLENP@portuguese?9brazilian?$AA@ 10042090     LIBCMTD:getqloc.obj
+ 0002:000030a8       ??_C@_0BC@HBLEBLNN@norwegian?9nynorsk?$AA@ 100420a8     LIBCMTD:getqloc.obj
+ 0002:000030bc       ??_C@_0BB@HMACDDCK@norwegian?9bokmal?$AA@ 100420bc     LIBCMTD:getqloc.obj
+ 0002:000030d0       ??_C@_09BAFFPPHE@norwegian?$AA@ 100420d0     LIBCMTD:getqloc.obj
+ 0002:000030dc       ??_C@_0O@EAJFJDFG@italian?9swiss?$AA@ 100420dc     LIBCMTD:getqloc.obj
+ 0002:000030ec       ??_C@_0O@CNOMPGD@irish?9english?$AA@ 100420ec     LIBCMTD:getqloc.obj
+ 0002:000030fc       ??_C@_0N@EDHBGCKG@german?9swiss?$AA@ 100420fc     LIBCMTD:getqloc.obj
+ 0002:0000310c       ??_C@_0BC@JACMHNBP@german?9luxembourg?$AA@ 1004210c     LIBCMTD:getqloc.obj
+ 0002:00003120       ??_C@_0BE@HBGMGFEG@german?9lichtenstein?$AA@ 10042120     LIBCMTD:getqloc.obj
+ 0002:00003134       ??_C@_0BA@HKKBIBKL@german?9austrian?$AA@ 10042134     LIBCMTD:getqloc.obj
+ 0002:00003144       ??_C@_0N@GCAEPEBK@french?9swiss?$AA@ 10042144     LIBCMTD:getqloc.obj
+ 0002:00003154       ??_C@_0BC@DJFJJCK@french?9luxembourg?$AA@ 10042154     LIBCMTD:getqloc.obj
+ 0002:00003168       ??_C@_0BA@NNCEDFIC@french?9canadian?$AA@ 10042168     LIBCMTD:getqloc.obj
+ 0002:00003178       ??_C@_0P@CMPOCLM@french?9belgian?$AA@ 10042178     LIBCMTD:getqloc.obj
+ 0002:00003188       ??_C@_0M@GHHDJOK@english?9usa?$AA@ 10042188     LIBCMTD:getqloc.obj
+ 0002:00003194       ??_C@_0L@PLDJKEIL@english?9us?$AA@ 10042194     LIBCMTD:getqloc.obj
+ 0002:000031a0       ??_C@_0L@HJCCDMNC@english?9uk?$AA@ 100421a0     LIBCMTD:getqloc.obj
+ 0002:000031ac       ??_C@_0BK@CKLIAGJB@english?9trinidad?5y?5tobago?$AA@ 100421ac     LIBCMTD:getqloc.obj
+ 0002:000031c8       ??_C@_0BF@JMJMGNNF@english?9south?5africa?$AA@ 100421c8     LIBCMTD:getqloc.obj
+ 0002:000031e0       ??_C@_0L@DKIIFDFD@english?9nz?$AA@ 100421e0     LIBCMTD:getqloc.obj
+ 0002:000031ec       ??_C@_0BA@ONHGJCLH@english?9jamaica?$AA@ 100421ec     LIBCMTD:getqloc.obj
+ 0002:000031fc       ??_C@_0M@HJBGHOPO@english?9ire?$AA@ 100421fc     LIBCMTD:getqloc.obj
+ 0002:00003208       ??_C@_0BC@LFEKMIFB@english?9caribbean?$AA@ 10042208     LIBCMTD:getqloc.obj
+ 0002:0000321c       ??_C@_0M@OLDPFKHI@english?9can?$AA@ 1004221c     LIBCMTD:getqloc.obj
+ 0002:00003228       ??_C@_0P@OMDEHBMP@english?9belize?$AA@ 10042228     LIBCMTD:getqloc.obj
+ 0002:00003238       ??_C@_0M@KFHFPFED@english?9aus?$AA@ 10042238     LIBCMTD:getqloc.obj
+ 0002:00003244       ??_C@_0BB@MNMBKDFE@english?9american?$AA@ 10042244     LIBCMTD:getqloc.obj
+ 0002:00003258       ??_C@_0O@KIDLNNBA@dutch?9belgian?$AA@ 10042258     LIBCMTD:getqloc.obj
+ 0002:00003268       ??_C@_0BE@JBKABBMH@chinese?9traditional?$AA@ 10042268     LIBCMTD:getqloc.obj
+ 0002:0000327c       ??_C@_0BC@MJJMPKCG@chinese?9singapore?$AA@ 1004227c     LIBCMTD:getqloc.obj
+ 0002:00003290       ??_C@_0BD@FDKADDCP@chinese?9simplified?$AA@ 10042290     LIBCMTD:getqloc.obj
+ 0002:000032a4       ??_C@_0BB@DBEFDDME@chinese?9hongkong?$AA@ 100422a4     LIBCMTD:getqloc.obj
+ 0002:000032b8       ??_C@_07DHNMFMCI@chinese?$AA@ 100422b8     LIBCMTD:getqloc.obj
+ 0002:000032c0       ??_C@_03FNDDCHI@chi?$AA@   100422c0     LIBCMTD:getqloc.obj
+ 0002:000032c4       ??_C@_03BMMIADDJ@chh?$AA@  100422c4     LIBCMTD:getqloc.obj
+ 0002:000032c8       ??_C@_08OAIPJDGI@canadian?$AA@ 100422c8     LIBCMTD:getqloc.obj
+ 0002:000032d4       ??_C@_07HBPMNPNJ@belgian?$AA@ 100422d4     LIBCMTD:getqloc.obj
+ 0002:000032dc       ??_C@_0L@OEKOPBEL@australian?$AA@ 100422dc     LIBCMTD:getqloc.obj
+ 0002:000032e8       ??_C@_0BB@MEIMBEDG@american?9english?$AA@ 100422e8     LIBCMTD:getqloc.obj
+ 0002:000032fc       ??_C@_0BB@DFMDPDGB@american?5english?$AA@ 100422fc     LIBCMTD:getqloc.obj
+ 0002:00003310       ??_C@_08IJLOKOLL@american?$AA@ 10042310     LIBCMTD:getqloc.obj
+ 0002:0000331c       ??_C@_0BC@NFIEMBLL@Norwegian?9Nynorsk?$AA@ 1004231c     LIBCMTD:getqloc.obj
+ 0002:00003330       ??_C@_03NFKLAGEF@OCP?$AA@  10042330     LIBCMTD:getqloc.obj
+ 0002:00003334       ??_C@_03DFHEHBHG@ACP?$AA@  10042334     LIBCMTD:getqloc.obj
+ 0002:00003338       ??_C@_0L@KBNGFDKM@convrtcp?4c?$AA@ 10042338     LIBCMTD:convrtcp.obj
+ 0002:00003354       ??_C@_07NFAECDLI@w_str?4c?$AA@ 10042354     LIBCMTD:w_str.obj
+ 0002:00003394       ??_C@_09PKAEMGHJ@_getbuf?4c?$AA@ 10042394     LIBCMTD:_getbuf.obj
+ 0002:000033a0       ??_C@_07PNHPCIEC@_file?4c?$AA@ 100423a0     LIBCMTD:_file.obj
+ 0002:000033a8       ___lookuptable             100423a8     LIBCMTD:output.obj
+ 0002:00003404       ??_C@_1O@CEDCILHN@?$AA?$CI?$AAn?$AAu?$AAl?$AAl?$AA?$CJ?$AA?$AA@ 10042404     LIBCMTD:output.obj
+ 0002:00003414       ??_C@_06OJHGLDPL@?$CInull?$CJ?$AA@ 10042414     LIBCMTD:output.obj
+ 0002:0000341c       ??_C@_08MEPFMIND@output?4c?$AA@ 1004241c     LIBCMTD:output.obj
+ 0002:00003428       ??_C@_0P@LGFCLPDP@ch?5?$CB?$DN?5_T?$CI?8?20?8?$CJ?$AA@ 10042428     LIBCMTD:output.obj
+ 0002:00003438       ??_C@_08NJPDFEGP@mbtowc?4c?$AA@ 10042438     LIBCMTD:mbtowc.obj
+ 0002:00003444       ??_C@_0DD@FIIGOHOA@ptloci?9?$DOmb_cur_max?5?$DN?$DN?51?5?$HM?$HM?5ptloc@ 10042444     LIBCMTD:mbtowc.obj
+ 0002:00003478       ??_C@_08KKFOAFAI@fputwc?4c?$AA@ 10042478     LIBCMTD:fputwc.obj
+ 0002:00003494       ??_C@_0CP@PEILCOHB@f?3?2vs70builds?23077?2vc?2crtbld?2crt@ 10042494     LIBCMTD:snprintf.obj
+ 0002:000034c4       ??_C@_0DA@KHEJFFIK@f?3?2vs70builds?23077?2vc?2crtbld?2crt@ 100424c4     LIBCMTD:vsnprint.obj
+ 0002:000034f4       ??_C@_08FKHPDPAC@winsig?4c?$AA@ 100424f4     LIBCMTD:winsig.obj
+ 0002:0000352c       ??_C@_09KLGCKDOD@Program?3?5?$AA@ 1004252c     LIBCMTD:secfail.obj
+ 0002:00003538       ??_C@_0KA@JEHFIFGP@A?5buffer?5overrun?5has?5been?5detect@ 10042538     LIBCMTD:secfail.obj
+ 0002:000035d8       ??_C@_0BJ@MDEKIEOJ@Buffer?5overrun?5detected?$CB?$AA@ 100425d8     LIBCMTD:secfail.obj
+ 0002:000035f8       ??_C@_0LB@BPLHHLFD@A?5security?5error?5of?5unknown?5caus@ 100425f8     LIBCMTD:secfail.obj
+ 0002:000036ac       ??_C@_0CD@GMKACBEK@Unknown?5security?5failure?5detecte@ 100426ac     LIBCMTD:secfail.obj
+ 0002:000036dc       ___dnames                  100426dc     LIBCMTD:timeset.obj
+ 0002:000036f4       ___mnames                  100426f4     LIBCMTD:timeset.obj
+ 0002:0000373c       ??_C@_07LOOFNDIO@tzset?4c?$AA@ 1004273c     LIBCMTD:tzset.obj
+ 0002:00003744       ??_C@_02CLFPBFFP@TZ?$AA@   10042744     LIBCMTD:tzset.obj
+ 0002:00003764       ??_C@_0L@DILIPMN@inithelp?4c?$AA@ 10042764     LIBCMTD:inithelp.obj
+ 0002:00003770       ??_C@_09MGNHMPHC@osfinfo?4c?$AA@ 10042770     LIBCMTD:osfinfo.obj
+ 0002:00003800       ??_C@_0CP@JOANPPIG@f?3?2vs70builds?23077?2vc?2crtbld?2crt@ 10042800     LIBCMTD:_flswbuf.obj
+ 0002:0000383c       ??_C@_07NIBBAFJP@w_loc?4c?$AA@ 1004283c     LIBCMTD:w_loc.obj
+ 0002:00003854       ??_C@_07GCMFDNDD@a_loc?4c?$AA@ 10042854     LIBCMTD:a_loc.obj
+ 0002:0000386c       ??_C@_08BDNGOBJJ@fclose?4c?$AA@ 1004286c     LIBCMTD:fclose.obj
+ 0002:00003878       ??_C@_0P@FELNCIKG@stream?5?$CB?$DN?5NULL?$AA@ 10042878     LIBCMTD:fclose.obj
+ 0002:000038a4       ??_C@_0L@CELCHBFJ@wtombenv?4c?$AA@ 100428a4     LIBCMTD:wtombenv.obj
+ 0002:000038bc       ??_C@_0L@CKFHAPLH@_freebuf?4c?$AA@ 100428bc     LIBCMTD:_freebuf.obj
+ 0002:000038c8       ??_C@_07KLPPCEPH@a_cmp?4c?$AA@ 100428c8     LIBCMTD:a_cmp.obj
+ 0002:000038d0       ??_C@_0DN@NFIMOOFE@cchCount1?$DN?$DN0?5?$CG?$CG?5cchCount2?$DN?$DN1?5?$HM?$HM?5@ 100428d0     LIBCMTD:a_cmp.obj
+ 0002:00003928       ??_C@_08BMJILFKN@setenv?4c?$AA@ 10042928     LIBCMTD:setenv.obj
+ 0002:00003934       ??_C@_05MAJJAKPI@FALSE?$AA@ 10042934     LIBCMTD:setenv.obj
+ 0002:000039a0       ??_C@_0L@LLDHGLHK@swprintf?4c?$AA@ 100429a0     LIBCMTD:swprintf.obj
+ 0002:000039ac       ??_C@_0L@ILNMHBAP@mbstowcs?4c?$AA@ 100429ac     LIBCMTD:mbstowcs.obj
+ 0002:000039b8       ??_C@_09EGGCOFMI@s?5?$CB?$DN?5NULL?$AA@ 100429b8     LIBCMTD:mbstowcs.obj
+ 0002:000039c4       ??_C@_0N@JICNABFA@swprintn?4cpp?$AA@ 100429c4     LIBCMTD:swprintn.obj
+ 0002:000039d8       __load_config_used         100429d8     LIBCMTD:loadcfg.obj
+ 0002:0000486c       ??_R1A@?0A@A@type_info@@8  1004386c     LIBCMTD:typinfo.obj
+ 0002:00004884       ??_R2type_info@@8          10043884     LIBCMTD:typinfo.obj
+ 0002:0000488c       ??_R3type_info@@8          1004388c     LIBCMTD:typinfo.obj
+ 0002:0000489c       ??_R4type_info@@6B@        1004389c     LIBCMTD:typinfo.obj
+ 0002:000049c0       ___safe_se_handler_table   100439c0     <linker-defined>
+ 0002:00004b6c       ___rtc_iaa                 10043b6c     LIBCMTD:initsect.obj
+ 0002:00004c70       ___rtc_izz                 10043c70     LIBCMTD:initsect.obj
+ 0002:00004d74       ___rtc_taa                 10043d74     LIBCMTD:initsect.obj
+ 0002:00004e78       ___rtc_tzz                 10043e78     LIBCMTD:initsect.obj
+ 0003:00000000       ___xc_a                    10045000     LIBCMTD:crt0init.obj
+ 0003:00000208       ___xc_z                    10045208     LIBCMTD:crt0init.obj
+ 0003:0000030c       ___xi_a                    1004530c     LIBCMTD:crt0init.obj
+ 0003:00000624       ___xi_z                    10045624     LIBCMTD:crt0init.obj
+ 0003:00000728       ___xp_a                    10045728     LIBCMTD:crt0init.obj
+ 0003:00000930       ___xp_z                    10045930     LIBCMTD:crt0init.obj
+ 0003:00000a34       ___xt_a                    10045a34     LIBCMTD:crt0init.obj
+ 0003:00000c3c       ___xt_z                    10045c3c     LIBCMTD:crt0init.obj
+ 0003:00000e00       ??_R4IFXUnknown@@6B@       10045e00     Scheduling:CIFXClock.obj
+ 0003:00000e18       ??_R0?AVIFXUnknown@@@8     10045e18     Scheduling:CIFXClock.obj
+ 0003:00000e38       ??_R3IFXUnknown@@8         10045e38     Scheduling:CIFXClock.obj
+ 0003:00000e48       ??_R2IFXUnknown@@8         10045e48     Scheduling:CIFXClock.obj
+ 0003:00000e50       ??_R1A@?0A@A@IFXUnknown@@8 10045e50     Scheduling:CIFXClock.obj
+ 0003:00000e68       ??_R4IFXSubject@@6B0@@     10045e68     Scheduling:CIFXClock.obj
+ 0003:00000e80       ??_R0?AVIFXSubject@@@8     10045e80     Scheduling:CIFXClock.obj
+ 0003:00000ea0       ??_R3IFXSubject@@8         10045ea0     Scheduling:CIFXClock.obj
+ 0003:00000eb0       ??_R2IFXSubject@@8         10045eb0     Scheduling:CIFXClock.obj
+ 0003:00000eb8       ??_R1A@?0A@A@IFXSubject@@8 10045eb8     Scheduling:CIFXClock.obj
+ 0003:00000ed0       ??_R1A@33BA@IFXUnknown@@8  10045ed0     Scheduling:CIFXClock.obj
+ 0003:00000ee8       ??_R4IFXSubject@@6BIFXUnknown@@@ 10045ee8     Scheduling:CIFXClock.obj
+ 0003:00000f00       ??_8IFXSubject@@7B@        10045f00     Scheduling:CIFXClock.obj
+ 0003:00000f08       ??_R4IFXClock@@6B@         10045f08     Scheduling:CIFXClock.obj
+ 0003:00000f20       ??_R0?AVIFXClock@@@8       10045f20     Scheduling:CIFXClock.obj
+ 0003:00000f38       ??_R3IFXClock@@8           10045f38     Scheduling:CIFXClock.obj
+ 0003:00000f48       ??_R2IFXClock@@8           10045f48     Scheduling:CIFXClock.obj
+ 0003:00000f50       ??_R1A@?0A@A@IFXClock@@8   10045f50     Scheduling:CIFXClock.obj
+ 0003:00000f68       ??_R4CIFXClock@@6BIFXUnknown@@IFXClock@@@ 10045f68     Scheduling:CIFXClock.obj
+ 0003:00000f80       ??_R0?AVCIFXClock@@@8      10045f80     Scheduling:CIFXClock.obj
+ 0003:00000f98       ??_R3CIFXClock@@8          10045f98     Scheduling:CIFXClock.obj
+ 0003:00000fa8       ??_R2CIFXClock@@8          10045fa8     Scheduling:CIFXClock.obj
+ 0003:00000fc0       ??_R1A@?0A@A@CIFXClock@@8  10045fc0     Scheduling:CIFXClock.obj
+ 0003:00000fd8       ??_R1A@?0A@1IFXUnknown@@8  10045fd8     Scheduling:CIFXClock.obj
+ 0003:00000ff0       ??_R13?0A@A@CIFXSubject@@8 10045ff0     Scheduling:CIFXClock.obj
+ 0003:00001008       ??_R0?AVCIFXSubject@@@8    10046008     Scheduling:CIFXClock.obj
+ 0003:00001028       ??_R1A@77BA@IFXSubject@@8  10046028     Scheduling:CIFXClock.obj
+ 0003:00001040       ??_R1A@73BC@IFXUnknown@@8  10046040     Scheduling:CIFXClock.obj
+ 0003:00001058       ??_R4CIFXClock@@6BIFXUnknown@@IFXSubject@@@ 10046058     Scheduling:CIFXClock.obj
+ 0003:00001070       ??_R4CIFXClock@@6BIFXSubject@@@ 10046070     Scheduling:CIFXClock.obj
+ 0003:00001088       ??_R4CIFXClock@@6BCIFXSubject@@@ 10046088     Scheduling:CIFXClock.obj
+ 0003:000010a0       ??_8CIFXClock@@7BCIFXSubject@@@ 100460a0     Scheduling:CIFXClock.obj
+ 0003:000010ac       ??_8CIFXClock@@7BIFXSubject@@@ 100460ac     Scheduling:CIFXClock.obj
+ 0003:000010b8       ??_R4IFXTaskData@@6B@      100460b8     Scheduling:CIFXErrorInfo.obj
+ 0003:000010d0       ??_R0?AVIFXTaskData@@@8    100460d0     Scheduling:CIFXErrorInfo.obj
+ 0003:000010f0       ??_R3IFXTaskData@@8        100460f0     Scheduling:CIFXErrorInfo.obj
+ 0003:00001100       ??_R2IFXTaskData@@8        10046100     Scheduling:CIFXErrorInfo.obj
+ 0003:00001108       ??_R1A@?0A@A@IFXTaskData@@8 10046108     Scheduling:CIFXErrorInfo.obj
+ 0003:00001120       ??_R4IFXErrorInfo@@6B@     10046120     Scheduling:CIFXErrorInfo.obj
+ 0003:00001138       ??_R0?AVIFXErrorInfo@@@8   10046138     Scheduling:CIFXErrorInfo.obj
+ 0003:00001158       ??_R3IFXErrorInfo@@8       10046158     Scheduling:CIFXErrorInfo.obj
+ 0003:00001168       ??_R2IFXErrorInfo@@8       10046168     Scheduling:CIFXErrorInfo.obj
+ 0003:00001178       ??_R1A@?0A@A@IFXErrorInfo@@8 10046178     Scheduling:CIFXErrorInfo.obj
+ 0003:00001190       ??_R4CIFXErrorInfo@@6B@    10046190     Scheduling:CIFXErrorInfo.obj
+ 0003:000011a8       ??_R0?AVCIFXErrorInfo@@@8  100461a8     Scheduling:CIFXErrorInfo.obj
+ 0003:000011c8       ??_R3CIFXErrorInfo@@8      100461c8     Scheduling:CIFXErrorInfo.obj
+ 0003:000011d8       ??_R2CIFXErrorInfo@@8      100461d8     Scheduling:CIFXErrorInfo.obj
+ 0003:000011e8       ??_R1A@?0A@A@CIFXErrorInfo@@8 100461e8     Scheduling:CIFXErrorInfo.obj
+ 0003:00001200       ??_R4IFXNotificationInfo@@6B@ 10046200     Scheduling:CIFXNotificationInfo.obj
+ 0003:00001218       ??_R0?AVIFXNotificationInfo@@@8 10046218     Scheduling:CIFXNotificationInfo.obj
+ 0003:00001240       ??_R3IFXNotificationInfo@@8 10046240     Scheduling:CIFXNotificationInfo.obj
+ 0003:00001250       ??_R2IFXNotificationInfo@@8 10046250     Scheduling:CIFXNotificationInfo.obj
+ 0003:00001260       ??_R1A@?0A@A@IFXNotificationInfo@@8 10046260     Scheduling:CIFXNotificationInfo.obj
+ 0003:00001278       ??_R4CIFXNotificationInfo@@6B@ 10046278     Scheduling:CIFXNotificationInfo.obj
+ 0003:00001290       ??_R0?AVCIFXNotificationInfo@@@8 10046290     Scheduling:CIFXNotificationInfo.obj
+ 0003:000012b8       ??_R3CIFXNotificationInfo@@8 100462b8     Scheduling:CIFXNotificationInfo.obj
+ 0003:000012c8       ??_R2CIFXNotificationInfo@@8 100462c8     Scheduling:CIFXNotificationInfo.obj
+ 0003:000012d8       ??_R1A@?0A@A@CIFXNotificationInfo@@8 100462d8     Scheduling:CIFXNotificationInfo.obj
+ 0003:000012f0       ??_R4IFXTask@@6B0@@        100462f0     Scheduling:CIFXNotificationManager.obj
+ 0003:00001308       ??_R0?AVIFXTask@@@8        10046308     Scheduling:CIFXNotificationManager.obj
+ 0003:00001320       ??_R3IFXTask@@8            10046320     Scheduling:CIFXNotificationManager.obj
+ 0003:00001330       ??_R2IFXTask@@8            10046330     Scheduling:CIFXNotificationManager.obj
+ 0003:00001338       ??_R1A@?0A@A@IFXTask@@8    10046338     Scheduling:CIFXNotificationManager.obj
+ 0003:00001350       ??_R4IFXTask@@6BIFXUnknown@@@ 10046350     Scheduling:CIFXNotificationManager.obj
+ 0003:00001368       ??_8IFXTask@@7B@           10046368     Scheduling:CIFXNotificationManager.obj
+ 0003:00001370       ??_R4IFXNotificationManager@@6BIFXUnknown@@@ 10046370     Scheduling:CIFXNotificationManager.obj
+ 0003:00001388       ??_R0?AVIFXNotificationManager@@@8 10046388     Scheduling:CIFXNotificationManager.obj
+ 0003:000013b0       ??_R3IFXNotificationManager@@8 100463b0     Scheduling:CIFXNotificationManager.obj
+ 0003:000013c0       ??_R2IFXNotificationManager@@8 100463c0     Scheduling:CIFXNotificationManager.obj
+ 0003:000013d0       ??_R1A@?0A@A@IFXNotificationManager@@8 100463d0     Scheduling:CIFXNotificationManager.obj
+ 0003:000013e8       ??_R4IFXNotificationManager@@6BIFXTask@@@ 100463e8     Scheduling:CIFXNotificationManager.obj
+ 0003:00001400       ??_8IFXNotificationManager@@7B@ 10046400     Scheduling:CIFXNotificationManager.obj
+ 0003:00001408       ??_R4CIFXNotificationManager@@6BIFXUnknown@@@ 10046408     Scheduling:CIFXNotificationManager.obj
+ 0003:00001420       ??_R0?AVCIFXNotificationManager@@@8 10046420     Scheduling:CIFXNotificationManager.obj
+ 0003:00001448       ??_R3CIFXNotificationManager@@8 10046448     Scheduling:CIFXNotificationManager.obj
+ 0003:00001458       ??_R2CIFXNotificationManager@@8 10046458     Scheduling:CIFXNotificationManager.obj
+ 0003:00001468       ??_R1A@?0A@A@CIFXNotificationManager@@8 10046468     Scheduling:CIFXNotificationManager.obj
+ 0003:00001480       ??_R4CIFXNotificationManager@@6BIFXTask@@@ 10046480     Scheduling:CIFXNotificationManager.obj
+ 0003:00001498       ??_8CIFXNotificationManager@@7B@ 10046498     Scheduling:CIFXNotificationManager.obj
+ 0003:000014a0       ??_R4IFXScheduler@@6B@     100464a0     Scheduling:CIFXScheduler.obj
+ 0003:000014b8       ??_R0?AVIFXScheduler@@@8   100464b8     Scheduling:CIFXScheduler.obj
+ 0003:000014d8       ??_R3IFXScheduler@@8       100464d8     Scheduling:CIFXScheduler.obj
+ 0003:000014e8       ??_R2IFXScheduler@@8       100464e8     Scheduling:CIFXScheduler.obj
+ 0003:000014f0       ??_R1A@?0A@A@IFXScheduler@@8 100464f0     Scheduling:CIFXScheduler.obj
+ 0003:00001508       ??_R4CIFXScheduler@@6B@    10046508     Scheduling:CIFXScheduler.obj
+ 0003:00001520       ??_R0?AVCIFXScheduler@@@8  10046520     Scheduling:CIFXScheduler.obj
+ 0003:00001540       ??_R3CIFXScheduler@@8      10046540     Scheduling:CIFXScheduler.obj
+ 0003:00001550       ??_R2CIFXScheduler@@8      10046550     Scheduling:CIFXScheduler.obj
+ 0003:00001560       ??_R1A@?0A@A@CIFXScheduler@@8 10046560     Scheduling:CIFXScheduler.obj
+ 0003:00001578       ??_R4IFXSchedulerInfo@@6B@ 10046578     Scheduling:CIFXSchedulerInfo.obj
+ 0003:00001590       ??_R0?AVIFXSchedulerInfo@@@8 10046590     Scheduling:CIFXSchedulerInfo.obj
+ 0003:000015b0       ??_R3IFXSchedulerInfo@@8   100465b0     Scheduling:CIFXSchedulerInfo.obj
+ 0003:000015c0       ??_R2IFXSchedulerInfo@@8   100465c0     Scheduling:CIFXSchedulerInfo.obj
+ 0003:000015d0       ??_R1A@?0A@A@IFXSchedulerInfo@@8 100465d0     Scheduling:CIFXSchedulerInfo.obj
+ 0003:000015e8       ??_R4CIFXSchedulerInfo@@6B@ 100465e8     Scheduling:CIFXSchedulerInfo.obj
+ 0003:00001600       ??_R0?AVCIFXSchedulerInfo@@@8 10046600     Scheduling:CIFXSchedulerInfo.obj
+ 0003:00001620       ??_R3CIFXSchedulerInfo@@8  10046620     Scheduling:CIFXSchedulerInfo.obj
+ 0003:00001630       ??_R2CIFXSchedulerInfo@@8  10046630     Scheduling:CIFXSchedulerInfo.obj
+ 0003:00001640       ??_R1A@?0A@A@CIFXSchedulerInfo@@8 10046640     Scheduling:CIFXSchedulerInfo.obj
+ 0003:00001658       ??_R4IFXSimulationManager@@6BIFXUnknown@@@ 10046658     Scheduling:CIFXSimulationManager.obj
+ 0003:00001670       ??_R0?AVIFXSimulationManager@@@8 10046670     Scheduling:CIFXSimulationManager.obj
+ 0003:00001698       ??_R3IFXSimulationManager@@8 10046698     Scheduling:CIFXSimulationManager.obj
+ 0003:000016a8       ??_R2IFXSimulationManager@@8 100466a8     Scheduling:CIFXSimulationManager.obj
+ 0003:000016b8       ??_R1A@?0A@A@IFXSimulationManager@@8 100466b8     Scheduling:CIFXSimulationManager.obj
+ 0003:000016d0       ??_R4IFXSimulationManager@@6BIFXTask@@@ 100466d0     Scheduling:CIFXSimulationManager.obj
+ 0003:000016e8       ??_8IFXSimulationManager@@7B@ 100466e8     Scheduling:CIFXSimulationManager.obj
+ 0003:000016f0       ??_R4CIFXSimulationManager@@6BIFXUnknown@@@ 100466f0     Scheduling:CIFXSimulationManager.obj
+ 0003:00001708       ??_R0?AVCIFXSimulationManager@@@8 10046708     Scheduling:CIFXSimulationManager.obj
+ 0003:00001730       ??_R3CIFXSimulationManager@@8 10046730     Scheduling:CIFXSimulationManager.obj
+ 0003:00001740       ??_R2CIFXSimulationManager@@8 10046740     Scheduling:CIFXSimulationManager.obj
+ 0003:00001750       ??_R1A@?0A@A@CIFXSimulationManager@@8 10046750     Scheduling:CIFXSimulationManager.obj
+ 0003:00001768       ??_R4CIFXSimulationManager@@6BIFXTask@@@ 10046768     Scheduling:CIFXSimulationManager.obj
+ 0003:00001780       ??_8CIFXSimulationManager@@7B@ 10046780     Scheduling:CIFXSimulationManager.obj
+ 0003:00001788       ??_R4IFXSimulationInfo@@6B@ 10046788     Scheduling:CIFXSimulationInfo.obj
+ 0003:000017a0       ??_R0?AVIFXSimulationInfo@@@8 100467a0     Scheduling:CIFXSimulationInfo.obj
+ 0003:000017c0       ??_R3IFXSimulationInfo@@8  100467c0     Scheduling:CIFXSimulationInfo.obj
+ 0003:000017d0       ??_R2IFXSimulationInfo@@8  100467d0     Scheduling:CIFXSimulationInfo.obj
+ 0003:000017e0       ??_R1A@?0A@A@IFXSimulationInfo@@8 100467e0     Scheduling:CIFXSimulationInfo.obj
+ 0003:000017f8       ??_R4CIFXSimulationInfo@@6B@ 100467f8     Scheduling:CIFXSimulationInfo.obj
+ 0003:00001810       ??_R0?AVCIFXSimulationInfo@@@8 10046810     Scheduling:CIFXSimulationInfo.obj
+ 0003:00001838       ??_R3CIFXSimulationInfo@@8 10046838     Scheduling:CIFXSimulationInfo.obj
+ 0003:00001848       ??_R2CIFXSimulationInfo@@8 10046848     Scheduling:CIFXSimulationInfo.obj
+ 0003:00001858       ??_R1A@?0A@A@CIFXSimulationInfo@@8 10046858     Scheduling:CIFXSimulationInfo.obj
+ 0003:00001870       ??_R4IFXSystemManager@@6BIFXUnknown@@@ 10046870     Scheduling:CIFXSystemManager.obj
+ 0003:00001888       ??_R0?AVIFXSystemManager@@@8 10046888     Scheduling:CIFXSystemManager.obj
+ 0003:000018a8       ??_R3IFXSystemManager@@8   100468a8     Scheduling:CIFXSystemManager.obj
+ 0003:000018b8       ??_R2IFXSystemManager@@8   100468b8     Scheduling:CIFXSystemManager.obj
+ 0003:000018c8       ??_R1A@?0A@A@IFXSystemManager@@8 100468c8     Scheduling:CIFXSystemManager.obj
+ 0003:000018e0       ??_R4IFXSystemManager@@6BIFXTask@@@ 100468e0     Scheduling:CIFXSystemManager.obj
+ 0003:000018f8       ??_8IFXSystemManager@@7B@  100468f8     Scheduling:CIFXSystemManager.obj
+ 0003:00001900       ??_R4CIFXSystemManager@@6BIFXUnknown@@@ 10046900     Scheduling:CIFXSystemManager.obj
+ 0003:00001918       ??_R0?AVCIFXSystemManager@@@8 10046918     Scheduling:CIFXSystemManager.obj
+ 0003:00001938       ??_R3CIFXSystemManager@@8  10046938     Scheduling:CIFXSystemManager.obj
+ 0003:00001948       ??_R2CIFXSystemManager@@8  10046948     Scheduling:CIFXSystemManager.obj
+ 0003:00001958       ??_R1A@?0A@A@CIFXSystemManager@@8 10046958     Scheduling:CIFXSystemManager.obj
+ 0003:00001970       ??_R4CIFXSystemManager@@6BIFXTask@@@ 10046970     Scheduling:CIFXSystemManager.obj
+ 0003:00001988       ??_8CIFXSystemManager@@7B@ 10046988     Scheduling:CIFXSystemManager.obj
+ 0003:00001990       ??_R4CIFXTaskData@@6B@     10046990     Scheduling:CIFXTaskData.obj
+ 0003:000019a8       ??_R0?AVCIFXTaskData@@@8   100469a8     Scheduling:CIFXTaskData.obj
+ 0003:000019c8       ??_R3CIFXTaskData@@8       100469c8     Scheduling:CIFXTaskData.obj
+ 0003:000019d8       ??_R2CIFXTaskData@@8       100469d8     Scheduling:CIFXTaskData.obj
+ 0003:000019e8       ??_R1A@?0A@A@CIFXTaskData@@8 100469e8     Scheduling:CIFXTaskData.obj
+ 0003:00001a00       ??_R4IFXTaskManager@@6B@   10046a00     Scheduling:CIFXTaskManager.obj
+ 0003:00001a18       ??_R0?AVIFXTaskManager@@@8 10046a18     Scheduling:CIFXTaskManager.obj
+ 0003:00001a38       ??_R3IFXTaskManager@@8     10046a38     Scheduling:CIFXTaskManager.obj
+ 0003:00001a48       ??_R2IFXTaskManager@@8     10046a48     Scheduling:CIFXTaskManager.obj
+ 0003:00001a50       ??_R1A@?0A@A@IFXTaskManager@@8 10046a50     Scheduling:CIFXTaskManager.obj
+ 0003:00001a68       ??_R4CIFXTaskManager@@6B@  10046a68     Scheduling:CIFXTaskManager.obj
+ 0003:00001a80       ??_R0?AVCIFXTaskManager@@@8 10046a80     Scheduling:CIFXTaskManager.obj
+ 0003:00001aa0       ??_R3CIFXTaskManager@@8    10046aa0     Scheduling:CIFXTaskManager.obj
+ 0003:00001ab0       ??_R2CIFXTaskManager@@8    10046ab0     Scheduling:CIFXTaskManager.obj
+ 0003:00001ac0       ??_R1A@?0A@A@CIFXTaskManager@@8 10046ac0     Scheduling:CIFXTaskManager.obj
+ 0003:00001ad8       ??_R4IFXTaskManagerNode@@6B@ 10046ad8     Scheduling:CIFXTaskManagerNode.obj
+ 0003:00001af0       ??_R0?AVIFXTaskManagerNode@@@8 10046af0     Scheduling:CIFXTaskManagerNode.obj
+ 0003:00001b18       ??_R3IFXTaskManagerNode@@8 10046b18     Scheduling:CIFXTaskManagerNode.obj
+ 0003:00001b28       ??_R2IFXTaskManagerNode@@8 10046b28     Scheduling:CIFXTaskManagerNode.obj
+ 0003:00001b30       ??_R1A@?0A@A@IFXTaskManagerNode@@8 10046b30     Scheduling:CIFXTaskManagerNode.obj
+ 0003:00001b48       ??_R4CIFXTaskManagerNode@@6B@ 10046b48     Scheduling:CIFXTaskManagerNode.obj
+ 0003:00001b60       ??_R0?AVCIFXTaskManagerNode@@@8 10046b60     Scheduling:CIFXTaskManagerNode.obj
+ 0003:00001b88       ??_R3CIFXTaskManagerNode@@8 10046b88     Scheduling:CIFXTaskManagerNode.obj
+ 0003:00001b98       ??_R2CIFXTaskManagerNode@@8 10046b98     Scheduling:CIFXTaskManagerNode.obj
+ 0003:00001ba8       ??_R1A@?0A@A@CIFXTaskManagerNode@@8 10046ba8     Scheduling:CIFXTaskManagerNode.obj
+ 0003:00001bc0       ??_R4IFXTaskManagerView@@6B@ 10046bc0     Scheduling:CIFXTaskManagerView.obj
+ 0003:00001bd8       ??_R0?AVIFXTaskManagerView@@@8 10046bd8     Scheduling:CIFXTaskManagerView.obj
+ 0003:00001c00       ??_R3IFXTaskManagerView@@8 10046c00     Scheduling:CIFXTaskManagerView.obj
+ 0003:00001c10       ??_R2IFXTaskManagerView@@8 10046c10     Scheduling:CIFXTaskManagerView.obj
+ 0003:00001c18       ??_R1A@?0A@A@IFXTaskManagerView@@8 10046c18     Scheduling:CIFXTaskManagerView.obj
+ 0003:00001c30       ??_R4CIFXTaskManagerView@@6B@ 10046c30     Scheduling:CIFXTaskManagerView.obj
+ 0003:00001c48       ??_R0?AVCIFXTaskManagerView@@@8 10046c48     Scheduling:CIFXTaskManagerView.obj
+ 0003:00001c70       ??_R3CIFXTaskManagerView@@8 10046c70     Scheduling:CIFXTaskManagerView.obj
+ 0003:00001c80       ??_R2CIFXTaskManagerView@@8 10046c80     Scheduling:CIFXTaskManagerView.obj
+ 0003:00001c90       ??_R1A@?0A@A@CIFXTaskManagerView@@8 10046c90     Scheduling:CIFXTaskManagerView.obj
+ 0003:00001ca8       ??_R4IFXTimeManager@@6BIFXUnknown@@@ 10046ca8     Scheduling:CIFXTimeManager.obj
+ 0003:00001cc0       ??_R0?AVIFXTimeManager@@@8 10046cc0     Scheduling:CIFXTimeManager.obj
+ 0003:00001ce0       ??_R3IFXTimeManager@@8     10046ce0     Scheduling:CIFXTimeManager.obj
+ 0003:00001cf0       ??_R2IFXTimeManager@@8     10046cf0     Scheduling:CIFXTimeManager.obj
+ 0003:00001d00       ??_R1A@?0A@A@IFXTimeManager@@8 10046d00     Scheduling:CIFXTimeManager.obj
+ 0003:00001d18       ??_R4IFXTimeManager@@6BIFXTask@@@ 10046d18     Scheduling:CIFXTimeManager.obj
+ 0003:00001d30       ??_8IFXTimeManager@@7B@    10046d30     Scheduling:CIFXTimeManager.obj
+ 0003:00001d38       ??_R4CIFXTimeManager@@6BIFXUnknown@@@ 10046d38     Scheduling:CIFXTimeManager.obj
+ 0003:00001d50       ??_R0?AVCIFXTimeManager@@@8 10046d50     Scheduling:CIFXTimeManager.obj
+ 0003:00001d70       ??_R3CIFXTimeManager@@8    10046d70     Scheduling:CIFXTimeManager.obj
+ 0003:00001d80       ??_R2CIFXTimeManager@@8    10046d80     Scheduling:CIFXTimeManager.obj
+ 0003:00001d90       ??_R1A@?0A@A@CIFXTimeManager@@8 10046d90     Scheduling:CIFXTimeManager.obj
+ 0003:00001da8       ??_R4CIFXTimeManager@@6BIFXTask@@@ 10046da8     Scheduling:CIFXTimeManager.obj
+ 0003:00001dc0       ??_8CIFXTimeManager@@7B@   10046dc0     Scheduling:CIFXTimeManager.obj
+ 0003:00001dc8       ??_R4IFXTaskCallback@@6BIFXUnknown@@@ 10046dc8     Scheduling:CIFXTaskCallback.obj
+ 0003:00001de0       ??_R0?AVIFXTaskCallback@@@8 10046de0     Scheduling:CIFXTaskCallback.obj
+ 0003:00001e00       ??_R3IFXTaskCallback@@8    10046e00     Scheduling:CIFXTaskCallback.obj
+ 0003:00001e10       ??_R2IFXTaskCallback@@8    10046e10     Scheduling:CIFXTaskCallback.obj
+ 0003:00001e20       ??_R1A@?0A@A@IFXTaskCallback@@8 10046e20     Scheduling:CIFXTaskCallback.obj
+ 0003:00001e38       ??_R4IFXTaskCallback@@6BIFXTask@@@ 10046e38     Scheduling:CIFXTaskCallback.obj
+ 0003:00001e50       ??_8IFXTaskCallback@@7B@   10046e50     Scheduling:CIFXTaskCallback.obj
+ 0003:00001e58       ??_R4CIFXTaskCallback@@6BIFXUnknown@@@ 10046e58     Scheduling:CIFXTaskCallback.obj
+ 0003:00001e70       ??_R0?AVCIFXTaskCallback@@@8 10046e70     Scheduling:CIFXTaskCallback.obj
+ 0003:00001e90       ??_R3CIFXTaskCallback@@8   10046e90     Scheduling:CIFXTaskCallback.obj
+ 0003:00001ea0       ??_R2CIFXTaskCallback@@8   10046ea0     Scheduling:CIFXTaskCallback.obj
+ 0003:00001eb0       ??_R1A@?0A@A@CIFXTaskCallback@@8 10046eb0     Scheduling:CIFXTaskCallback.obj
+ 0003:00001ec8       ??_R4CIFXTaskCallback@@6BIFXTask@@@ 10046ec8     Scheduling:CIFXTaskCallback.obj
+ 0003:00001ee0       ??_8CIFXTaskCallback@@7B@  10046ee0     Scheduling:CIFXTaskCallback.obj
+ 0003:00001ee8       ??_R4CIFXSubject@@6B0@@    10046ee8     Scheduling:CIFXSubject.obj
+ 0003:00001f00       ??_R3CIFXSubject@@8        10046f00     Scheduling:CIFXSubject.obj
+ 0003:00001f10       ??_R2CIFXSubject@@8        10046f10     Scheduling:CIFXSubject.obj
+ 0003:00001f20       ??_R1A@?0A@A@CIFXSubject@@8 10046f20     Scheduling:CIFXSubject.obj
+ 0003:00001f38       ??_R1A@37BA@IFXSubject@@8  10046f38     Scheduling:CIFXSubject.obj
+ 0003:00001f50       ??_R4CIFXSubject@@6BIFXUnknown@@@ 10046f50     Scheduling:CIFXSubject.obj
+ 0003:00001f68       ??_R4CIFXSubject@@6BIFXSubject@@@ 10046f68     Scheduling:CIFXSubject.obj
+ 0003:00001f80       ??_8CIFXSubject@@7B0@@     10046f80     Scheduling:CIFXSubject.obj
+ 0003:00001f8c       ??_8CIFXSubject@@7BIFXSubject@@@ 10046f8c     Scheduling:CIFXSubject.obj
+ 0003:00001f98       ??_R4?$CRedBlackTree@PAUSIFXObserverRequest@@PAVIFXObserver@@VCompareObservers@@@@6B@ 10046f98     Scheduling:CIFXSubject.obj
+ 0003:00001fc0       ??_R0?AV?$CRedBlackTree@PAUSIFXObserverRequest@@PAVIFXObserver@@VCompareObservers@@@@@8 10046fc0     Scheduling:CIFXSubject.obj
+ 0003:00002020       ??_R3?$CRedBlackTree@PAUSIFXObserverRequest@@PAVIFXObserver@@VCompareObservers@@@@8 10047020     Scheduling:CIFXSubject.obj
+ 0003:00002030       ??_R2?$CRedBlackTree@PAUSIFXObserverRequest@@PAVIFXObserver@@VCompareObservers@@@@8 10047030     Scheduling:CIFXSubject.obj
+ 0003:00002038       ??_R1A@?0A@A@?$CRedBlackTree@PAUSIFXObserverRequest@@PAVIFXObserver@@VCompareObservers@@@@8 10047038     Scheduling:CIFXSubject.obj
+ 0003:00002050       ??_R4IFXString@@6B@        10047050     Scheduling:IFXString.obj
+ 0003:00002068       ??_R0?AVIFXString@@@8      10047068     Scheduling:IFXString.obj
+ 0003:00002080       ??_R3IFXString@@8          10047080     Scheduling:IFXString.obj
+ 0003:00002090       ??_R2IFXString@@8          10047090     Scheduling:IFXString.obj
+ 0003:00002098       ??_R1A@?0A@A@IFXString@@8  10047098     Scheduling:IFXString.obj
+ 0003:000020b0       __aexit_rtn                100470b0     LIBCMTD:dllcrt0.obj
+ 0003:000020b4       __NLG_Destination          100470b4     LIBCMTD:exsup.obj
+ 0003:000020c4       ??_R0?AVtype_info@@@8      100470c4     LIBCMTD:typinfo.obj
+ 0003:000020dc       ___tlsindex                100470dc     LIBCMTD:tidtable.obj
+ 0003:000020e0       __crtDbgFlag               100470e0     LIBCMTD:dbgheap.obj
+ 0003:000020e8       __crtBreakAlloc            100470e8     LIBCMTD:dbgheap.obj
+ 0003:00002104       ___badioinfo               10047104     LIBCMTD:ioinit.obj
+ 0003:00002128       __amblksiz                 10047128     LIBCMTD:heapinit.obj
+ 0003:00002130       __XcptActTab               10047130     LIBCMTD:winxfltr.obj
+ 0003:000021a8       __First_FPE_Indx           100471a8     LIBCMTD:winxfltr.obj
+ 0003:000021ac       __Num_FPE                  100471ac     LIBCMTD:winxfltr.obj
+ 0003:000021b0       __XcptActTabSize           100471b0     LIBCMTD:winxfltr.obj
+ 0003:000021b4       __XcptActTabCount          100471b4     LIBCMTD:winxfltr.obj
+ 0003:00002260       ___security_cookie         10047260     LIBCMTD:seccook.obj
+ 0003:00002264       ?__pInconsistency@@3P6AXXZA 10047264     LIBCMTD:hooks.obj
+ 0003:00002398       ___initiallocinfo          10047398     LIBCMTD:setlocal.obj
+ 0003:000023ec       ___ptlocinfo               100473ec     LIBCMTD:setlocal.obj
+ 0003:00002528       ___lc_category             10047528     LIBCMTD:setlocal.obj
+ 0003:00002570       __pctype                   10047570     LIBCMTD:ctype.obj
+ 0003:00002574       __pwctype                  10047574     LIBCMTD:ctype.obj
+ 0003:000026e0       __crtAssertBusy            100476e0     LIBCMTD:dbgrpt.obj
+ 0003:000026e4       __CrtDbgMode               100476e4     LIBCMTD:dbgrpt.obj
+ 0003:000026f0       __CrtDbgFile               100476f0     LIBCMTD:dbgrpt.obj
+ 0003:00002800       __pfnAllocHook             10047800     LIBCMTD:dbghook.obj
+ 0003:00002810       ___lc_time_curr            10047810     LIBCMTD:strftime.obj
+ 0003:00002818       ___lc_time_c               10047818     LIBCMTD:strftime.obj
+ 0003:000028d0       ___lconv_static_decimal    100478d0     LIBCMTD:lconv.obj
+ 0003:000028d4       ___lconv_c                 100478d4     LIBCMTD:lconv.obj
+ 0003:00002904       ___lconv                   10047904     LIBCMTD:lconv.obj
+ 0003:00002908       ___mb_cur_max              10047908     LIBCMTD:nlsdata1.obj
+ 0003:0000290c       ___decimal_point           1004790c     LIBCMTD:nlsdata1.obj
+ 0003:00002910       ___decimal_point_length    10047910     LIBCMTD:nlsdata1.obj
+ 0003:00002914       ___lc_clike                10047914     LIBCMTD:nlsdata2.obj
+ 0003:00002920       __iob                      10047920     LIBCMTD:_file.obj
+ 0003:00002ba0       __cfltcvt_tab              10047ba0     LIBCMTD:cmiscdat.obj
+ 0003:00002bb8       ___nullstring              10047bb8     LIBCMTD:output.obj
+ 0003:00002bbc       ___wnullstring             10047bbc     LIBCMTD:output.obj
+ 0003:00002bc0       __timezone                 10047bc0     LIBCMTD:timeset.obj
+ 0003:00002bc4       __daylight                 10047bc4     LIBCMTD:timeset.obj
+ 0003:00002bc8       __dstbias                  10047bc8     LIBCMTD:timeset.obj
+ 0003:00002c50       __tzname                   10047c50     LIBCMTD:timeset.obj
+ 0003:00002c70       __lpdays                   10047c70     LIBCMTD:days.obj
+ 0003:00002ca4       __days                     10047ca4     LIBCMTD:days.obj
+ 0003:00003440       ?g_countActiveObjects@@3IA 10048440     Scheduling:IFXCorePluginStatic.obj
+ 0003:00003448       __aenvptr                  10048448     LIBCMTD:dllcrt0.obj
+ 0003:0000344c       __wenvptr                  1004844c     LIBCMTD:dllcrt0.obj
+ 0003:00003450       ___error_mode              10048450     LIBCMTD:dllcrt0.obj
+ 0003:00003454       ___app_type                10048454     LIBCMTD:dllcrt0.obj
+ 0003:00003458       ___pPurecall               10048458     LIBCMTD:purevirt.obj
+ 0003:0000345c       __umaskval                 1004845c     LIBCMTD:crt0dat.obj
+ 0003:00003460       __osplatform               10048460     LIBCMTD:crt0dat.obj
+ 0003:00003464       __osver                    10048464     LIBCMTD:crt0dat.obj
+ 0003:00003468       __winver                   10048468     LIBCMTD:crt0dat.obj
+ 0003:0000346c       __winmajor                 1004846c     LIBCMTD:crt0dat.obj
+ 0003:00003470       __winminor                 10048470     LIBCMTD:crt0dat.obj
+ 0003:00003474       ___argc                    10048474     LIBCMTD:crt0dat.obj
+ 0003:00003478       ___argv                    10048478     LIBCMTD:crt0dat.obj
+ 0003:0000347c       ___wargv                   1004847c     LIBCMTD:crt0dat.obj
+ 0003:00003480       __environ                  10048480     LIBCMTD:crt0dat.obj
+ 0003:00003484       ___initenv                 10048484     LIBCMTD:crt0dat.obj
+ 0003:00003488       __wenviron                 10048488     LIBCMTD:crt0dat.obj
+ 0003:0000348c       ___winitenv                1004848c     LIBCMTD:crt0dat.obj
+ 0003:00003490       __pgmptr                   10048490     LIBCMTD:crt0dat.obj
+ 0003:00003494       __wpgmptr                  10048494     LIBCMTD:crt0dat.obj
+ 0003:00003498       __exitflag                 10048498     LIBCMTD:crt0dat.obj
+ 0003:0000349c       __C_Termination_Done       1004849c     LIBCMTD:crt0dat.obj
+ 0003:000034a0       __C_Exit_Done              100484a0     LIBCMTD:crt0dat.obj
+ 0003:000034a8       _gpFlsAlloc                100484a8     LIBCMTD:tidtable.obj
+ 0003:000034ac       _gpFlsGetValue             100484ac     LIBCMTD:tidtable.obj
+ 0003:000034b0       _gpFlsSetValue             100484b0     LIBCMTD:tidtable.obj
+ 0003:000034b4       _gpFlsFree                 100484b4     LIBCMTD:tidtable.obj
+ 0003:000035e4       __adbgmsg                  100485e4     LIBCMTD:crt0msg.obj
+ 0003:00003754       __newmode                  10048754     LIBCMTD:_newmode.obj
+ 0003:00003758       ?_pnhHeap@@3P6AHI@ZA       10048758     LIBCMTD:handler.obj
+ 0003:000037c4       ___lconv_static_null       100487c4     LIBCMTD:lconv.obj
+ 0003:000037c8       ___lc_time_intl            100487c8     LIBCMTD:inittime.obj
+ 0003:000037cc       ___lconv_intl              100487cc     LIBCMTD:initmon.obj
+ 0003:000037d0       ___lc_handle               100487d0     LIBCMTD:nlsdata2.obj
+ 0003:000037e8       ___lc_codepage             100487e8     LIBCMTD:nlsdata2.obj
+ 0003:000037ec       ___lc_collate_cp           100487ec     LIBCMTD:nlsdata2.obj
+ 0003:000037f4       ___lc_id                   100487f4     LIBCMTD:nlsdata3.obj
+ 0003:00003840       __cflush                   10048840     LIBCMTD:_file.obj
+ 0003:00004140       ?g_QPCFrequency@@3T_LARGE_INTEGER@@A 10049140     Platform:IFXOSUtilities.obj
+ 0003:00004148       ?g_bUseQPC@@3HA            10049148     Platform:IFXOSUtilities.obj
+ 0003:0000414c       ?g_bInitialized@@3HA       1004914c     Platform:IFXOSUtilities.obj
+ 0003:00004150       ?g_eax@@3IA                10049150     Platform:IFXOSUtilities.obj
+ 0003:00004154       ?g_ebx@@3IA                10049154     Platform:IFXOSUtilities.obj
+ 0003:00004158       ?g_ecx@@3IA                10049158     Platform:IFXOSUtilities.obj
+ 0003:0000415c       ?g_edx@@3IA                1004915c     Platform:IFXOSUtilities.obj
+ 0003:00004980       ___piob                    10049980     <common>
+ 0003:00004cc0       __bufin                    10049cc0     <common>
+ 0003:00005cc0       __nstream                  1004acc0     <common>
+ 0003:00005cc4       ___ctype1                  1004acc4     <common>
+ 0003:00005cd4       ___ctype1_refcount         1004acd4     <common>
+ 0003:00005cd8       ___lconv_mon_refcount      1004acd8     <common>
+ 0003:00005ce8       ___lconv_intl_refcount     1004ace8     <common>
+ 0003:00005cec       ___lconv_num_refcount      1004acec     <common>
+ 0003:00005cf8       ___sbh_initialized         1004acf8     <common>
+ 0003:00005d0c       ___sbh_pHeaderDefer        1004ad0c     <common>
+ 0003:00005d10       ___sbh_cntHeaderList       1004ad10     <common>
+ 0003:00005d14       ___sbh_pHeaderList         1004ad14     <common>
+ 0003:00005d18       ___sbh_threshold           1004ad18     <common>
+ 0003:00005d1c       ___sbh_pHeaderScan         1004ad1c     <common>
+ 0003:00005d20       ___sbh_sizeHeaderList      1004ad20     <common>
+ 0003:00005d24       ___sbh_indGroupDefer       1004ad24     <common>
+ 0003:00005d28       ___mblcid                  1004ad28     <common>
+ 0003:00005da0       ___ptmbcinfo               1004ada0     <common>
+ 0003:00005da4       ___ismbcodepage            1004ada4     <common>
+ 0003:00005dc0       __mbctype                  1004adc0     <common>
+ 0003:00005ec4       ___mbcodepage              1004aec4     <common>
+ 0003:00005ed0       ___mbulinfo                1004aed0     <common>
+ 0003:00005ee0       __mbcasemap                1004aee0     <common>
+ 0003:00005fe0       __pfnReportHook            1004afe0     <common>
+ 0003:00005ff0       __pReportHookList          1004aff0     <common>
+ 0003:00005ff4       ___setlc_active            1004aff4     <common>
+ 0003:00006004       ___unguarded_readlc_active 1004b004     <common>
+ 0003:00006008       __crtheap                  1004b008     <common>
+ 0003:00006018       ___active_heap             1004b018     <common>
+ 0003:0000601c       __nhandle                  1004b01c     <common>
+ 0003:00006060       ___pioinfo                 1004b060     <common>
+ 0003:00006160       __pfnDumpClient            1004b160     <common>
+ 0003:0000616c       ___env_initialized         1004b16c     <common>
+ 0003:0000617c       ___onexitend               1004b17c     <common>
+ 0003:00006180       ___onexitbegin             1004b180     <common>
+ 0003:00006184       ___mbctype_initialized     1004b184     <common>
+ 0003:00006188       __FPinit                   1004b188     <common>
+ 0003:0000618c       __acmdln                   1004b18c     <common>
+ 0003:0000619c       __pRawDllMain              1004b19c     <common>
+ 0004:00000000       __IMPORT_DESCRIPTOR_KERNEL32 1004c000     kernel32:KERNEL32.dll
+ 0004:00000014       __IMPORT_DESCRIPTOR_IFXCore 1004c014     IFXCore:IFXCore.dll
+ 0004:00000028       __IMPORT_DESCRIPTOR_USER32 1004c028     user32:USER32.dll
+ 0004:0000003c       __IMPORT_DESCRIPTOR_ADVAPI32 1004c03c     advapi32:ADVAPI32.dll
+ 0004:00000050       __IMPORT_DESCRIPTOR_WINMM  1004c050     winmm:WINMM.dll
+ 0004:00000064       __NULL_IMPORT_DESCRIPTOR   1004c064     kernel32:KERNEL32.dll
+ 0004:00000324       __imp__RegQueryValueExW@24 1004c324     advapi32:ADVAPI32.dll
+ 0004:00000328       __imp__RegCloseKey@4       1004c328     advapi32:ADVAPI32.dll
+ 0004:0000032c       __imp__RegOpenKeyExW@20    1004c32c     advapi32:ADVAPI32.dll
+ 0004:00000330       \177ADVAPI32_NULL_THUNK_DATA 1004c330     advapi32:ADVAPI32.dll
+ 0004:0000035c       __imp_@IFXAllocate@4       1004c35c     IFXCore:IFXCore.dll
+ 0004:00000360       __imp_@IFXReallocate@8     1004c360     IFXCore:IFXCore.dll
+ 0004:00000364       __imp_@IFXCreateComponent@12 1004c364     IFXCore:IFXCore.dll
+ 0004:00000368       __imp_@IFXDeallocate@4     1004c368     IFXCore:IFXCore.dll
+ 0004:0000036c       \177IFXCore_NULL_THUNK_DATA 1004c36c     IFXCore:IFXCore.dll
+ 0004:00000398       __imp__GetVersionExA@4     1004c398     kernel32:KERNEL32.dll
+ 0004:0000039c       __imp__RtlUnwind@16        1004c39c     kernel32:KERNEL32.dll
+ 0004:000003a0       __imp__TerminateProcess@8  1004c3a0     kernel32:KERNEL32.dll
+ 0004:000003a4       __imp__GetCurrentProcess@0 1004c3a4     kernel32:KERNEL32.dll
+ 0004:000003a8       __imp__ExitProcess@4       1004c3a8     kernel32:KERNEL32.dll
+ 0004:000003ac       __imp__GetProcAddress@8    1004c3ac     kernel32:KERNEL32.dll
+ 0004:000003b0       __imp__GetModuleHandleA@4  1004c3b0     kernel32:KERNEL32.dll
+ 0004:000003b4       __imp__TlsAlloc@0          1004c3b4     kernel32:KERNEL32.dll
+ 0004:000003b8       __imp__TlsFree@4           1004c3b8     kernel32:KERNEL32.dll
+ 0004:000003bc       __imp__TlsSetValue@8       1004c3bc     kernel32:KERNEL32.dll
+ 0004:000003c0       __imp__TlsGetValue@4       1004c3c0     kernel32:KERNEL32.dll
+ 0004:000003c4       __imp__SetLastError@4      1004c3c4     kernel32:KERNEL32.dll
+ 0004:000003c8       __imp__GetLastError@0      1004c3c8     kernel32:KERNEL32.dll
+ 0004:000003cc       __imp__GetCurrentThread@0  1004c3cc     kernel32:KERNEL32.dll
+ 0004:000003d0       __imp__IsBadWritePtr@8     1004c3d0     kernel32:KERNEL32.dll
+ 0004:000003d4       __imp__IsBadReadPtr@8      1004c3d4     kernel32:KERNEL32.dll
+ 0004:000003d8       __imp__HeapValidate@12     1004c3d8     kernel32:KERNEL32.dll
+ 0004:000003dc       __imp__SetHandleCount@4    1004c3dc     kernel32:KERNEL32.dll
+ 0004:000003e0       __imp__GetStdHandle@4      1004c3e0     kernel32:KERNEL32.dll
+ 0004:000003e4       __imp__GetFileType@4       1004c3e4     kernel32:KERNEL32.dll
+ 0004:000003e8       __imp__GetStartupInfoA@4   1004c3e8     kernel32:KERNEL32.dll
+ 0004:000003ec       __imp__DeleteCriticalSection@4 1004c3ec     kernel32:KERNEL32.dll
+ 0004:000003f0       __imp__GetModuleFileNameA@12 1004c3f0     kernel32:KERNEL32.dll
+ 0004:000003f4       __imp__FreeEnvironmentStringsA@4 1004c3f4     kernel32:KERNEL32.dll
+ 0004:000003f8       __imp__GetEnvironmentStrings@0 1004c3f8     kernel32:KERNEL32.dll
+ 0004:000003fc       __imp__FreeEnvironmentStringsW@4 1004c3fc     kernel32:KERNEL32.dll
+ 0004:00000400       __imp__WideCharToMultiByte@32 1004c400     kernel32:KERNEL32.dll
+ 0004:00000404       __imp__GetEnvironmentStringsW@0 1004c404     kernel32:KERNEL32.dll
+ 0004:00000408       __imp__HeapDestroy@4       1004c408     kernel32:KERNEL32.dll
+ 0004:0000040c       __imp__HeapCreate@12       1004c40c     kernel32:KERNEL32.dll
+ 0004:00000410       __imp__HeapFree@12         1004c410     kernel32:KERNEL32.dll
+ 0004:00000414       __imp__VirtualFree@12      1004c414     kernel32:KERNEL32.dll
+ 0004:00000418       __imp__UnhandledExceptionFilter@4 1004c418     kernel32:KERNEL32.dll
+ 0004:0000041c       __imp__WriteFile@20        1004c41c     kernel32:KERNEL32.dll
+ 0004:00000420       __imp__EnterCriticalSection@4 1004c420     kernel32:KERNEL32.dll
+ 0004:00000424       __imp__LeaveCriticalSection@4 1004c424     kernel32:KERNEL32.dll
+ 0004:00000428       __imp__FatalAppExitA@8     1004c428     kernel32:KERNEL32.dll
+ 0004:0000042c       __imp__MultiByteToWideChar@24 1004c42c     kernel32:KERNEL32.dll
+ 0004:00000430       __imp__LCMapStringA@24     1004c430     kernel32:KERNEL32.dll
+ 0004:00000434       __imp__GetCommandLineA@0   1004c434     kernel32:KERNEL32.dll
+ 0004:00000438       __imp__GetCurrentThreadId@0 1004c438     kernel32:KERNEL32.dll
+ 0004:0000043c       __imp__InterlockedDecrement@4 1004c43c     kernel32:KERNEL32.dll
+ 0004:00000440       __imp__OutputDebugStringA@4 1004c440     kernel32:KERNEL32.dll
+ 0004:00000444       __imp__LoadLibraryA@4      1004c444     kernel32:KERNEL32.dll
+ 0004:00000448       __imp__InterlockedIncrement@4 1004c448     kernel32:KERNEL32.dll
+ 0004:0000044c       __imp__GetACP@0            1004c44c     kernel32:KERNEL32.dll
+ 0004:00000450       __imp__GetOEMCP@0          1004c450     kernel32:KERNEL32.dll
+ 0004:00000454       __imp__GetCPInfo@8         1004c454     kernel32:KERNEL32.dll
+ 0004:00000458       __imp__HeapAlloc@12        1004c458     kernel32:KERNEL32.dll
+ 0004:0000045c       __imp__HeapReAlloc@16      1004c45c     kernel32:KERNEL32.dll
+ 0004:00000460       __imp__VirtualAlloc@16     1004c460     kernel32:KERNEL32.dll
+ 0004:00000464       __imp__InitializeCriticalSection@4 1004c464     kernel32:KERNEL32.dll
+ 0004:00000468       __imp__VirtualQuery@12     1004c468     kernel32:KERNEL32.dll
+ 0004:0000046c       __imp__InterlockedExchange@8 1004c46c     kernel32:KERNEL32.dll
+ 0004:00000470       __imp__SetUnhandledExceptionFilter@4 1004c470     kernel32:KERNEL32.dll
+ 0004:00000474       __imp__IsBadCodePtr@4      1004c474     kernel32:KERNEL32.dll
+ 0004:00000478       __imp__GetTimeFormatA@24   1004c478     kernel32:KERNEL32.dll
+ 0004:0000047c       __imp__GetDateFormatA@24   1004c47c     kernel32:KERNEL32.dll
+ 0004:00000480       __imp__GetStringTypeA@20   1004c480     kernel32:KERNEL32.dll
+ 0004:00000484       __imp__GetStringTypeW@16   1004c484     kernel32:KERNEL32.dll
+ 0004:00000488       __imp__IsValidLocale@8     1004c488     kernel32:KERNEL32.dll
+ 0004:0000048c       __imp__IsValidCodePage@4   1004c48c     kernel32:KERNEL32.dll
+ 0004:00000490       __imp__GetLocaleInfoA@16   1004c490     kernel32:KERNEL32.dll
+ 0004:00000494       __imp__EnumSystemLocalesA@8 1004c494     kernel32:KERNEL32.dll
+ 0004:00000498       __imp__GetUserDefaultLCID@0 1004c498     kernel32:KERNEL32.dll
+ 0004:0000049c       __imp__VirtualProtect@16   1004c49c     kernel32:KERNEL32.dll
+ 0004:000004a0       __imp__GetSystemInfo@4     1004c4a0     kernel32:KERNEL32.dll
+ 0004:000004a4       __imp__SetFilePointer@16   1004c4a4     kernel32:KERNEL32.dll
+ 0004:000004a8       __imp__SetConsoleCtrlHandler@8 1004c4a8     kernel32:KERNEL32.dll
+ 0004:000004ac       __imp__QueryPerformanceCounter@4 1004c4ac     kernel32:KERNEL32.dll
+ 0004:000004b0       __imp__GetTickCount@0      1004c4b0     kernel32:KERNEL32.dll
+ 0004:000004b4       __imp__GetCurrentProcessId@0 1004c4b4     kernel32:KERNEL32.dll
+ 0004:000004b8       __imp__GetSystemTimeAsFileTime@4 1004c4b8     kernel32:KERNEL32.dll
+ 0004:000004bc       __imp__GetTimeZoneInformation@4 1004c4bc     kernel32:KERNEL32.dll
+ 0004:000004c0       __imp__SetStdHandle@8      1004c4c0     kernel32:KERNEL32.dll
+ 0004:000004c4       __imp__GetLocaleInfoW@16   1004c4c4     kernel32:KERNEL32.dll
+ 0004:000004c8       __imp__FlushFileBuffers@4  1004c4c8     kernel32:KERNEL32.dll
+ 0004:000004cc       __imp__CloseHandle@4       1004c4cc     kernel32:KERNEL32.dll
+ 0004:000004d0       __imp__CompareStringA@24   1004c4d0     kernel32:KERNEL32.dll
+ 0004:000004d4       __imp__CompareStringW@24   1004c4d4     kernel32:KERNEL32.dll
+ 0004:000004d8       __imp__SetEnvironmentVariableA@8 1004c4d8     kernel32:KERNEL32.dll
+ 0004:000004dc       __imp__GetSystemDefaultLangID@0 1004c4dc     kernel32:KERNEL32.dll
+ 0004:000004e0       __imp__QueryPerformanceFrequency@4 1004c4e0     kernel32:KERNEL32.dll
+ 0004:000004e4       __imp__Sleep@4             1004c4e4     kernel32:KERNEL32.dll
+ 0004:000004e8       __imp__OutputDebugStringW@4 1004c4e8     kernel32:KERNEL32.dll
+ 0004:000004ec       __imp__DebugBreak@0        1004c4ec     kernel32:KERNEL32.dll
+ 0004:000004f0       __imp__LCMapStringW@24     1004c4f0     kernel32:KERNEL32.dll
+ 0004:000004f4       __imp__DisableThreadLibraryCalls@4 1004c4f4     kernel32:KERNEL32.dll
+ 0004:000004f8       \177KERNEL32_NULL_THUNK_DATA 1004c4f8     kernel32:KERNEL32.dll
+ 0004:00000568       __imp__MessageBoxW@16      1004c568     user32:USER32.dll
+ 0004:0000056c       \177USER32_NULL_THUNK_DATA 1004c56c     user32:USER32.dll
+ 0004:00000598       __imp__timeEndPeriod@4     1004c598     winmm:WINMM.dll
+ 0004:0000059c       __imp__timeGetTime@0       1004c59c     winmm:WINMM.dll
+ 0004:000005a0       __imp__timeBeginPeriod@4   1004c5a0     winmm:WINMM.dll
+ 0004:000005a4       \177WINMM_NULL_THUNK_DATA  1004c5a4     winmm:WINMM.dll
+ 0005:00000080       ??_7IFXUnknown@@6B@        1004d080     Scheduling:CIFXClock.obj
+ 0005:00000090       ??_7IFXSubject@@6B0@@      1004d090     Scheduling:CIFXClock.obj
+ 0005:000000a4       ??_7IFXSubject@@6BIFXUnknown@@@ 1004d0a4     Scheduling:CIFXClock.obj
+ 0005:000000c4       ??_7IFXClock@@6B@          1004d0c4     Scheduling:CIFXClock.obj
+ 0005:00000124       ??_7CIFXClock@@6BIFXUnknown@@IFXClock@@@ 1004d124     Scheduling:CIFXClock.obj
+ 0005:00000184       ??_7CIFXClock@@6BIFXUnknown@@IFXSubject@@@ 1004d184     Scheduling:CIFXClock.obj
+ 0005:000001e4       ??_7CIFXClock@@6BIFXSubject@@@ 1004d1e4     Scheduling:CIFXClock.obj
+ 0005:00000244       ??_7CIFXClock@@6BCIFXSubject@@@ 1004d244     Scheduling:CIFXClock.obj
+ 0005:000002a4       ??_7IFXTaskData@@6B@       1004d2a4     Scheduling:CIFXErrorInfo.obj
+ 0005:00000304       ??_7IFXErrorInfo@@6B@      1004d304     Scheduling:CIFXErrorInfo.obj
+ 0005:00000364       ??_7CIFXErrorInfo@@6B@     1004d364     Scheduling:CIFXErrorInfo.obj
+ 0005:000003e4       ??_7IFXNotificationInfo@@6B@ 1004d3e4     Scheduling:CIFXNotificationInfo.obj
+ 0005:00000464       ??_7CIFXNotificationInfo@@6B@ 1004d464     Scheduling:CIFXNotificationInfo.obj
+ 0005:00000560       ??_7IFXTask@@6B0@@         1004d560     Scheduling:CIFXNotificationManager.obj
+ 0005:00000568       ??_7IFXTask@@6BIFXUnknown@@@ 1004d568     Scheduling:CIFXNotificationManager.obj
+ 0005:00000584       ??_7IFXNotificationManager@@6BIFXUnknown@@@ 1004d584     Scheduling:CIFXNotificationManager.obj
+ 0005:000005c4       ??_7IFXNotificationManager@@6BIFXTask@@@ 1004d5c4     Scheduling:CIFXNotificationManager.obj
+ 0005:00000604       ??_7CIFXNotificationManager@@6BIFXUnknown@@@ 1004d604     Scheduling:CIFXNotificationManager.obj
+ 0005:00000664       ??_7CIFXNotificationManager@@6BIFXTask@@@ 1004d664     Scheduling:CIFXNotificationManager.obj
+ 0005:000006c4       ??_7IFXScheduler@@6B@      1004d6c4     Scheduling:CIFXScheduler.obj
+ 0005:00000744       ??_7CIFXScheduler@@6B@     1004d744     Scheduling:CIFXScheduler.obj
+ 0005:000007c4       ??_7IFXSchedulerInfo@@6B@  1004d7c4     Scheduling:CIFXSchedulerInfo.obj
+ 0005:00000824       ??_7CIFXSchedulerInfo@@6B@ 1004d824     Scheduling:CIFXSchedulerInfo.obj
+ 0005:00000aa8       ??_7IFXSimulationManager@@6BIFXUnknown@@@ 1004daa8     Scheduling:CIFXSimulationManager.obj
+ 0005:00000adc       ??_7IFXSimulationManager@@6BIFXTask@@@ 1004dadc     Scheduling:CIFXSimulationManager.obj
+ 0005:00000b10       ??_7CIFXSimulationManager@@6BIFXUnknown@@@ 1004db10     Scheduling:CIFXSimulationManager.obj
+ 0005:00000b48       ??_7CIFXSimulationManager@@6BIFXTask@@@ 1004db48     Scheduling:CIFXSimulationManager.obj
+ 0005:00000b84       ??_7IFXSimulationInfo@@6B@ 1004db84     Scheduling:CIFXSimulationInfo.obj
+ 0005:00000c04       ??_7CIFXSimulationInfo@@6B@ 1004dc04     Scheduling:CIFXSimulationInfo.obj
+ 0005:00000c84       ??_7IFXSystemManager@@6BIFXUnknown@@@ 1004dc84     Scheduling:CIFXSystemManager.obj
+ 0005:00000ca0       ??_7IFXSystemManager@@6BIFXTask@@@ 1004dca0     Scheduling:CIFXSystemManager.obj
+ 0005:00000cbc       ??_7CIFXSystemManager@@6BIFXUnknown@@@ 1004dcbc     Scheduling:CIFXSystemManager.obj
+ 0005:00000cdc       ??_7CIFXSystemManager@@6BIFXTask@@@ 1004dcdc     Scheduling:CIFXSystemManager.obj
+ 0005:00000d04       ??_7CIFXTaskData@@6B@      1004dd04     Scheduling:CIFXTaskData.obj
+ 0005:00000dd8       ??_7IFXTaskManager@@6B@    1004ddd8     Scheduling:CIFXTaskManager.obj
+ 0005:00000e04       ??_7CIFXTaskManager@@6B@   1004de04     Scheduling:CIFXTaskManager.obj
+ 0005:00000e44       ??_7IFXTaskManagerNode@@6B@ 1004de44     Scheduling:CIFXTaskManagerNode.obj
+ 0005:00000ec4       ??_7CIFXTaskManagerNode@@6B@ 1004dec4     Scheduling:CIFXTaskManagerNode.obj
+ 0005:000013b4       ??_7IFXTaskManagerView@@6B@ 1004e3b4     Scheduling:CIFXTaskManagerView.obj
+ 0005:000013e8       ??_7CIFXTaskManagerView@@6B@ 1004e3e8     Scheduling:CIFXTaskManagerView.obj
+ 0005:00001524       ??_7IFXTimeManager@@6BIFXUnknown@@@ 1004e524     Scheduling:CIFXTimeManager.obj
+ 0005:00001548       ??_7IFXTimeManager@@6BIFXTask@@@ 1004e548     Scheduling:CIFXTimeManager.obj
+ 0005:00001584       ??_7CIFXTimeManager@@6BIFXUnknown@@@ 1004e584     Scheduling:CIFXTimeManager.obj
+ 0005:000015c4       ??_7CIFXTimeManager@@6BIFXTask@@@ 1004e5c4     Scheduling:CIFXTimeManager.obj
+ 0005:00001604       ??_7IFXTaskCallback@@6BIFXUnknown@@@ 1004e604     Scheduling:CIFXTaskCallback.obj
+ 0005:00001614       ??_7IFXTaskCallback@@6BIFXTask@@@ 1004e614     Scheduling:CIFXTaskCallback.obj
+ 0005:00001624       ??_7CIFXTaskCallback@@6BIFXUnknown@@@ 1004e624     Scheduling:CIFXTaskCallback.obj
+ 0005:00001638       ??_7CIFXTaskCallback@@6BIFXTask@@@ 1004e638     Scheduling:CIFXTaskCallback.obj
+ 0005:00001e34       ??_7CIFXSubject@@6B0@@     1004ee34     Scheduling:CIFXSubject.obj
+ 0005:00001e3c       ??_7CIFXSubject@@6BIFXUnknown@@@ 1004ee3c     Scheduling:CIFXSubject.obj
+ 0005:00001e4c       ??_7CIFXSubject@@6BIFXSubject@@@ 1004ee4c     Scheduling:CIFXSubject.obj
+ 0005:00001e60       ??_7?$CRedBlackTree@PAUSIFXObserverRequest@@PAVIFXObserver@@VCompareObservers@@@@6B@ 1004ee60     Scheduling:CIFXSubject.obj
+ 0005:00001eac       ??_7IFXString@@6B@         1004eeac     Scheduling:IFXString.obj
+
+ entry point at        0001:00014970
+

@@ -1,0 +1,15 @@
+
+incl=-I../Include/ -I../../../RTL/Component/Include -I../../../RTL/Kernel/Include -I../../../RTL/Platform/Include
+
+all:
+	gcc -c -o IFXSuite.o  -Wall -fPIC -DPIC -ggdb -O0  -DDEBUG -D_DEBUG -Dgcc  $(incl) IFXSuite.cpp 
+	gcc -c -o IFXTest.o   -Wall -fPIC -DPIC -ggdb -O0  -DDEBUG -D_DEBUG -Dgcc  $(incl) IFXTest.cpp
+	libtool -static -c -o ../Lib/Mac32/debug/libUnitTesting.a  IFXSuite.o IFXTest.o
+clean:
+	rm -f *.o
+global:
+	rm -f *.o
+	rm -f ../Lib/Mac32/debug/*.a
+
+
+

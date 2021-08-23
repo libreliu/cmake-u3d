@@ -1,0 +1,29 @@
+Not LIBPNG 1.2.7
+================
+
+The Source\RTL\Dependencies\png directory is not 
+libpng.  Directories and files from the actual 
+libpng distribution have been removed.  In 
+addition, files in the root directory of such 
+distributions has been partitioned into the Docs 
+and Source subdirectories.
+
+
+Entire directories that have been removed
+=========================================
+
+contrib
+projects
+scripts
+
+
+Files that have been removed 
+============================
+configure
+example.c
+pngbar.jpg
+pngbar.png
+pngnow.png
+pngtest.c
+pngtest.png
+

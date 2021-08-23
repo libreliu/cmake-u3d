@@ -1,0 +1,56 @@
+How To Generate HTML_U3D on Win32
+=================================
+
+1.  Obtain and install a copy of doxygen from http://www.doxygen.org/.  We 
+    last used version 1.3.7.  It should automatically add the directory that 
+    doxygen.exe resides in to your system's PATH environment variable.
+
+2.  Obtain and install a copy of Graphviz from 
+    http://www.research.att.com/sw/tools/graphviz/download.html to your C drive 
+    in its default directory.  The U3D.cfg & Test.cfg doxygen configuration files
+    are hardcoded based on the default install directory.
+
+3.  If you wish to create a compressed HTML file from the doxygen output, 
+    obtain and install a copy of Microsoft*'s HTML Help Workshop from (note the 
+    following URL text on multiple indented lines should be concatenated):  
+
+        http://msdn.microsoft.com/library/default.asp?
+        url=/library/en-us/htmlhelp/html/hwMicrosoftHTMLHelpDownloads.asp
+
+4.  With the most recent version of the source, run the MakeDocsU3D batch file by 
+    double clicking on it in the "Docs\Doxygen" directory.  Another approach is 
+    to change to the proper directory in a DOS command prompt window and then 
+    issue a "MakeSpecifiedDocs U3D" command.
+
+    This will take about 30 minutes to complete and will create all of the HTML 
+    for U3D in the "Docs\Doxygen\Output" directory in an automatically created 
+    subdirectory called "HTML_U3D".
+
+5.  To create a .CHM compressed HTML file, run the "HTML Help Workshop" program 
+    from the Start menu.
+
+6.  Create the compiled U3D help file from the File\Compile dialog box by 
+    selecting the index.hhp file from the HTML_U3D subdirectory.  This will create 
+    the compiled file called index.chm in that directory.
+
+7.  Manually copy the index.chm file and rename it to HTML_U3D.chm or U3D.chm.
+
+
+How to Generate Test HTML on Win32 When Learning doxygen
+========================================================
+
+1.  Follow steps 1-3 above.
+
+2.  Place all the desired source files to use for generating documentation in a 
+    "Source\Tests\doxygen" subdirectory.  It's okay for it to be organized in 
+    multiple nested subdirectories.
+
+3.  Run the MakeDocsTest batch file by double clicking on it in the 
+    "Docs\Doxygen" directory.  This will create all of the HTML and place 
+    it in the "Docs\Doxygen\Output" directory in an automatically created 
+    subdirectory called "HTML_Test".
+
+
+* Other names and brands may be claimed as the property of others.
+
+

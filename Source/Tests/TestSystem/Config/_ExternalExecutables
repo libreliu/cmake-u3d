@@ -1,0 +1,4 @@
+../../../Build/u3d/SamplePlayer.exe
+../../../Build/u3d/SamplePlayer.exe -i../../../Tests/UnitTesting/SamplePlayer/SimpleTestNR.u3d -latom
+../../../Build/u3d/SamplePlayer.exe -i../../../Tests/UnitTesting/SamplePlayer/SimpleTestNR.u3d -lnatom
+../../../Build/u3d/SamplePlayer.exe -i../../../Tests/UnitTesting/Modifiers/SampleSkeleton/simpleBox.u3d

@@ -1,0 +1,51 @@
+//***************************************************************************
+//
+//  Copyright (c) 1999 - 2006 Intel Corporation
+//
+//  Licensed under the Apache License, Version 2.0 (the "License");
+//  you may not use this file except in compliance with the License.
+//  You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+//  Unless required by applicable law or agreed to in writing, software
+//  distributed under the License is distributed on an "AS IS" BASIS,
+//  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+//  See the License for the specific language governing permissions and
+//  limitations under the License.
+//
+//***************************************************************************
+
+#ifndef SAMPLEPICKING_H
+#define SAMPLEPICKING_H
+
+#include "IFXTest.h"
+#include "IFXException.h"
+#include "UTHeaders.h"
+
+#define NUMELEMENTS 7
+
+class U3DSceneUtilities;
+
+class SamplePicking : public U3DTestSuite::IFXTest
+{
+public:
+	SamplePicking();
+	~SamplePicking();
+
+	IFXRESULT StartUp();
+	IFXRESULT Run();	
+	IFXRESULT Pick2DSample();
+	IFXRESULT Pick3DSample();
+	IFXRESULT ShutDown();
+
+private:
+	IFXRESULT Check2DModelNames( const int numElements, const IFXString modelName );
+	IFXRESULT Check3DModelNames( const int numElements, const IFXString modelName );
+
+	IFXVector3 m_position[NUMELEMENTS];
+	IFXVector3 m_direction[NUMELEMENTS];
+	
+	U3DSceneUtilities* m_pSGUtils;
+};
+#endif

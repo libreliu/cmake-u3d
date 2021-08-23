@@ -1,0 +1,27 @@
+H1 { font-family: "Arial", sans-serif;text-align: center; }
+H2 { font-family: "Arial", sans-serif;text-align: left; }
+H3 { font-family: "Arial", sans-serif;text-align: left; }
+A.qindex {text-decoration: none; font-family: "Arial", sans-serif; font-weight: normal}
+A.qindexRef {text-decoration: none; font-family: "Arial", sans-serif; font-weight: normal}
+A {text-decoration: none; text-align: left; }
+A.el { text-decoration: none; font-family: "Arial", sans-serif; font-weight: normal; }
+A.elRef { text-decoration: none; font-family: "Arial", sans-serif; font-weight: normal }
+A.code { text-decoration: none; font-family: "Courier", serif; font-weight: normal; color: #4444ee }
+A.codeRef { font-family: "Courier", serif; font-weight: normal; color: #4444ee }
+DL.el { margin-left: 1cm }
+DIV.fragment { width: 100%; border: none; background-color: #cecece }
+DIV.ah { background-color: black; font-weight: bold; color: #ffffff; margin-bottom: 3; margin-top: 3 }
+TD {text-align: left; }
+TD.md { background-color: #d7d7d7 }
+TD.mdname1 { background-color: #d7d7d7; font-style: italic; }
+TD.mdname { background-color: #d7d7d7; font-style: italic; width: 600px; }
+DIV.groupHeader { margin-left: 16; margin-top: 12; margin-bottom: 6; font-family: "Arial", sans-serif; font-weight: bold }
+DIV.groupText { margin-left: 16; font-style: italic; font-family: "Arial", sans-serif; font-size: smaller }
+FONT.keyword       { font-family: "Courier", serif; color: #000000 }
+FONT.keywordtype   { font-family: "Courier", serif; color: #000000 }
+FONT.keywordflow   { font-family: "Courier", serif; color: #000000 }
+FONT.comment       { font-family: "Courier", serif; color: #b00206 }
+FONT.preprocessor  { font-family: "Courier", serif; color: #000000 }
+FONT.stringliteral { font-family: "Courier", serif; color: #000000 }
+FONT.charliteral   { font-family: "Courier", serif; color: #000000 }
+BODY { font-family: "Arial", sans-serif; background-color: #eeeeee }

@@ -1,0 +1,1 @@
+-Wl,<!--Perl: u3dsp-->RTL/Build/CoreStatic/<!--Perl: config-->/libIFXCoreStatic.a <!--Perl: u3dsp-->RTL/Build/SceneHelpers/<!--Perl: config-->/libSceneHelpers.a <!--Perl: u3dsp-->Tools/UnitTesting/Lib/Mac32/<!--Perl: config-->/libUnitTesting.a <!--Perl: u3dsp-->RTL/Build/SampleViewerQrtz/<!--Perl: config-->/libSampleViewerQrtz.a
