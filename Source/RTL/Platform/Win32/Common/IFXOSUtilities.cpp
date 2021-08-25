@@ -75,8 +75,11 @@ U32 g_eax, g_ebx, g_ecx, g_edx;
 //  Local functions
 //***************************************************************************
 
+#ifndef U3D_NO_ASM
+#ifdef _MSC_VER
 static void cpuid(U32 op, U32& eax, U32& ebx, U32& ecx, U32& edx)
 {
+#ifndef _WIN64
   U32 A, B, C, D;
   __asm {
     mov eax, op
@@ -90,7 +93,23 @@ static void cpuid(U32 op, U32& eax, U32& ebx, U32& ecx, U32& edx)
   ebx = B;
   ecx = C;
   edx = D;
+#endif
 }
+#endif
+#ifdef __MINGW32__
+static void cpuid(U32 op)
+{
+  asm(
+        "movl %%ebx, %%edi  \n\t"
+        "cpuid              \n\t"
+        "movl %%edi, %%ebx  \n\t"
+        : "=a" (g_eax),
+      "=c" (g_ecx),
+      "=d" (g_edx)
+    : "a" (op));
+}
+#endif
+#endif // U3D_NO_ASM
 
 //***************************************************************************
 //  Global functions
@@ -105,6 +124,7 @@ U16 IFXAPI_CALLTYPE IFXGetSystemDefaultLangID(void)
 extern "C"
 BOOL IFXAPI_CALLTYPE IFXOSCheckCPUFeature(EIFXCPUFeature feature)
 {
+#ifndef U3D_NO_ASM
   BOOL supported = FALSE;
   switch (feature) {
     case IFXCPUFeature_MMX: supported = (g_edx>>23)&1; break;
@@ -113,6 +133,9 @@ BOOL IFXAPI_CALLTYPE IFXOSCheckCPUFeature(EIFXCPUFeature feature)
     case IFXCPUFeature_SSE3: supported = g_ecx&1; break;
   }
   return supported;
+#else
+  return FALSE;
+#endif // U3D_NO_ASM
 }
 
 //---------------------------------------------------------------------------
@@ -127,7 +150,14 @@ void IFXAPI_CALLTYPE IFXOSInitialize( void )
   if( !g_bUseQPC )
     timeBeginPeriod(1);
 
+#ifndef U3D_NO_ASM
+#ifdef _MSC_VER
   cpuid(1, g_eax, g_ebx, g_ecx, g_edx);
+#endif
+#ifdef __MINGW32__
+  cpuid(1);
+#endif
+#endif // U3D_NO_ASM
 
 #ifdef _DEBUG
   g_bInitialized = TRUE;

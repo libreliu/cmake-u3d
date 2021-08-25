@@ -31,3 +31,5 @@
 #include "IFXDataBlockQueueX.h"
 #include "IFXModifier.h"
 #include "IFXNameMap.h"
+#include "IFXEncoderX.h"
+#include "IFXCoreCIDs.h"

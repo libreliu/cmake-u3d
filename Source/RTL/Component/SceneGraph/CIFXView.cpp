@@ -1747,7 +1747,7 @@ IFXRESULT CIFXView::RenderView(IFXRenderContext* pRenderContext, U32 ViewInstanc
 													}
 													else
 													{
-														IFXTRACE_GENERIC(__WFILE__ L"("__THISLINE__ L") : ERROR: NULL shader palette entry found in render pipeline!\n");
+														IFXTRACE_GENERIC(__WFILE__ L"(" __THISLINE__ L") : ERROR: NULL shader palette entry found in render pipeline!\n");
 													}
 
 													IFXRELEASE( pShader );

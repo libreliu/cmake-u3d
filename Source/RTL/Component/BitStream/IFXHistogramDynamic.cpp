@@ -28,8 +28,13 @@
 
 const U32 IFXHistogramDynamic::m_uMaximumSymbolInHistogram = 0x0000FFFF;
 
+#ifdef __GNUC__
+void UpdateCumulativeCountSSE2(U32 uLoopCount, U16 *pu16Start) __attribute__ ((noinline));
+void UpdateCumulativeCountMMX(U32 uLoopCount, U16 *pu16Start) __attribute__ ((noinline));
+#else
 void UpdateCumulativeCountSSE2(U32 uLoopCount, U16 *pu16Start);
 void UpdateCumulativeCountMMX(U32 uLoopCount, U16 *pu16Start);
+#endif
 
 // Constructor
 IFXHistogramDynamic::IFXHistogramDynamic(U32 uElephant)
@@ -422,7 +427,16 @@ void IFXHistogramDynamic::AddSymbolRef(U32 symbol)
   }
 }
 
-#if defined( cl ) || defined( icl )
+#if defined(U3D_NO_ASM) || (defined( __GNUC__ ) && !defined( __i386__ )) || defined( _WIN64 )  // ? && !defined(__x86_64__)
+void UpdateCumulativeCountSSE2(U32 uLoopCount, U16 *pu16Start)
+{
+}
+
+void UpdateCumulativeCountMMX(U32 uLoopCount, U16 *pu16Start)
+{
+}
+#else
+#if defined(_MSC_VER) || defined( cl ) || defined( icl )
 void UpdateCumulativeCountSSE2(U32 uLoopCount, U16 *pu16Start)
 {
   __asm {
@@ -503,7 +517,7 @@ LoopStartSSE2:
 }
 #endif
 
-#if defined( gcc ) && ( defined( LINUX ) || defined( MAC32 ) )
+#if defined( __GNUC__ ) && ( defined( LINUX ) || defined( MAC32 ) || defined( __linux__ ) || defined( __APPLE__ ) || defined( __MINGW32__ ) )
 void UpdateCumulativeCountSSE2(U32 uLoopCount, U16 *pu16Start)
 {
   asm __volatile__ (
@@ -583,7 +597,7 @@ void UpdateCumulativeCountSSE2(U32 uLoopCount, U16 *pu16Start)
 }
 #endif
 
-#if defined( cl ) || defined( icl )
+#if defined(_MSC_VER) || defined( cl ) || defined( icl )
 void UpdateCumulativeCountMMX(U32 uLoopCount, U16 *pu16Start)
 {
   __asm {
@@ -635,7 +649,7 @@ LoopStartRED4:
 }
 #endif
 
-#if defined( gcc ) && ( defined( LINUX ) || defined( MAC32 ) )
+#if defined( __GNUC__ ) && ( defined( LINUX ) || defined( MAC32 ) || defined( __linux__ ) || defined( __APPLE__ ) || defined( __MINGW32__ ) )
 void UpdateCumulativeCountMMX(U32 uLoopCount, U16 *pu16Start)
 {
   asm __volatile__ (
@@ -685,3 +699,4 @@ void UpdateCumulativeCountMMX(U32 uLoopCount, U16 *pu16Start)
   );
 }
 #endif
+#endif // NO_ASM
