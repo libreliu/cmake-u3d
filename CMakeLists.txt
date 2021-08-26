@@ -523,7 +523,13 @@ set(IFXImporting_SRCS
 	${CMAKE_SOURCE_DIR}/Source/RTL/Kernel/Common/IFXDebug.cpp
 )
 
-add_library(IFXImporting SHARED ${IFXImporting_SRCS} ${IFXIMPORTING_HDRS})
+add_library(IFXImporting SHARED
+	${IFXImporting_SRCS}
+	${IFXIMPORTING_HDRS}
+	${CMAKE_SOURCE_DIR}/Source/RTL/Platform/Win32/IFXImporting/IFXImporting.rc
+    ${CMAKE_SOURCE_DIR}/Source/RTL/Platform/Win32/IFXImporting/IFXResource.h
+    ${CMAKE_SOURCE_DIR}/Source/RTL/Platform/Win32/IFXImporting/IFXImporting.def
+)
 # Require winsock2 to make IFXOSSocket.cpp work
 target_link_libraries(IFXImporting IFXCore IFXCommon ws2_32)
 
@@ -635,3 +641,33 @@ target_include_directories(IFXRendering PUBLIC
 target_link_libraries(IFXRendering IFXCore IFXCommon dxsdk ws2_32)
 
 # Sample Player (Win32)
+set(SamplePlayer_SRCS
+	${IFXRendering_Platform_Common_SRCS}
+	${CMAKE_SOURCE_DIR}/Source/Samples/SamplePlayer/SPlayerMain.cpp
+	${CMAKE_SOURCE_DIR}/Source/Samples/SampleViewerWin32/U3DViewerWin.cpp
+	${CMAKE_SOURCE_DIR}/Source/Samples/SampleViewerWin32/U3DViewer.h
+	${CMAKE_SOURCE_DIR}/Source/Samples/SceneHelpers/U3DSceneUtilities.cpp
+	${CMAKE_SOURCE_DIR}/Source/Samples/SceneHelpers/U3DSceneUtilities.h
+	${CMAKE_SOURCE_DIR}/Source/Samples/SceneHelpers/U3DCameraNavigation.cpp
+	${CMAKE_SOURCE_DIR}/Source/Samples/SceneHelpers/U3DCameraNavigation.h
+
+	${CMAKE_SOURCE_DIR}/Source/RTL/Kernel/DataTypes/IFXCoreArray.cpp
+	${CMAKE_SOURCE_DIR}/Source/RTL/Kernel/DataTypes/IFXCoreList.cpp
+	${CMAKE_SOURCE_DIR}/Source/RTL/Kernel/DataTypes/IFXFastAllocator.cpp
+	${CMAKE_SOURCE_DIR}/Source/RTL/Kernel/DataTypes/IFXListNode.cpp
+	${CMAKE_SOURCE_DIR}/Source/RTL/Kernel/DataTypes/IFXMatrix4x4.cpp
+	${CMAKE_SOURCE_DIR}/Source/RTL/Kernel/DataTypes/IFXQuaternion.cpp
+	${CMAKE_SOURCE_DIR}/Source/RTL/Kernel/DataTypes/IFXString.cpp
+	${CMAKE_SOURCE_DIR}/Source/RTL/Kernel/DataTypes/IFXUnitAllocator.cpp
+	${CMAKE_SOURCE_DIR}/Source/RTL/Kernel/DataTypes/IFXVector3.cpp
+	${CMAKE_SOURCE_DIR}/Source/RTL/Kernel/DataTypes/IFXVector4.cpp
+	${CMAKE_SOURCE_DIR}/Source/RTL/Kernel/Common/IFXDebug.cpp
+	${CMAKE_SOURCE_DIR}/Source/RTL/Component/Common/CIFXMetaData.cpp
+	${CMAKE_SOURCE_DIR}/Source/RTL/Component/Common/IFXDids.cpp
+)
+
+add_executable(SampleViewerWin32 WIN32 ${SamplePlayer_SRCS})
+
+target_include_directories(SampleViewerWin32 PUBLIC ${CMAKE_SOURCE_DIR}/Source/Samples/SceneHelpers)
+target_include_directories(SampleViewerWin32 PUBLIC ${CMAKE_SOURCE_DIR}/Source/Samples/SampleViewerWin32)
+target_link_libraries(SampleViewerWin32 IFXRendering IFXImporting IFXExporting IFXCore IFXCommon comctl32)
