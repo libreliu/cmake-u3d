@@ -96,6 +96,10 @@ target_include_directories(predicates INTERFACE ${CMAKE_SOURCE_DIR}/Source/RTL/D
 add_library(FNVHash INTERFACE)
 target_include_directories(FNVHash INTERFACE ${CMAKE_SOURCE_DIR}/Source/RTL/Dependencies/FNVHash)
 
+# Dependencies - dxsdk
+add_library(dxsdk INTERFACE)
+target_include_directories(dxsdk INTERFACE ${CMAKE_SOURCE_DIR}/Source/RTL/Dependencies/dxsdk/Include)
+
 # Common Infrastructure
 GlobHdrRecurse(Component_HDRS ${CMAKE_SOURCE_DIR}/Source/RTL/Component/Include)
 GlobHdrRecurse(Kernel_HDRS ${CMAKE_SOURCE_DIR}/Source/RTL/Kernel/Include)
@@ -576,3 +580,58 @@ add_library(IFXScheduling SHARED
     ${CMAKE_SOURCE_DIR}/Source/RTL/Platform/Win32/IFXScheduling/IFXScheduling.def
 )
 target_link_libraries(IFXScheduling IFXCommon IFXCore)
+
+# IFXRendering (By guess)
+GlobSrcRecurse(IFXRendering_SRCS ${CMAKE_SOURCE_DIR}/Source/RTL/Component/Rendering)
+GlobSrcRecurse(IFXRendering_Platform_SRCS ${CMAKE_SOURCE_DIR}/Source/RTL/Platform/Win32/IFXRendering)
+GlobSrcRecurse(IFXRendering_Platform_Common_SRCS ${CMAKE_SOURCE_DIR}/Source/RTL/Platform/Win32/Common)
+GlobHdrRecurse(IFXRendering_Platform_HDRS ${CMAKE_SOURCE_DIR}/Source/RTL/Platform/Win32/IFXRendering)
+Ubpa_List_Print(TITLE "IFXRendering Sources:" STRS ${IFXRendering_SRCS} PREFIX "  ")
+Ubpa_List_Print(TITLE "IFXRendering Platform Common Sources:" STRS ${IFXRendering_Platform_Common_SRCS} PREFIX "  ")
+Ubpa_List_Print(TITLE "IFXRendering Platform Sources:" STRS ${IFXRendering_Platform_SRCS} PREFIX "  ")
+Ubpa_List_Print(TITLE "IFXRendering Platform Headers:" STRS ${IFXRendering_Platform_HDRS} PREFIX "  ")
+
+set(IFXRendering_HDRS
+	${Component_HDRS}
+	${Kernel_HDRS}
+	${Platform_HDRS}
+)
+
+add_library(IFXRendering SHARED
+    ${IFXRendering_SRCS}
+    ${IFXRendering_Platform_SRCS}
+	${IFXRendering_Platform_Common_SRCS}
+    ${IFXRendering_HDRS}
+    ${IFXRendering_Platform_HDRS}
+	${CMAKE_SOURCE_DIR}/Source/RTL/Kernel/Common/IFXDebug.cpp
+	${CMAKE_SOURCE_DIR}/Source/RTL/Kernel/DataTypes/IFXCoreArray.cpp
+	${CMAKE_SOURCE_DIR}/Source/RTL/Kernel/DataTypes/IFXCoreList.cpp
+	${CMAKE_SOURCE_DIR}/Source/RTL/Kernel/DataTypes/IFXFastAllocator.cpp
+	${CMAKE_SOURCE_DIR}/Source/RTL/Kernel/DataTypes/IFXListNode.cpp
+	${CMAKE_SOURCE_DIR}/Source/RTL/Kernel/DataTypes/IFXMatrix4x4.cpp
+	${CMAKE_SOURCE_DIR}/Source/RTL/Kernel/DataTypes/IFXQuaternion.cpp
+	${CMAKE_SOURCE_DIR}/Source/RTL/Kernel/DataTypes/IFXString.cpp
+	${CMAKE_SOURCE_DIR}/Source/RTL/Kernel/DataTypes/IFXUnitAllocator.cpp
+	${CMAKE_SOURCE_DIR}/Source/RTL/Kernel/DataTypes/IFXVector3.cpp
+	${CMAKE_SOURCE_DIR}/Source/RTL/Kernel/DataTypes/IFXVector4.cpp
+	${CMAKE_SOURCE_DIR}/Source/RTL/Component/Culling/CIFXScenegraphCuller.cpp
+	${CMAKE_SOURCE_DIR}/Source/RTL/Component/Culling/CIFXOctreeCollection.cpp
+	${CMAKE_SOURCE_DIR}/Source/RTL/Component/Culling/CIFXOctreeCuller.cpp
+	${CMAKE_SOURCE_DIR}/Source/RTL/IFXCorePluginStatic/IFXCorePluginStatic.cpp
+	${CMAKE_SOURCE_DIR}/Source/RTL/Platform/Win32/Common/IFXOSRenderWindow.cpp
+    ${CMAKE_SOURCE_DIR}/Source/RTL/Platform/Win32/IFXRendering/IFXRendering.rc
+    ${CMAKE_SOURCE_DIR}/Source/RTL/Platform/Win32/IFXRendering/IFXResource.h
+    ${CMAKE_SOURCE_DIR}/Source/RTL/Platform/Win32/IFXRendering/IFXRendering.def
+)
+
+target_include_directories(IFXRendering PUBLIC 
+    ${CMAKE_SOURCE_DIR}/Source/RTL/Platform/Win32/IFXRendering/OpenGL
+    ${CMAKE_SOURCE_DIR}/Source/RTL/Dependencies/OpenGL/include
+    ${CMAKE_SOURCE_DIR}/Source/RTL/Component/Rendering/OpenGL
+    ${CMAKE_SOURCE_DIR}/Source/RTL/Component/Rendering/DX7
+    ${CMAKE_SOURCE_DIR}/Source/RTL/Component/Rendering/DX8
+    ${CMAKE_SOURCE_DIR}/Source/RTL/Component/Rendering/Null
+)
+target_link_libraries(IFXRendering IFXCore IFXCommon dxsdk ws2_32)
+
+# Sample Player (Win32)

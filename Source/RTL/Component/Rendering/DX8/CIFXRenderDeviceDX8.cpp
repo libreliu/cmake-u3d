@@ -20,7 +20,7 @@
 #include "IFXRenderPCHDX8.h"
 #include "CIFXRenderDeviceDX8.h"
 #include "CIFXRenderDX8.h"
-#include "D3DX8.h"
+#include "d3d8.h"
 
 
 //===========================

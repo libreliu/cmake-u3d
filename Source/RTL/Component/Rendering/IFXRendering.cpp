@@ -38,7 +38,7 @@
 
 #include "IFXRenderPCH.h"
 #include "CIFXRenderDevice.h"
-#include "OpenGL/CIFXOpenGLOS.h"
+#include "CIFXOpenGLOS.h"
 
 //***************************************************************************
 //  Defines
