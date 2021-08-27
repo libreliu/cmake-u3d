@@ -28,7 +28,7 @@
 #include "IFXOSFileIterator.h"
 #include <windows.h>
 
-#define IFXOSFI_SUBDIR  L"plugins"
+#define IFXOSFI_SUBDIR  L"."
 #define IFXOSFI_EXT     L"*.dll"
 #define IFXOSFI_EXTALL  L"*"
 #define IFXOSFI_CURRDIR L"."
