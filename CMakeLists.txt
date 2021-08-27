@@ -666,7 +666,10 @@ set(SamplePlayer_SRCS
 	${CMAKE_SOURCE_DIR}/Source/RTL/Component/Common/IFXDids.cpp
 )
 
-add_executable(SampleViewerWin32 WIN32 ${SamplePlayer_SRCS})
+add_executable(SampleViewerWin32 WIN32
+	${SamplePlayer_SRCS}
+	${CMAKE_SOURCE_DIR}/Source/Samples/SampleViewerWin32/SamplePlayer.rc
+)
 
 target_include_directories(SampleViewerWin32 PUBLIC ${CMAKE_SOURCE_DIR}/Source/Samples/SceneHelpers)
 target_include_directories(SampleViewerWin32 PUBLIC ${CMAKE_SOURCE_DIR}/Source/Samples/SampleViewerWin32)
