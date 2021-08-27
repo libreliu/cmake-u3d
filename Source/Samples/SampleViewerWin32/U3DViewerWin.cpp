@@ -1689,8 +1689,8 @@ IFXRESULT U3DViewer::InitializeRenderer( )
 				result = m_pDevice->GetTargetFramerate(&m_TargetFrameRate);
 			if ( IFXSUCCESS(result) )
 			{
-				char buffer[6];
-				IFXCHAR framerate[6];
+				char buffer[10];
+				IFXCHAR framerate[10];
 				_gcvt( m_TargetFrameRate, 6, buffer );
 				U32 s = mbstowcs(NULL, buffer, 0);
 				if (NULL != framerate) {
